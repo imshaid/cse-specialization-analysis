@@ -43,6 +43,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: IT/Network Support \& Systems Administration](#sub-domain-itnetwork-support--systems-administration)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
     - [Sub-domain: Firmware Engineering](#sub-domain-firmware-engineering)
+    - [Sub-domain: IoT Systems Engineering](#sub-domain-iot-systems-engineering)
   - [Master Comparison Tables](#master-comparison-tables)
   - [Sources \& Data Reliability Notes](#sources--data-reliability-notes)
 
@@ -2006,6 +2007,81 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Title/pay confusion   | The gap between "Firmware Engineer," "Embedded Software Engineer," and "Embedded Systems Engineer" titles is large and inconsistent even within the same country, let alone across countries             |
 | Local market thinness | Bangladesh salary data for this sub-domain is exceptionally thin (often only 2 submissions per query), consistent with the broader finding that Bangladesh has few dedicated hardware/embedded employers |
 | Automation            | Low — hardware-software co-design work is considered one of the most automation-resistant technical specializations across this entire guide                                                             |
+
+---
+
+### Sub-domain: IoT Systems Engineering
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                  | Growth Rate                | Source Variance                                                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| 2018             | IoT market ~\$650bn (broad definition, includes hardware/software/services)                                         | —                          | Very broad definition                                                                                                     |
+| 2023             | ~\$900bn–\$1tn                                                                                                      | ~11–13% CAGR               | Moderate                                                                                                                  |
+| 2026 (current)   | ~\$1.39 trillion (per one industry source)                                                                          | ~11–13% CAGR (directional) | High-level figures are broadly consistent, though exact scope (devices only vs. full ecosystem including services) varies |
+| 2030+ (forecast) | IoT analytics specifically projected to reach \$180.36bn by 2032; overall IoT market continuing double-digit growth | —                          | —                                                                                                                         |
+
+**Salary by Region (Local currency as reported)**
+
+| Region                | Entry-Level                                                        | Mid-Level                                                                                                   | Senior-Level                                                            | Source Variance                                                                                                                                                                                                |
+| --------------------- | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh (BDT)      | BDT 18,000–21,000/month                                            | BDT 29,000–37,000/month (DataSoft-affiliated companies are the dominant employer cluster in this data)      | BDT 47,000+/month (thin data beyond this point)                         | Moderate for this sub-domain relative to others in ESR — one of the better-sampled Bangladesh datasets (7-16 submissions across multiple queries), though still concentrated among a small number of employers |
+| India (₹)             | ₹3.5–6 lakh (services) / ₹5–10 lakh (IoT startups)                 | ₹6–18 lakh (AWS IoT + cloud/security skills)                                                                | ₹18–30 lakh (senior IoT architect with Edge AI + multi-cloud expertise) | High — multiple sources cluster reasonably, though one outlier source (ERI SalaryExpert) reports an unusually high average of ₹19.5 lakh that doesn't match the broader pattern from other sources             |
+| USA (\$)              | \$71,000–\$95,000                                                  | \$95,000–\$152,000 (aggregators diverge: one source shows median \$95,000, another shows average \$152,064) | \$135,000–\$203,000+ (staff/principal reaching \$168,750–\$202,500)     | High — as with firmware engineering, different aggregators show a wide spread for ostensibly the same role                                                                                                     |
+| UK (£)                | ~\$80,750 equivalent (London, per one source using USD conversion) | Reliable data not available                                                                                 | Reliable data not available                                             | Single-source                                                                                                                                                                                                  |
+| Germany (€)           | ~\$71,250 equivalent (Berlin, per one source using USD conversion) | Reliable data not available                                                                                 | Reliable data not available                                             | Single-source                                                                                                                                                                                                  |
+| UAE/Gulf              | Reliable data not available                                        | Reliable data not available                                                                                 | Reliable data not available                                             | —                                                                                                                                                                                                              |
+| Singapore (S\$)       | Reliable data not available                                        | \$51,000–\$65,000 (from a small number of cross-referenced submissions)                                     | Reliable data not available                                             | Low confidence                                                                                                                                                                                                 |
+| Canada (C\$)          | Reliable data not available                                        | \$95,281 (broad average, one source)                                                                        | Reliable data not available                                             | Single-source                                                                                                                                                                                                  |
+| Poland/Eastern Europe | ~\$36,000 (broad average)                                          | Reliable data not available                                                                                 | Reliable data not available                                             | Single-source                                                                                                                                                                                                  |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                                                                   |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Remote availability       | Moderate — software/cloud side of IoT work can be remote; hardware/sensor integration work often requires on-site access |
+| Onsite-heavy niches       | Industrial IoT (IIoT) deployment, smart-city infrastructure projects                                                     |
+| Freelance/contract market | Moderate — IoT prototyping and small-scale deployment projects are a recognized freelance category                       |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                                                                           |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | DataSoft (and its affiliated entities: DataSoft Manufacturing & Assembly, DataSoft Systems), Aamra, Suffix IT, Neways International |
+| India      | Zenatix, Intel Corporation, and various IoT-focused startups                                                                        |
+| USA        | Spectrum and broad demand across telecom, manufacturing, and smart-device companies                                                 |
+
+**Tools & Technologies**
+
+| Category     | Tools                                                                              |
+| ------------ | ---------------------------------------------------------------------------------- |
+| Hardware     | ESP32, Arduino, Raspberry Pi                                                       |
+| Connectivity | MQTT, various 5G/LPWAN protocols                                                   |
+| Cloud        | AWS IoT, Azure IoT                                                                 |
+| Emerging     | Edge AI/TinyML (described as "the newest and highest-paying IoT skill" as of 2026) |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                                           |
+| ------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Technical     | Sensor integration, embedded programming, cloud connectivity, basic data pipeline knowledge                      |
+| Complementary | Cross-disciplinary thinking (hardware, networking, and cloud together), security awareness for connected devices |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                                                                             |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Moderate — accessible via widely-available hobbyist hardware (Arduino/ESP32) before scaling to professional/industrial IoT                                                         |
+| Time-to-competency | 1–1.5 years                                                                                                                                                                        |
+| Earning ceiling    | Moderate-to-good with cloud/security specialization; notably capped without it, especially in Bangladesh where the local market remains small and concentrated among few employers |
+
+**Risks**
+
+| Risk                                | Detail                                                                                                                                                                                          |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Employer concentration (Bangladesh) | The available Bangladesh salary data is dominated by a small cluster of related companies (DataSoft entities), suggesting a genuinely thin local employer base for this specific specialization |
+| Automation                          | Low–Moderate — hardware-adjacent work resists full automation, though basic cloud-connectivity configuration is increasingly templated                                                          |
+| Skill breadth requirement           | This field requires competency across hardware, networking, and cloud simultaneously, which can make it harder to reach senior-level depth compared to more narrowly-scoped roles               |
 
 ---
 
