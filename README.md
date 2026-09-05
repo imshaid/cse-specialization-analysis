@@ -37,6 +37,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: Network Engineering](#sub-domain-network-engineering)
     - [Sub-domain: Cloud Security Engineering](#sub-domain-cloud-security-engineering)
     - [Sub-domain: Cybersecurity — Offensive / Penetration Testing](#sub-domain-cybersecurity--offensive--penetration-testing)
+    - [Sub-domain: Cybersecurity — Defensive / SOC (Security Operations Center)](#sub-domain-cybersecurity--defensive--soc-security-operations-center)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
   - [Sources \& Data Reliability Notes](#sources--data-reliability-notes)
@@ -1631,6 +1632,80 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Automation                         | Low — this field is adversarial and judgment-heavy by nature, considered relatively automation-resistant                                                                                                        |
 | Income volatility (freelance path) | For those relying on bug bounty or freelance income, earnings are inherently inconsistent compared to salaried roles                                                                                            |
 | Local market thinness              | Bangladesh-specific salaried employer data is extremely thin, suggesting freelance/international-client work may currently be the more viable income path locally                                               |
+
+---
+
+### Sub-domain: Cybersecurity — Defensive / SOC (Security Operations Center)
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                                                                      | Growth Rate                | Source Variance                                                                                           |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | --------------------------------------------------------------------------------------------------------- |
+| 2018             | SOC/managed security services market ~\$15bn                                                                                                                            | —                          | Broad definition                                                                                          |
+| 2023             | ~\$25bn–\$30bn                                                                                                                                                          | ~10–12% CAGR               | Moderate                                                                                                  |
+| 2026 (current)   | Not separately isolated in this research; sits within the broader cybersecurity market as one of its largest employment categories by job-posting volume                | ~10–12% CAGR (directional) | Described as "the fastest-growing discipline by job posting volume" in India specifically, per one source |
+| 2030+ (forecast) | BLS projects information security analysts (the closest US occupational category) at +29% growth through 2034 — one of the fastest-growing computer occupations tracked | —                          | —                                                                                                         |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                                                                                                                                            | Mid-Level                                         | Senior-Level                                                                                      | Source Variance                                                                                                                             |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | \$2,500–\$10,200 (general "Cyber Security Engineer/Analyst" titles) / up to \$25,000+ at top telecom/financial employers (GrameenPhone, Robi, Beximco) | \$10,200–\$25,000                                 | \$25,000–\$36,000+                                                                                | Very High — a stark gap exists between low-paying local IT-service employers and better-paying telecom/fintech employers for the same role  |
+| India      | \$4,200–\$8,400 (SOC L1, fresher)                                                                                                                      | \$9,600–\$26,400 (mid-level, SIEM/cert-dependent) | \$26,400–\$60,000+ (senior/lead; SOC Manager/Head of Security Operations reaching this range)     | High — SIEM platform expertise (Splunk, Microsoft Sentinel, QRadar) and certifications (SC-200, CySA+) each add a documented 15–40% premium |
+| USA        | \$65,000–\$96,000                                                                                                                                      | \$96,000–\$180,000                                | \$180,000–\$292,000+ (aerospace, financial services, and biotech cited as highest-paying sectors) | Moderate — BLS, Glassdoor, and industry sources cluster reasonably around \$65,000–\$180,000+                                               |
+| UK         | £25,000–£35,000                                                                                                                                        | £35,000–£55,000                                   | £55,000–£80,000+                                                                                  | Moderate                                                                                                                                    |
+| Germany    | Reliable data not available                                                                                                                            | Reliable data not available                       | Reliable data not available                                                                       | —                                                                                                                                           |
+| UAE/Gulf   | Reliable data not available                                                                                                                            | Reliable data not available                       | Reliable data not available                                                                       | —                                                                                                                                           |
+| Singapore  | Reliable data not available                                                                                                                            | Reliable data not available                       | Reliable data not available                                                                       | —                                                                                                                                           |
+| Canada     | Reliable data not available                                                                                                                            | Reliable data not available                       | Reliable data not available                                                                       | —                                                                                                                                           |
+| Australia  | Reliable data not available                                                                                                                            | Reliable data not available                       | Reliable data not available                                                                       | —                                                                                                                                           |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                                                          |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Remote availability       | Moderate–High, though many SOC roles involve shift-based on-call work regardless of location                    |
+| Onsite-heavy niches       | Government, defense, and highly regulated financial institutions often require on-site SOC presence             |
+| Freelance/contract market | Limited — this is predominantly a full-time, shift-based employment role rather than a freelance-friendly field |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                               |
+| ---------- | --------------------------------------------------------------------------------------- |
+| Bangladesh | GrameenPhone, Robi, Beximco, BRAC IT Services                                           |
+| India      | Accenture, EY, KPMG, Infosys (high-volume hiring across all four)                       |
+| USA        | Aerospace, financial services, and biotech sectors cited as paying the highest premiums |
+
+**Tools & Technologies**
+
+| Category       | Tools                                      |
+| -------------- | ------------------------------------------ |
+| SIEM platforms | Splunk, Microsoft Sentinel, IBM QRadar     |
+| Certifications | CompTIA Security+, CySA+, Microsoft SC-200 |
+| Frameworks     | MITRE ATT&CK                               |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                              |
+| ------------- | --------------------------------------------------------------------------------------------------- |
+| Technical     | Log analysis, incident triage, detection rule writing, SIEM correlation                             |
+| Complementary | Calm, methodical response under pressure, clear incident documentation and escalation communication |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                                          |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Low–Moderate — this is one of the more common entry points into cybersecurity careers                                                           |
+| Time-to-competency | 6 months–1.5 years for SOC L1 readiness                                                                                                         |
+| Earning ceiling    | Moderate at generalist SOC level; specialization into threat hunting, detection engineering, or SOC leadership significantly raises the ceiling |
+
+**Risks**
+
+| Risk                      | Detail                                                                                                                                                                                                                             |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Automation of Tier-1 work | Moderate — routine SOC Tier-1 alert triage is increasingly being automated by AI-assisted SIEM tools, pushing value toward threat hunting and detection engineering (a pattern also noted in the master comparison for this major) |
+| Shift-work burden         | SOC roles frequently involve 24/7 rotating shift coverage, which can affect work-life balance regardless of seniority                                                                                                              |
+| Employer pay gap          | The local Bangladesh gap between generalist IT-service employers and better-paying telecom/fintech employers is unusually wide for this specific sub-domain                                                                        |
 
 ---
 
