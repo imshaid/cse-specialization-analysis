@@ -34,6 +34,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: Blockchain / Web3 Development](#sub-domain-blockchain--web3-development)
     - [Sub-domain: Game Development](#sub-domain-game-development)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
+    - [Sub-domain: Network Engineering](#sub-domain-network-engineering)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
   - [Sources \& Data Reliability Notes](#sources--data-reliability-notes)
@@ -1408,7 +1409,77 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ## Major 3: Network & Communication (NC)
 
-_(Content coming — sub-domains will be added here)_
+### Sub-domain: Network Engineering
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                     | Growth Rate              | Source Variance                                                                       |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------- | ------------------------ | ------------------------------------------------------------------------------------- |
+| 2018             | Enterprise networking market ~\$40bn–\$50bn                                                                            | —                        | Broad definition                                                                      |
+| 2023             | ~\$55bn–\$65bn                                                                                                         | ~5–6% CAGR               | Moderate                                                                              |
+| 2026 (current)   | Not separately isolated in this research; growth is steady but slower than cloud/cybersecurity sub-domains             | ~5–6% CAGR (directional) | Traditional on-prem network engineering is the slowest-growing role within this major |
+| 2030+ (forecast) | Continued steady demand, with the field increasingly merging with cloud networking (SD-WAN, hybrid cloud connectivity) | —                        | —                                                                                     |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                                                                                                                                     | Mid-Level                                                               | Senior-Level                      | Source Variance                                                                                                                           |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- | --------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | \$1,700–\$3,500 (general "Network Engineer" title) / \$4,300–\$6,300 ("Core Network Engineer" at telecom operators, better-paid specialization) | \$6,300–\$8,900                                                         | \$8,900–\$25,000+                 | Very High — general network engineer titles pay far less than telecom-specific "Core Network Engineer" roles at operators like Banglalink |
+| India      | \$3,300–\$7,200 (fresher)                                                                                                                       | \$8,400–\$21,600 (mid-level, cloud-specialization commanding upper end) | \$21,600–\$42,000+                | High — cloud-networking specialization adds a meaningful premium over traditional routing/switching roles                                 |
+| USA        | \$50,000–\$95,000 (CCNA-level entry)                                                                                                            | \$95,000–\$145,000 (CCNP-level, cloud-skilled)                          | \$145,000–\$253,000+              | Moderate — sources agree reasonably well on the shape, with cloud/automation skills adding a clear premium                                |
+| UK         | £32,000–£55,000                                                                                                                                 | £37,000–£69,000                                                         | £78,000–£139,000+ (London senior) | Moderate                                                                                                                                  |
+| Germany    | €45,000–€70,000                                                                                                                                 | €48,000–€78,000                                                         | €78,000+                          | Moderate                                                                                                                                  |
+| UAE/Gulf   | AED 80,000–150,000 (often tax-free) / AED 90,000–200,000 (broader estimate)                                                                     | Reliable data not available                                             | Reliable data not available       | Moderate                                                                                                                                  |
+| Singapore  | Reliable data not available                                                                                                                     | Reliable data not available                                             | Reliable data not available       | —                                                                                                                                         |
+| Canada     | CAD 55,000–105,000                                                                                                                              | Reliable data not available                                             | Reliable data not available       | Moderate                                                                                                                                  |
+| Australia  | AUD 70,000–115,000                                                                                                                              | Reliable data not available                                             | Reliable data not available       | Moderate                                                                                                                                  |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                                                                     |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Remote availability       | Moderate — physical network infrastructure work often requires on-site presence, though monitoring/NOC roles can be remote |
+| Onsite-heavy niches       | Telecom core network operations, data center network engineering                                                           |
+| Freelance/contract market | Moderate                                                                                                                   |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                                                                      |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------ |
+| Bangladesh | Banglalink, Huawei Technologies (Bangladesh operations), Bangla Trac Communications, Bangladesh Research and Education Network |
+| India      | Broad demand across enterprises and telecom operators; Bengaluru and Pune are leading hubs                                     |
+| USA        | ByteDance and ServiceNow cited among top-paying employers for this role                                                        |
+
+**Tools & Technologies**
+
+| Category       | Tools                                                            |
+| -------------- | ---------------------------------------------------------------- |
+| Core skills    | Routing/switching (Cisco IOS), VLANs, ACLs, VPNs                 |
+| Certifications | CCNA, CCNP Enterprise, CCNP Security (highest-paying CCNP track) |
+| Emerging       | SD-WAN, cloud networking (AWS/Azure networking integration)      |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                              |
+| ------------- | ----------------------------------------------------------------------------------- |
+| Technical     | Network troubleshooting, protocol knowledge (BGP, OSPF), firewall/ACL configuration |
+| Complementary | Vendor coordination, documentation, incident response under time pressure           |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                                                          |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Low–Moderate — CCNA provides a well-defined, achievable entry certification                                                                                     |
+| Time-to-competency | 6 months–1.5 years to become certification-ready and job-capable                                                                                                |
+| Earning ceiling    | Moderate for traditional network administration; high for cloud-networking and security-specialized tracks (CCNP Security shows a 25–40% premium over baseline) |
+
+**Risks**
+
+| Risk                    | Detail                                                                                                                                                                                                 |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Automation              | Moderate — routine network administration and configuration are increasingly automated via Infrastructure-as-Code and SD-WAN tools, pushing value toward cloud-integration and security specialization |
+| Career plateau          | Without adding cloud or security certifications, pure on-prem network engineering has one of the lower pay ceilings in this major                                                                      |
+| Certification treadmill | Networking certifications (CCNA/CCNP) require renewal and periodic re-certification as vendor technology evolves                                                                                       |
 
 ---
 
