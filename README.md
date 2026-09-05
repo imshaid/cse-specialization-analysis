@@ -21,6 +21,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: Data Science / Business Intelligence](#sub-domain-data-science--business-intelligence)
     - [Sub-domain: Generative AI / Agentic AI / Prompt Engineering](#sub-domain-generative-ai--agentic-ai--prompt-engineering)
     - [Sub-domain: AI Research (Applied Science)](#sub-domain-ai-research-applied-science)
+    - [Sub-domain: AI Infrastructure / GPU-Cloud Engineering](#sub-domain-ai-infrastructure--gpu-cloud-engineering)
   - [Major 2: Software Development (SD)](#major-2-software-development-sd)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
@@ -558,6 +559,78 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Extreme pay variance      | Compensation at frontier labs vs. broader industry/academia can differ by 3–5x for similar seniority                     |
 | Narrow opportunity funnel | Very few positions exist globally relative to demand from PhD graduates                                                  |
 | Career risk               | Research career paths are less standardized than engineering roles; publication record and lab reputation matter heavily |
+
+### Sub-domain: AI Infrastructure / GPU-Cloud Engineering
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                                                          | Growth Rate | Source Variance                                                                                     |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | --------------------------------------------------------------------------------------------------- |
+| 2020             | Not separately tracked — folded into broader cloud/data-center infrastructure spend                                                                         | —           | —                                                                                                   |
+| 2023             | AI data center/infrastructure spend began accelerating sharply with GenAI boom                                                                              | —           | Directional only, no isolated figure found                                                          |
+| 2026 (current)   | Not separately tracked as a standalone market; sits within AI hardware/data-center capex, which is reported in the hundreds of billions of dollars globally | —           | This sub-domain is best measured by hiring/salary trends rather than an isolated market-size figure |
+| 2030+ (forecast) | Expected to scale directly with global AI compute demand and data-center buildout                                                                           | —           | —                                                                                                   |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                                                                   | Mid-Level                   | Senior-Level                                                           | Source Variance                                                                                                            |
+| ---------- | ----------------------------------------------------------------------------- | --------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | \$3,700–\$8,400\*                                                             | \$8,400–\$16,600\*          | \$16,600–\$28,800\*                                                    | Very High — \*no dedicated AI Infrastructure salary data found for Dhaka; using closest proxy (general "AI Engineer" role) |
+| India      | \$7,200–\$18,000                                                              | \$18,000–\$42,000           | \$36,000–\$90,000+                                                     | Moderate — AmbitionBox/Upgrad figures reasonably consistent                                                                |
+| USA        | \$116,000–\$170,000                                                           | \$185,000–\$260,000         | \$260,000–\$400,000+ (kernel/performance specialists up to \$500,000+) | High — role spans several distinct specializations (platform, networking, inference) with very different pay bands         |
+| UK         | Reliable data not available                                                   | Reliable data not available | Reliable data not available                                            | —                                                                                                                          |
+| Germany    | Reliable data not available                                                   | Reliable data not available | Reliable data not available                                            | —                                                                                                                          |
+| UAE/Gulf   | Reliable data not available                                                   | Reliable data not available | Reliable data not available                                            | —                                                                                                                          |
+| Singapore  | Reliable data not available                                                   | Reliable data not available | Reliable data not available                                            | —                                                                                                                          |
+| China      | \$191,000–\$295,000 (reported at a major Chinese tech employer for this role) | —                           | —                                                                      | Low confidence — single-company data point only                                                                            |
+| Canada     | Reliable data not available                                                   | Reliable data not available | Reliable data not available                                            | —                                                                                                                          |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                                                    |
+| ------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Remote availability       | Low–Moderate — many roles require proximity to physical data-center infrastructure or hybrid on-site work |
+| Onsite-heavy niches       | GPU cluster operations, data-center facilities engineering, hardware-level performance tuning             |
+| Freelance/contract market | Present but specialized — contract GPU cluster engineers can bill \$130–\$180/hour through staffing firms |
+
+**Top Employers by Region**
+
+| Region | Companies                                                                                                          |
+| ------ | ------------------------------------------------------------------------------------------------------------------ |
+| USA    | NVIDIA, major hyperscalers (Google, Amazon, Microsoft), frontier AI labs                                           |
+| India  | Tiger Analytics, Capgemini, Botminds AI, Colan Infotech, and Global Capability Centers of multinational tech firms |
+| China  | Tencent and other major domestic tech companies                                                                    |
+
+**Tools & Technologies**
+
+| Category    | Tools                                                                   |
+| ----------- | ----------------------------------------------------------------------- |
+| Core skills | Kubernetes, NVIDIA GPU operator ecosystem, distributed training systems |
+| Frameworks  | PyTorch, CUDA, TensorRT, Triton Inference Server                        |
+| Networking  | InfiniBand, high-performance data-center networking                     |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                              |
+| ------------- | --------------------------------------------------------------------------------------------------- |
+| Technical     | Distributed systems, GPU cluster management, model-serving infrastructure, performance optimization |
+| Complementary | Cross-functional work with both hardware/data-center teams and ML research teams                    |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                              |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | High — requires both deep systems/infrastructure knowledge and ML-adjacent understanding                            |
+| Time-to-competency | 3–5 years, often via a backend/DevOps/systems engineering path first                                                |
+| Talent scarcity    | This is described in industry sources as one of the hardest-to-fill technical roles in the current AI hiring market |
+
+**Risks**
+
+| Risk                       | Detail                                                                                                                                                           |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Extreme role fragmentation | The title covers everyone from data-center technicians to $400K+ kernel-performance specialists, making salary comparison unreliable without knowing exact scope |
+| Geographic concentration   | Highest-paying roles are concentrated in a small number of hyperscaler/frontier-lab hubs globally                                                                |
+| Local market absence       | This sub-domain barely exists as a distinct career path in Bangladesh currently; local salary data is essentially unavailable                                    |
 
 ---
 
