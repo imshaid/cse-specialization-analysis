@@ -16,6 +16,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
   - [Major 1: Artificial Intelligence (AI)](#major-1-artificial-intelligence-ai)
     - [Sub-domain: Machine Learning Engineering](#sub-domain-machine-learning-engineering)
     - [Sub-domain: NLP / LLM Engineering](#sub-domain-nlp--llm-engineering)
+    - [Sub-domain: Computer Vision](#sub-domain-computer-vision)
   - [Major 2: Software Development (SD)](#major-2-software-development-sd)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
@@ -198,6 +199,77 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Title inflation    | "LLM Engineer" covers vastly different actual work across companies; pay can vary 5x+ based on true scope of responsibility |
 | Automation         | Low — demand currently outpaces supply                                                                                      |
 | Rapid obsolescence | Techniques and best-practice tooling change every 6–12 months                                                               |
+
+### Sub-domain: Computer Vision
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period          | Global Market Size | Growth Rate  | Source Variance                                                                               |
+| --------------- | ------------------ | ------------ | --------------------------------------------------------------------------------------------- |
+| 2018            | ~\$8bn             | —            | Early autonomous-vehicle and security-camera driven demand                                    |
+| 2023            | ~\$15bn–\$18bn     | ~18–20% CAGR | Moderate                                                                                      |
+| 2026 (current)  | \$20bn–\$30bn      | ~19–20% CAGR | High — bundled differently across vendors (some include hardware/cameras, some software-only) |
+| 2033 (forecast) | \$80bn–\$110bn     | ~19–21% CAGR | High                                                                                          |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                 | Mid-Level                   | Senior-Level                | Source Variance                                                            |
+| ---------- | --------------------------- | --------------------------- | --------------------------- | -------------------------------------------------------------------------- |
+| Bangladesh | Reliable data not available | Reliable data not available | Reliable data not available | No dedicated CV salary data found for Dhaka                                |
+| India      | \$5,000–\$10,000            | \$10,000–\$30,000           | \$30,000–\$85,000           | High — sources diverge widely (\$4L–\$70L INR range depending on platform) |
+| USA        | \$90,000–\$120,000          | \$120,000–\$170,000         | \$170,000–\$300,000         | High — ZipRecruiter (\$121K avg) vs Glassdoor (\$168K avg) diverge notably |
+| UK         | Reliable data not available | Reliable data not available | Reliable data not available | —                                                                          |
+| Germany    | Reliable data not available | Reliable data not available | Reliable data not available | —                                                                          |
+| UAE/Gulf   | Reliable data not available | Reliable data not available | Reliable data not available | —                                                                          |
+| Singapore  | Reliable data not available | Reliable data not available | Reliable data not available | —                                                                          |
+| China      | Reliable data not available | Reliable data not available | Reliable data not available | —                                                                          |
+| Canada     | Reliable data not available | Reliable data not available | Reliable data not available | —                                                                          |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                     |
+| ------------------------- | -------------------------------------------------------------------------- |
+| Remote availability       | Moderate — many roles tied to hardware/camera systems requiring lab access |
+| Onsite-heavy niches       | Autonomous vehicles, medical imaging, industrial manufacturing inspection  |
+| Freelance/contract market | Limited compared to general ML/NLP roles                                   |
+
+**Top Employers by Region**
+
+| Region | Companies                                                                |
+| ------ | ------------------------------------------------------------------------ |
+| India  | Bosch, Continental, Qualcomm, Intel, Samsung R&D, NVIDIA, Mobileye India |
+| USA    | NVIDIA, Tesla, Waymo, medical-imaging and manufacturing-tech firms       |
+
+**Tools & Technologies**
+
+| Category          | Tools                             |
+| ----------------- | --------------------------------- |
+| Languages         | Python, C++                       |
+| Frameworks        | OpenCV, PyTorch, YOLO, Detectron2 |
+| Hardware-adjacent | CUDA, edge-AI inference chips     |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                              |
+| ------------- | ----------------------------------------------------------------------------------- |
+| Technical     | Image processing fundamentals, deep learning, real-time inference optimization      |
+| Complementary | Hardware-software co-design awareness, domain knowledge (medical, automotive, etc.) |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                |
+| ------------------ | ----------------------------------------------------------------------------------------------------- |
+| Entry barrier      | High — combines deep learning with real-time systems knowledge                                        |
+| Time-to-competency | 2–4 years                                                                                             |
+| Data availability  | Genuinely thin outside the US and India — most global salary trackers fold this into general ML roles |
+
+**Risks**
+
+| Risk                | Detail                                                                                                                              |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Data scarcity       | This is a thin-data sub-domain outside a few major markets                                                                          |
+| Automation          | Low-Medium — hardware-tied work resists full automation, but standard detection/classification pipelines are increasingly templated |
+| Hardware dependency | Career progression often tied to specific industries (auto, medical) rather than portable across sectors                            |
 
 ---
 
