@@ -31,6 +31,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: Cloud / Platform Engineering](#sub-domain-cloud--platform-engineering)
     - [Sub-domain: QA / Test Automation Engineering](#sub-domain-qa--test-automation-engineering)
     - [Sub-domain: Software Architecture / Systems Design](#sub-domain-software-architecture--systems-design)
+    - [Sub-domain: Blockchain / Web3 Development](#sub-domain-blockchain--web3-development)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
@@ -1250,6 +1251,81 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Title inflation   | The "Architect" title is used inconsistently — some postings apply it to relatively junior roles, which distorts salary data significantly (reflected in the extreme Bangladesh salary spread)        |
 | Automation        | Low — this is considered one of the most automation-resistant senior technical roles, since it requires judgment, trade-off reasoning, and organizational context that AI tools cannot substitute for |
 | Narrow entry path | Because this role requires deep prior experience, it is not a viable direct target for new graduates — it must be reached via years of engineering work first                                         |
+
+---
+
+### Sub-domain: Blockchain / Web3 Development
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                                              | Growth Rate                               | Source Variance                                                                                                                                 |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2020             | Blockchain market ~\$5bn                                                                                                                        | —                                         | Early-stage                                                                                                                                     |
+| 2023             | ~\$17bn–\$20bn                                                                                                                                  | ~55–60% CAGR                              | High — this market has historically shown extreme volatility tied to crypto market cycles                                                       |
+| 2026 (current)   | ~\$49bn (per one industry source citing NASSCOM), up from ~\$29bn the prior year                                                                | Nearly 70% YoY growth cited by one source | Very High — this market is unusually volatile and closely tied to cryptocurrency market conditions, unlike most other sub-domains in this guide |
+| 2030+ (forecast) | Continued strong growth expected, though highly dependent on regulatory clarity and crypto-market conditions in a way other sub-domains are not | —                                         | —                                                                                                                                               |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region         | Entry-Level                                                                                                                 | Mid-Level                   | Senior-Level                                                                                                | Source Variance                                                                                                                                                 |
+| -------------- | --------------------------------------------------------------------------------------------------------------------------- | --------------------------- | ----------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh     | Reliable data not available                                                                                                 | Reliable data not available | Reliable data not available                                                                                 | This sub-domain does not appear to have an established local job market in Bangladesh based on available data                                                   |
+| India          | \$7,000–\$18,000 (broad "Developer" category average \$74,000 globally-adjusted, but India-specific figures run much lower) | \$18,000–\$48,000           | \$48,000–\$96,000+                                                                                          | Very High — figures range from ₹6 LPA (fresher) up to ₹80+ LPA depending on specialization and whether the role is India-local or serving international clients |
+| USA            | \$70,000–\$125,000                                                                                                          | \$126,000–\$204,000         | \$179,000–\$300,000+ (Zero-Knowledge Proof and protocol-security specialists reaching \$200,000–\$400,000+) | High — this sub-domain shows some of the widest specialization-based pay gaps of any researched so far                                                          |
+| UK             | £60,000–£100,000 (broad estimate)                                                                                           | Reliable data not available | Reliable data not available                                                                                 | Thin                                                                                                                                                            |
+| Germany/Europe | €60,000–€120,000 (broad estimate)                                                                                           | Reliable data not available | Reliable data not available                                                                                 | Thin                                                                                                                                                            |
+| UAE/Gulf       | Reliable data not available                                                                                                 | Reliable data not available | Reliable data not available                                                                                 | —                                                                                                                                                               |
+| Singapore      | \$80,000–\$150,000 SGD equivalent (cited as "Asia's Web3 capital")                                                          | Reliable data not available | Reliable data not available                                                                                 | Single-source                                                                                                                                                   |
+| China          | ~\$45,000 (broad average, wide range \$12,000–\$120,000)                                                                    | Reliable data not available | Reliable data not available                                                                                 | Single-source, low confidence                                                                                                                                   |
+| Japan          | ~\$48,000 (broad average)                                                                                                   | Reliable data not available | Reliable data not available                                                                                 | Single-source, low confidence                                                                                                                                   |
+| Canada         | ~\$88,000 CAD equivalent (broad average)                                                                                    | Reliable data not available | Reliable data not available                                                                                 | Single-source                                                                                                                                                   |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                                                                                                                                |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Remote availability       | Very High — described as "the norm" in this sub-domain, with many roles fully distributed                                                                                             |
+| Onsite-heavy niches       | Very few; some larger institutional/regulated crypto companies prefer hybrid arrangements                                                                                             |
+| Freelance/contract market | Very Strong — DAO (Decentralized Autonomous Organization) contributor and freelance work is a recognized career path, sometimes compensated partly in tokens rather than fixed salary |
+
+**Top Employers by Region**
+
+| Region | Companies                                                                                                                                                               |
+| ------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| USA    | Ethereum Foundation, Solana Labs, and prominent DeFi (decentralized finance) protocols are cited as top payers for senior roles                                         |
+| Global | Employment is unusually decentralized/global in this field compared to other software sub-domains, with remote-first companies being the norm rather than the exception |
+
+**Tools & Technologies**
+
+| Category                 | Tools                                                         |
+| ------------------------ | ------------------------------------------------------------- |
+| Smart contract languages | Solidity (Ethereum), Rust (Solana/Polkadot), Move (Aptos/Sui) |
+| Frontend/dApp            | ethers.js, wagmi, TypeScript                                  |
+| Infrastructure           | IPFS, various Layer-1/Layer-2 blockchain platforms            |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                                                 |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Technical     | Smart contract development, cryptography fundamentals, security auditing, distributed ledger concepts                  |
+| Complementary | Risk awareness (given the security-critical, financially-exposed nature of the field), community/DAO engagement skills |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                                                                                                          |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Moderate–High — requires learning specialized languages (Solidity, Rust) not commonly taught in standard CS curricula                                                                                           |
+| Time-to-competency | 1–2 years                                                                                                                                                                                                       |
+| Earning ceiling    | Very high for security/cryptography specialists (up to \$400,000+ cited for Zero-Knowledge Proof experts); reported as commanding a 30–50% premium over equivalent "Web2" software roles due to talent scarcity |
+
+**Risks**
+
+| Risk                             | Detail                                                                                                                                                                                                               |
+| -------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Market volatility                | This sub-domain is unusually exposed to cryptocurrency market cycles — hiring and pay can swing sharply with crypto market conditions in a way other software sub-domains do not experience                          |
+| No established Bangladesh market | Unlike every other Software Development sub-domain researched, no local Bangladesh salary or employer data could be found, suggesting this path currently requires targeting international/remote roles from day one |
+| Regulatory uncertainty           | Blockchain/crypto regulation varies significantly by country and continues to evolve, creating career-planning uncertainty not present in more established sub-domains                                               |
+| Security-critical stakes         | Smart contract bugs can result in large financial losses, making this a high-responsibility, high-scrutiny specialization                                                                                            |
 
 ---
 
