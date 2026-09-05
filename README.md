@@ -44,6 +44,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
     - [Sub-domain: Firmware Engineering](#sub-domain-firmware-engineering)
     - [Sub-domain: IoT Systems Engineering](#sub-domain-iot-systems-engineering)
+    - [Sub-domain: Robotics Software Engineering (ROS-based)](#sub-domain-robotics-software-engineering-ros-based)
   - [Master Comparison Tables](#master-comparison-tables)
   - [Sources \& Data Reliability Notes](#sources--data-reliability-notes)
 
@@ -2082,6 +2083,80 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Employer concentration (Bangladesh) | The available Bangladesh salary data is dominated by a small cluster of related companies (DataSoft entities), suggesting a genuinely thin local employer base for this specific specialization |
 | Automation                          | Low–Moderate — hardware-adjacent work resists full automation, though basic cloud-connectivity configuration is increasingly templated                                                          |
 | Skill breadth requirement           | This field requires competency across hardware, networking, and cloud simultaneously, which can make it harder to reach senior-level depth compared to more narrowly-scoped roles               |
+
+---
+
+### Sub-domain: Robotics Software Engineering (ROS-based)
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                                                       | Growth Rate                                      | Source Variance                                                                                                                   |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
+| 2018             | Robotics software market ~\$10bn (broad definition)                                                                                                      | —                                                | Broad definition                                                                                                                  |
+| 2023             | ~\$20bn–\$25bn                                                                                                                                           | ~15–18% CAGR                                     | Moderate                                                                                                                          |
+| 2026 (current)   | Industrial robotics overall ~\$38bn–\$42bn (per the master AI/SD comparison sourced earlier); robotics software specifically is a growing subset of this | ~9.5% CAGR (industrial robotics, broader figure) | This sub-domain is best measured via specialized-skill salary premiums (e.g., ROS2 expertise) rather than an isolated market size |
+| 2030+ (forecast) | Industrial robotics projected toward roughly \$80bn by 2033                                                                                              | —                                                | —                                                                                                                                 |
+
+**Salary by Region (Local currency as reported)**
+
+| Region           | Entry-Level                                                              | Mid-Level                                                                                                                                             | Senior-Level                                                                                                                                                                                    | Source Variance                                                                                                                                                                                                                                                         |
+| ---------------- | ------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh (BDT) | BDT 10,000–29,000/month (very thin samples, some as low as 1 submission) | BDT 30,000–40,000/month                                                                                                                               | BDT 45,000–49,000/month (highest reliably reported figure; one outlier source claims BDT 340,000+/month median but this conflicts sharply with Glassdoor's own 5-sample data for the same role) | Extremely High — worldsalaries.com's estimated figures (BDT 340,000+/month) diverge dramatically from Glassdoor's directly-sampled figures (BDT 20,000–45,000/month) for the same job title in the same city — treat the lower, directly-sampled range as more reliable |
+| India (₹)        | ₹4–10 lakh (general robotics engineer)                                   | ₹7–13 lakh (robotics software engineer specifically, priced above general robotics roles)                                                             | ₹20–60 lakh (senior, with AI/computer-vision specialization; one source notes mastering Python and ROS "can genuinely open doors to packages reaching ₹60 LPA")                                 | High — "Robotics Engineer" and "Robotics Software Engineer" titles show a meaningful pay gap, with the software-specialized title paying more                                                                                                                           |
+| USA (\$)         | \$81,000–\$102,000                                                       | \$97,000–\$155,000 (three-way source disagreement: Glassdoor \$142,470 vs. Salary.com \$133,127 vs. Indeed \$121,116 for "Robotics Engineer" broadly) | \$155,000–\$240,000+ (ROS2 skills specifically cited as adding an 8–20% premium; computer vision skills adding \$20,000–\$40,000)                                                               | High — even after accounting for title differences, base salary aggregators disagree by roughly \$20,000 for the same broad role                                                                                                                                        |
+| UK               | Reliable data not available                                              | Reliable data not available                                                                                                                           | Reliable data not available                                                                                                                                                                     | —                                                                                                                                                                                                                                                                       |
+| Germany          | Reliable data not available                                              | Reliable data not available                                                                                                                           | Reliable data not available                                                                                                                                                                     | —                                                                                                                                                                                                                                                                       |
+| UAE/Gulf         | Reliable data not available                                              | Reliable data not available                                                                                                                           | Reliable data not available                                                                                                                                                                     | —                                                                                                                                                                                                                                                                       |
+| Singapore        | Reliable data not available                                              | Reliable data not available                                                                                                                           | Reliable data not available                                                                                                                                                                     | —                                                                                                                                                                                                                                                                       |
+| China            | Reliable data not available                                              | Reliable data not available                                                                                                                           | Reliable data not available                                                                                                                                                                     | —                                                                                                                                                                                                                                                                       |
+| Canada           | Reliable data not available                                              | Reliable data not available                                                                                                                           | Reliable data not available                                                                                                                                                                     | —                                                                                                                                                                                                                                                                       |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                                                                                                                      |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Remote availability       | Low–Moderate — robotics software work often requires access to physical robot hardware for testing, though simulation-based development (Gazebo, etc.) can be done remotely |
+| Onsite-heavy niches       | Manufacturing automation, warehouse robotics, physical prototype testing                                                                                                    |
+| Freelance/contract market | Limited — this tends to be full-time employment at hardware-focused companies or research institutions                                                                      |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                                                         |
+| ---------- | ----------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | Unipolar Automation Technologies, Expert Consortium, BD Technologies, Seehan Digital                              |
+| India      | Broad demand across manufacturing, healthcare, and logistics sectors adopting automation and intelligent robotics |
+| USA        | Transportation & Logistics cited as a top-paying industry for this role specifically                              |
+
+**Tools & Technologies**
+
+| Category   | Tools                                              |
+| ---------- | -------------------------------------------------- |
+| Frameworks | ROS/ROS 2, Gazebo (simulation)                     |
+| Languages  | C++, Python                                        |
+| Vision     | OpenCV, integration with computer-vision pipelines |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                                          |
+| ------------- | --------------------------------------------------------------------------------------------------------------- |
+| Technical     | ROS 2 architecture, motion planning, sensor fusion, simulation-to-real-world transfer                           |
+| Complementary | Cross-disciplinary collaboration with mechanical/electrical engineers, systematic debugging of physical systems |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                                                                   |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Entry barrier      | High — requires combining software engineering with robotics-specific concepts (kinematics, control theory) not covered in standard CS curricula                         |
+| Time-to-competency | 2–3 years, often via academic robotics coursework or dedicated self-study with hardware (consistent with the FYDP-style hands-on project approach)                       |
+| Earning ceiling    | High for those who add AI/computer-vision specialization on top of core ROS skills; notably lower for general "Robotics Engineer" titles without software specialization |
+
+**Risks**
+
+| Risk                  | Detail                                                                                                                                                                                                                                           |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Data reliability      | This sub-domain shows some of the largest gaps between different data sources encountered in this entire guide — one Bangladesh salary-estimation site reported a figure nearly 10x higher than directly-sampled data for the same role and city |
+| Local market thinness | Very few dedicated robotics-software employers exist in Bangladesh; sample sizes are consistently thin (1–5 submissions per query)                                                                                                               |
+| Automation (ironic)   | Low — this field builds automation systems but is itself considered highly automation-resistant, requiring significant human judgment in physical-world problem solving                                                                          |
 
 ---
 
