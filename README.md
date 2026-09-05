@@ -18,6 +18,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: NLP / LLM Engineering](#sub-domain-nlp--llm-engineering)
     - [Sub-domain: Computer Vision](#sub-domain-computer-vision)
     - [Sub-domain: MLOps](#sub-domain-mlops)
+    - [Sub-domain: Data Science / Business Intelligence](#sub-domain-data-science--business-intelligence)
   - [Major 2: Software Development (SD)](#major-2-software-development-sd)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
@@ -342,6 +343,76 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Title ambiguity | Same role, different titles across companies — makes benchmarking difficult                       |
 | Automation      | Low — this role exists specifically to manage automation, unlikely to be automated away itself    |
 | Under-reporting | Public salary databases significantly under-report this role compared to its actual market demand |
+
+### Sub-domain: Data Science / Business Intelligence
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period          | Global Market Size | Growth Rate | Source Variance                                                                        |
+| --------------- | ------------------ | ----------- | -------------------------------------------------------------------------------------- |
+| 2018            | ~\$25bn            | —           | Data Analytics market, broad definition                                                |
+| 2023            | ~\$65bn–\$75bn     | ~20% CAGR   | Moderate                                                                               |
+| 2026 (current)  | ~\$104bn           | ~21.5% CAGR | Moderate — Fortune Business Insights figure, reasonably consistent with other trackers |
+| 2034 (forecast) | ~\$496bn           | ~21.5% CAGR | Moderate                                                                               |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                                                                   | Mid-Level                   | Senior-Level                | Source Variance                                                            |
+| ---------- | ----------------------------------------------------------------------------- | --------------------------- | --------------------------- | -------------------------------------------------------------------------- |
+| Bangladesh | Reliable data not available                                                   | Reliable data not available | Reliable data not available | —                                                                          |
+| India      | ~\$12,000 (broad average; range not well-documented)                          | Reliable data not available | Reliable data not available | Very High — single-source, thin data                                       |
+| USA        | \$65,000–\$95,000 (Data Analyst) / \$95,000–\$130,000 (Data Scientist, entry) | \$130,000–\$175,000         | \$175,000–\$260,000+        | Moderate — BLS, Indeed, and Levels.fyi cluster reasonably well on base pay |
+| UK         | ~\$67,000–\$80,000 (broad average)                                            | Reliable data not available | Reliable data not available | Thin                                                                       |
+| Germany    | ~\$85,000 (broad average)                                                     | Reliable data not available | Reliable data not available | Thin                                                                       |
+| UAE/Gulf   | Reliable data not available                                                   | Reliable data not available | Reliable data not available | —                                                                          |
+| Singapore  | Reliable data not available                                                   | Reliable data not available | Reliable data not available | —                                                                          |
+| China      | Reliable data not available                                                   | Reliable data not available | Reliable data not available | —                                                                          |
+| Canada     | \$73,000–\$100,000                                                            | Reliable data not available | Reliable data not available | Thin                                                                       |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                       |
+| ------------------------- | ------------------------------------------------------------ |
+| Remote availability       | High                                                         |
+| Onsite-heavy niches       | Enterprise BI roles tied to internal legacy data systems     |
+| Freelance/contract market | Moderate — steady demand for dashboarding and reporting work |
+
+**Top Employers by Region**
+
+| Region | Companies                                                                                         |
+| ------ | ------------------------------------------------------------------------------------------------- |
+| USA    | Major tech companies, consulting firms, and finance/healthcare enterprises broadly hire this role |
+| India  | Growing demand across IT services and product companies in Bangalore, Hyderabad, Mumbai           |
+
+**Tools & Technologies**
+
+| Category  | Tools                          |
+| --------- | ------------------------------ |
+| Languages | Python, R, SQL                 |
+| Tools     | Pandas, Power BI, Tableau, dbt |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                           |
+| ------------- | ---------------------------------------------------------------- |
+| Technical     | Statistics, SQL, data visualization, experimentation/A-B testing |
+| Complementary | Business communication, translating data into decisions          |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                            |
+| ------------------ | ------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Low–Moderate — one of the more accessible entry points into the AI/data field                     |
+| Time-to-competency | 6 months–1.5 years                                                                                |
+| Earning ceiling    | Moderate compared to ML/AI engineering roles, though senior data scientists can reach similar pay |
+
+**Risks**
+
+| Risk                   | Detail                                                                                                           |
+| ---------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Automation             | Medium–High — basic reporting and dashboarding increasingly automated by AI tools                                |
+| Market saturation      | High — this is one of the most common entry points into data careers, leading to more competition                |
+| Role overlap confusion | "Data Analyst," "Data Scientist," and "BI Analyst" titles overlap significantly, making pay comparison difficult |
 
 ---
 
