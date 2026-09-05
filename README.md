@@ -29,6 +29,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: Mobile App Development (iOS/Android/Cross-Platform)](#sub-domain-mobile-app-development-iosandroidcross-platform)
     - [Sub-domain: DevOps / Site Reliability Engineering (SRE)](#sub-domain-devops--site-reliability-engineering-sre)
     - [Sub-domain: Cloud / Platform Engineering](#sub-domain-cloud--platform-engineering)
+    - [Sub-domain: QA / Test Automation Engineering](#sub-domain-qa--test-automation-engineering)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
@@ -1099,6 +1100,81 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Certification treadmill      | Cloud certifications require renewal and platforms evolve quickly, creating ongoing study demands                                                                                   |
 | Automation                   | Low–Moderate — infrastructure provisioning is increasingly automated via Infrastructure-as-Code, shifting value toward architecture and governance rather than manual configuration |
 | Vendor lock-in risk (career) | Deep specialization in a single cloud vendor's ecosystem can narrow job mobility if that platform loses market share                                                                |
+
+---
+
+### Sub-domain: QA / Test Automation Engineering
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                                    | Growth Rate                                                                  | Source Variance                                                           |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| 2018             | Software testing market ~\$35bn–\$40bn                                                                                                | —                                                                            | Broad definition                                                          |
+| 2023             | ~\$50bn–\$60bn                                                                                                                        | ~7–8% CAGR                                                                   | Moderate                                                                  |
+| 2026 (current)   | Not separately isolated in this research; growth described as slower than other software sub-domains due to AI-assisted testing tools | ~6% CAGR (per BLS-adjacent projections cited in the master AI/SD comparison) | This is one of the slower-growing sub-domains within software development |
+| 2030+ (forecast) | Manual testing roles declining; automation/SDET-track roles continuing steady growth                                                  | —                                                                            | —                                                                         |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                                                                                                                     | Mid-Level                     | Senior-Level                                  | Source Variance                                                                                                                                          |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | --------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | \$1,800–\$3,900 (manual/general QA) / \$2,900–\$4,500 (specialized "SQA Engineer" title, better-sampled at 344–349 submissions) | \$4,500–\$8,400               | \$8,400–\$16,000+                             | High — "QA Engineer," "SQA Engineer," and "Software QA Engineer" titles all report meaningfully different figures in Dhaka despite overlapping roles     |
+| India      | \$3,500–\$7,200 (manual, entry) / \$4,800–\$8,400 (automation, entry)                                                           | \$9,600–\$21,600 (automation) | \$21,600–\$60,000+ (senior SDET/QA architect) | Very High — manual testing pay is reported as capping around ₹12–15 LPA regardless of experience, while automation/SDET tracks scale considerably higher |
+| USA        | \$55,000–\$85,000 (manual) / \$70,000–\$110,000 (automation)                                                                    | \$85,000–\$140,000            | \$110,000–\$260,000 (SDET-track, senior)      | Moderate — sources agree reasonably well on the manual-vs-automation pay gap                                                                             |
+| UK         | £28,000–£45,000 (manual) / £35,000–£58,000 (automation)                                                                         | £48,000–£78,000               | £65,000–£105,000+                             | Moderate                                                                                                                                                 |
+| Germany    | €40,000–€58,000 (manual) / €48,000–€72,000 (automation)                                                                         | €60,000–€92,000               | €78,000–€120,000+                             | Moderate                                                                                                                                                 |
+| UAE/Gulf   | Reliable data not available                                                                                                     | Reliable data not available   | Reliable data not available                   | —                                                                                                                                                        |
+| Singapore  | Reliable data not available                                                                                                     | Reliable data not available   | Reliable data not available                   | —                                                                                                                                                        |
+| Canada     | \$55,000–\$85,000 (manual) / \$65,000–\$98,000 (automation)                                                                     | \$85,000–\$125,000            | \$105,000–\$155,000+                          | Moderate                                                                                                                                                 |
+| Australia  | \$65,000–\$95,000 (manual, AUD) / \$78,000–\$115,000 (automation, AUD)                                                          | \$95,000–\$140,000            | \$120,000–\$170,000+                          | Moderate                                                                                                                                                 |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                            |
+| ------------------------- | --------------------------------------------------------------------------------- |
+| Remote availability       | High for automation/SDET roles; moderate for manual testing                       |
+| Onsite-heavy niches       | Hardware-adjacent testing, regulated industries requiring physical device testing |
+| Freelance/contract market | Moderate                                                                          |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                                                                                                                |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Bangladesh | ReliSource, Enosis Solutions, Brain Station 23, DataSoft, SEBPO                                                                                                          |
+| India      | TCS, Infosys, Wipro (IT services, lower pay band); Zoho, Freshworks (product companies, higher pay band); Microsoft, Amazon (global MNC India centers, highest pay band) |
+| USA        | Broad demand across nearly all software companies                                                                                                                        |
+
+**Tools & Technologies**
+
+| Category       | Tools                                                                                |
+| -------------- | ------------------------------------------------------------------------------------ |
+| Languages      | Python, JavaScript                                                                   |
+| Frameworks     | Selenium, Playwright, Cypress                                                        |
+| Certifications | ISTQB                                                                                |
+| Emerging       | Cloud-native and Kubernetes-based testing (commands a 10–20% premium per one source) |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                                                                 |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Technical     | Test automation frameworks, CI/CD integration, performance/security/accessibility testing (specializations commanding 15–30% premiums) |
+| Complementary | Attention to detail, systematic thinking, cross-functional communication with developers                                               |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                                                       |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Entry barrier      | Low — one of the most accessible entry points into software careers, especially for manual testing                                                           |
+| Time-to-competency | 3–9 months for manual testing basics; 1–2 years for automation/SDET competency                                                                               |
+| Earning ceiling    | Low for pure manual testing (capped around ₹12–15 LPA / roughly \$14,000–\$18,000 equivalent in India, per one source); high for automation/SDET specialists |
+
+**Risks**
+
+| Risk                            | Detail                                                                                                                                                  |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Automation (of the role itself) | High — this is one of the most directly AI-exposed roles in software development; manual testing specifically is in active decline at product companies |
+| Career path narrowing           | Without moving into automation/SDET skills, manual QA has one of the lowest pay ceilings in the entire software development major                       |
+| Title inconsistency             | "QA Engineer," "SQA Engineer," "Test Engineer," and "SDET" are used inconsistently across companies and regions, complicating direct salary comparison  |
 
 ---
 
