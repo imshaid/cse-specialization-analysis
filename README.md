@@ -51,6 +51,10 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: Edge AI / TinyML](#sub-domain-edge-ai--tinyml)
     - [Sub-domain: Embedded Systems Testing / Validation](#sub-domain-embedded-systems-testing--validation)
   - [Master Comparison Tables](#master-comparison-tables)
+    - [Table 1 — Quick Overview by Major](#table-1--quick-overview-by-major)
+    - [Table 2 — Global Market Size Snapshot (2026, where available)](#table-2--global-market-size-snapshot-2026-where-available)
+    - [Table 3 — Recommended For (Quick Decision Guide)](#table-3--recommended-for-quick-decision-guide)
+    - [Table 4 — Data Reliability Snapshot by Major](#table-4--data-reliability-snapshot-by-major)
   - [Sources \& Data Reliability Notes](#sources--data-reliability-notes)
 
 ---
@@ -2532,7 +2536,53 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ## Master Comparison Tables
 
-_(Content coming — will be added after all four majors are complete)_
+### Table 1 — Quick Overview by Major
+
+| Factor                                       | Artificial Intelligence (AI)               | Software Development (SD)                     | Network & Communication (NC)                                     | Embedded Systems & Robotics (ESR)                       |
+| -------------------------------------------- | ------------------------------------------ | --------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------- |
+| Sub-domains covered                          | 8                                          | 10                                            | 8                                                                | 8                                                       |
+| Overall entry barrier                        | High (math-heavy)                          | Low–Moderate (most accessible)                | Low–Moderate (certification-driven)                              | High (hardware+software combined)                       |
+| Bangladesh job-market maturity               | Emerging, thin data                        | Mature, largest local market                  | Growing, several strong niches (telecom, cyber)                  | Nascent — thinnest local market of the four             |
+| Remote-work friendliness                     | High for most sub-domains                  | Very High — best of the four                  | Mixed — high for cloud/cyber, very low for telecom/network infra | Low — most sub-domains require physical hardware access |
+| Automation risk (own role)                   | Low–Medium (mostly an augmenter)           | Medium–High (routine coding/QA exposed)       | Low (cyber, GRC) to Moderate (basic IT support, network admin)   | Low — most automation-resistant major overall           |
+| Highest-paying sub-domain found (any region) | AI Research (US frontier labs, \$500,000+) | Software Architecture (US senior, \$315,000+) | GRC/Cybersecurity leadership roles (India CISO, ₹1–2.5 Cr+)      | Autonomous Systems (US senior AV safety, \$320,000+)    |
+| Sub-domain with thinnest Bangladesh data     | AI Research, AI Infrastructure             | Blockchain/Web3 (no local data at all)        | GRC/Digital Forensics                                            | VLSI, Edge AI/TinyML (no local data at all)             |
+| Best-documented local (BD) sub-domain        | Generative AI (via export-firm data)       | DevOps/SRE (61–67 consistent samples)         | Network Engineering, IT Support                                  | IoT Systems Engineering, Firmware (relatively)          |
+
+### Table 2 — Global Market Size Snapshot (2026, where available)
+
+| Major                                                    | Approximate Market Size Range                                                          | Source Agreement                                  |
+| -------------------------------------------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------- |
+| Artificial Intelligence                                  | \$347bn–\$900bn+ (definition-dependent)                                                | Low — vendors disagree by 2–3x depending on scope |
+| Software Development                                     | \$810bn–\$920bn                                                                        | Moderate                                          |
+| Network & Communication (Cloud + Cybersecurity combined) | Cloud: \$860bn–\$1.5tn; Cybersecurity: \$197bn–\$358bn                                 | Low-to-Moderate                                   |
+| Embedded Systems & Robotics                              | \$104bn–\$124bn (embedded); \$60bn–\$115bn (VLSI); \$38bn–\$42bn (industrial robotics) | Moderate                                          |
+
+### Table 3 — Recommended For (Quick Decision Guide)
+
+| If you…                                                                                                     | Consider                                                                                                                                                      |
+| ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Are strong in math/statistics and want the highest theoretical ceiling, and can commit to a master's degree | AI — especially ML Engineering, NLP/LLM, or AI Research                                                                                                       |
+| Want the fastest path to income with the most remote/freelance flexibility                                  | Software Development — Frontend, Backend, or Full-Stack                                                                                                       |
+| Want a strong local (Bangladesh) demand-to-supply ratio with a clear certification path                     | Network & Communication — Cloud/Cybersecurity tracks specifically                                                                                             |
+| Love hardware and physical building, and are willing to relocate or pursue graduate study                   | Embedded Systems & Robotics — though expect the thinnest local job market of the four                                                                         |
+| Want the most automation-resistant career overall                                                           | Embedded Systems & Robotics, or Software Architecture within SD, or GRC/Cybersecurity within NC                                                               |
+| Want to avoid a steep math requirement                                                                      | Software Development or Network & Communication                                                                                                               |
+| Cannot fund a master's degree and want strong local (Bangladesh) options                                    | Software Development (largest local market) or Network & Communication (cyber/cloud certifications)                                                           |
+| Are drawn to a specific DIU coursework area already                                                         | Match your strongest/most-enjoyed courses to the relevant sub-domain tables above — course alignment is listed at the top of each major's original comparison |
+
+### Table 4 — Data Reliability Snapshot by Major
+
+| Major | Overall Data Quality                                                                                                        | Notes                                                                                                                                     |
+| ----- | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| AI    | Good for US/India across most sub-domains; thin for niche roles (AI Research, AI Infrastructure) in Bangladesh              | Generative AI sub-domain revealed a notable 3–4x pay gap between local Bangladesh firms and export-oriented/remote-serving firms          |
+| SD    | Best-documented major overall — most sub-domains have solid Bangladesh, India, and USA data                                 | Blockchain/Web3 is the clear exception — zero Bangladesh data found                                                                       |
+| NC    | Strong for cybersecurity/cloud in India and USA; Bangladesh data quality varies sharply by sub-domain                       | GRC and Cloud Security sub-domains had to rely on proxy job titles for Bangladesh                                                         |
+| ESR   | Weakest-documented major overall — smallest, thinnest, and most inconsistent data across nearly every sub-domain and region | VLSI is a notable case: a real, named local industry exists in Bangladesh but contributes zero salary data points to any major aggregator |
+
+---
+
+**How to use these tables:** Start with Table 1 for a fast overview, use Table 3 if you want a direct recommendation based on your priorities, and check Table 4 before treating any specific number elsewhere in this guide as precise — it tells you which majors and regions have the most and least reliable data.
 
 ---
 
