@@ -17,6 +17,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: Machine Learning Engineering](#sub-domain-machine-learning-engineering)
     - [Sub-domain: NLP / LLM Engineering](#sub-domain-nlp--llm-engineering)
     - [Sub-domain: Computer Vision](#sub-domain-computer-vision)
+    - [Sub-domain: MLOps](#sub-domain-mlops)
   - [Major 2: Software Development (SD)](#major-2-software-development-sd)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
@@ -270,6 +271,77 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Data scarcity       | This is a thin-data sub-domain outside a few major markets                                                                          |
 | Automation          | Low-Medium — hardware-tied work resists full automation, but standard detection/classification pipelines are increasingly templated |
 | Hardware dependency | Career progression often tied to specific industries (auto, medical) rather than portable across sectors                            |
+
+### Sub-domain: MLOps
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period          | Global Market Size | Growth Rate  | Source Variance                                                                               |
+| --------------- | ------------------ | ------------ | --------------------------------------------------------------------------------------------- |
+| 2020            | ~\$0.5bn           | —            | Emerging as a distinct category from DevOps                                                   |
+| 2023            | ~\$1.5bn–\$2bn     | ~40% CAGR    | High — very new category, few historical trackers                                             |
+| 2026 (current)  | \$4bn–\$7bn        | ~35–40% CAGR | Very High — often bundled into broader "AI infrastructure" or "MLOps platform" market figures |
+| 2030 (forecast) | \$15bn–\$20bn      | ~35% CAGR    | High                                                                                          |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                 | Mid-Level                   | Senior-Level                | Source Variance                                                                                      |
+| ---------- | --------------------------- | --------------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Bangladesh | Reliable data not available | Reliable data not available | Reliable data not available | Distinct MLOps salary data not found for Dhaka (folded into general AI/ML roles)                     |
+| India      | \$7,000–\$17,000            | \$17,000–\$42,000           | \$42,000–\$72,000+          | High                                                                                                 |
+| USA        | \$90,000–\$130,000          | \$130,000–\$200,000         | \$200,000–\$300,000+        | High — three overlapping sub-roles (ML platform, ML infrastructure, applied MLOps) drive wide spread |
+| UK         | Reliable data not available | Reliable data not available | Reliable data not available | —                                                                                                    |
+| Germany    | Reliable data not available | Reliable data not available | Reliable data not available | —                                                                                                    |
+| UAE/Gulf   | Reliable data not available | Reliable data not available | Reliable data not available | —                                                                                                    |
+| Singapore  | Reliable data not available | Reliable data not available | Reliable data not available | —                                                                                                    |
+| China      | Reliable data not available | Reliable data not available | Reliable data not available | —                                                                                                    |
+| Canada     | Reliable data not available | Reliable data not available | Reliable data not available | —                                                                                                    |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                   |
+| ------------------------- | -------------------------------------------------------- |
+| Remote availability       | High                                                     |
+| Onsite-heavy niches       | Regulated industries with on-prem ML infrastructure      |
+| Freelance/contract market | Growing, especially for companies scaling LLM deployment |
+
+**Top Employers by Region**
+
+| Region | Companies                                                                          |
+| ------ | ---------------------------------------------------------------------------------- |
+| USA    | IBM, PwC, and most large tech/consulting firms building internal ML platforms      |
+| India  | Product companies and Global Capability Centers (GCCs) of multinational tech firms |
+
+**Tools & Technologies**
+
+| Category  | Tools                                                          |
+| --------- | -------------------------------------------------------------- |
+| Languages | Python, Bash                                                   |
+| Tools     | Docker, Kubernetes, MLflow, Kubeflow, Airflow                  |
+| Cloud     | AWS SageMaker Pipelines, GCP Vertex AI Pipelines, Azure ML Ops |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                    |
+| ------------- | ------------------------------------------------------------------------- |
+| Technical     | CI/CD for ML, model monitoring, feature stores, infrastructure-as-code    |
+| Complementary | Cross-team collaboration (bridging data science and platform engineering) |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                     |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | High — requires both software engineering and ML fundamentals                                                              |
+| Time-to-competency | 2–3 years, often via a DevOps or backend engineering background first                                                      |
+| Title ambiguity    | "MLOps," "ML Platform," and "ML Infrastructure" are used interchangeably by employers, making salary comparison unreliable |
+
+**Risks**
+
+| Risk            | Detail                                                                                            |
+| --------------- | ------------------------------------------------------------------------------------------------- |
+| Title ambiguity | Same role, different titles across companies — makes benchmarking difficult                       |
+| Automation      | Low — this role exists specifically to manage automation, unlikely to be automated away itself    |
+| Under-reporting | Public salary databases significantly under-report this role compared to its actual market demand |
 
 ---
 
