@@ -26,6 +26,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: Frontend Engineering](#sub-domain-frontend-engineering)
     - [Sub-domain: Backend Engineering](#sub-domain-backend-engineering)
     - [Sub-domain: Full-Stack Engineering](#sub-domain-full-stack-engineering)
+    - [Sub-domain: Mobile App Development (iOS/Android/Cross-Platform)](#sub-domain-mobile-app-development-iosandroidcross-platform)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
@@ -131,6 +132,8 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Market saturation | Growing number of bootcamp and certificate graduates increasing entry-level competition |
 | Skill decay       | Fast-moving field; core frameworks and best practices shift every 2–3 years             |
 
+---
+
 ### Sub-domain: NLP / LLM Engineering
 
 **Market Trend (Historical → Current → Forecast)**
@@ -208,6 +211,8 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Automation         | Low — demand currently outpaces supply                                                                                      |
 | Rapid obsolescence | Techniques and best-practice tooling change every 6–12 months                                                               |
 
+---
+
 ### Sub-domain: Computer Vision
 
 **Market Trend (Historical → Current → Forecast)**
@@ -278,6 +283,8 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Data scarcity       | This is a thin-data sub-domain outside a few major markets                                                                          |
 | Automation          | Low-Medium — hardware-tied work resists full automation, but standard detection/classification pipelines are increasingly templated |
 | Hardware dependency | Career progression often tied to specific industries (auto, medical) rather than portable across sectors                            |
+
+---
 
 ### Sub-domain: MLOps
 
@@ -350,6 +357,8 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Automation      | Low — this role exists specifically to manage automation, unlikely to be automated away itself    |
 | Under-reporting | Public salary databases significantly under-report this role compared to its actual market demand |
 
+---
+
 ### Sub-domain: Data Science / Business Intelligence
 
 **Market Trend (Historical → Current → Forecast)**
@@ -419,6 +428,8 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Automation             | Medium–High — basic reporting and dashboarding increasingly automated by AI tools                                |
 | Market saturation      | High — this is one of the most common entry points into data careers, leading to more competition                |
 | Role overlap confusion | "Data Analyst," "Data Scientist," and "BI Analyst" titles overlap significantly, making pay comparison difficult |
+
+---
 
 ### Sub-domain: Generative AI / Agentic AI / Prompt Engineering
 
@@ -492,6 +503,8 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Automation (self-referential) | This field builds the tools that automate other roles, but the engineers building it remain in high demand themselves              |
 | Company-tier pay gap          | In Bangladesh specifically, the gap between local-market and export/remote-serving firm pay is unusually large for this sub-domain |
 
+---
+
 ### Sub-domain: AI Research (Applied Science)
 
 **Market Trend (Historical → Current → Forecast)**
@@ -562,6 +575,8 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Extreme pay variance      | Compensation at frontier labs vs. broader industry/academia can differ by 3–5x for similar seniority                     |
 | Narrow opportunity funnel | Very few positions exist globally relative to demand from PhD graduates                                                  |
 | Career risk               | Research career paths are less standardized than engineering roles; publication record and lab reputation matter heavily |
+
+---
 
 ### Sub-domain: AI Infrastructure / GPU-Cloud Engineering
 
@@ -712,6 +727,8 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Market saturation | High — one of the most common entry points, leading to strong competition at junior level                                                    |
 | Wage compression  | The "cost arbitrage" dynamic (companies hiring frontend talent from lower-cost countries) puts downward pressure on non-specialist local pay |
 
+---
+
 ### Sub-domain: Backend Engineering
 
 **Market Trend (Historical → Current → Forecast)**
@@ -784,6 +801,8 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Automation        | Low–Moderate — core architecture and system design remain human-driven, though boilerplate CRUD code is increasingly AI-generated |
 | Market saturation | Moderate — less saturated than frontend at entry                                                                                  |
 
+---
+
 ### Sub-domain: Full-Stack Engineering
 
 **Market Trend (Historical → Current → Forecast)**
@@ -855,6 +874,80 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Automation        | Medium — AI coding tools are particularly effective at accelerating full-stack "glue work" (CRUD apps, standard integrations)           |
 | Career plateau    | Without deepening into a specialization (architecture, specific domain), full-stack generalists can hit a pay ceiling below specialists |
 | Market saturation | High — this is one of the most commonly self-taught and bootcamp-taught skill combinations, leading to strong entry-level competition   |
+
+---
+
+### Sub-domain: Mobile App Development (iOS/Android/Cross-Platform)
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                                   | Growth Rate                | Source Variance                                                  |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------ | -------------------------- | ---------------------------------------------------------------- |
+| 2018             | Mobile app development market ~\$100bn                                                                                               | —                          | Broad estimate                                                   |
+| 2023             | ~\$200bn–\$250bn                                                                                                                     | ~14–18% CAGR               | Moderate                                                         |
+| 2026 (current)   | Not separately tracked as an isolated figure in this research; sits within broader mobile app economy, which continues strong growth | ~14–18% CAGR (directional) | This sub-domain is best measured via job-posting and salary data |
+| 2030+ (forecast) | Expected to remain strong, though growth rate moderating as mature app markets saturate                                              | —                          | —                                                                |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                                                                                                                          | Mid-Level                   | Senior-Level                                                 | Source Variance                                                                                                                                                    |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Bangladesh | \$1,900–\$4,700 (general "mobile developer" titles) / \$3,400–\$10,000 (specialized Android/iOS titles)                              | \$4,700–\$10,000            | \$10,000–\$16,300 (Senior Android observed up to this range) | Extremely High — figures for "Mobile Developer," "App Developer," and "Android Developer" titles in Dhaka diverge by 3–5x depending on exact title and sample size |
+| India      | Reliable data not available (not separately searched; broadly expected to track similarly to backend/full-stack roles)               | Reliable data not available | Reliable data not available                                  | —                                                                                                                                                                  |
+| USA        | \$76,000–\$110,000                                                                                                                   | \$105,000–\$150,000         | \$140,000–\$215,000+                                         | High — seven distinct salary sources span roughly a \$90,000 range for the same job title, per one industry analysis                                               |
+| UK         | Native iOS median reported higher than Android in London (reflecting high iPhone market share); reliable numeric range not available | Reliable data not available | Reliable data not available                                  | Contradicts the US pattern — see Risks                                                                                                                             |
+| Germany    | €44,000–€77,000 (iOS, Berlin) / €60,000–€75,000 (Android, Berlin)                                                                    | Reliable data not available | Reliable data not available                                  | Moderate                                                                                                                                                           |
+| UAE/Gulf   | Reliable data not available                                                                                                          | Reliable data not available | Reliable data not available                                  | —                                                                                                                                                                  |
+| Singapore  | Reliable data not available                                                                                                          | Reliable data not available | Reliable data not available                                  | —                                                                                                                                                                  |
+| China      | Reliable data not available                                                                                                          | Reliable data not available | Reliable data not available                                  | —                                                                                                                                                                  |
+| Canada     | \$70,000–\$120,000 (broad estimate, Canada/Australia combined)                                                                       | Reliable data not available | Reliable data not available                                  | Thin                                                                                                                                                               |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                         |
+| ------------------------- | ------------------------------------------------------------------------------ |
+| Remote availability       | High                                                                           |
+| Onsite-heavy niches       | Companies with hardware-integration requirements (e.g., IoT-connected apps)    |
+| Freelance/contract market | Strong — mobile app development is one of the most common freelance categories |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                                                                                           |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | IOTA Infotech, Pridesys IT, TechnoVista, PRAN-RFL Center, Samsung Electronics (Bangladesh operations)                                               |
+| USA        | Broad demand across startups and major tech companies; platform-engineering roles increasingly command a premium over standalone app-building roles |
+
+**Tools & Technologies**
+
+| Category       | Tools                                       |
+| -------------- | ------------------------------------------- |
+| Native iOS     | Swift, SwiftUI                              |
+| Native Android | Kotlin, Jetpack Compose                     |
+| Cross-platform | Flutter, React Native, Kotlin Multiplatform |
+| Certifications | Google Associate Android Developer          |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                                    |
+| ------------- | --------------------------------------------------------------------------------------------------------- |
+| Technical     | Platform-specific UI frameworks, app lifecycle management, performance optimization, app store deployment |
+| Complementary | Attention to platform-specific design guidelines (Human Interface Guidelines / Material Design)           |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                                                                            |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Moderate — native development (especially iOS/Swift) has a steeper learning curve than cross-platform                                                                             |
+| Time-to-competency | 1–2 years for native; 6–12 months for cross-platform basics                                                                                                                       |
+| Earning ceiling    | High, especially for mobile platform engineers who own CI/CD and cross-codebase infrastructure — reported to earn \$30,000–\$50,000 above standalone app-building roles in the US |
+
+**Risks**
+
+| Risk                                       | Detail                                                                                                                                                                                                                                                                                          |
+| ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Platform pay disparity conflicting signals | Different sources disagree on whether iOS or Android pays more — one source shows iOS with a consistent premium, another shows Android leading in most US cities except London (where iOS leads due to high iPhone market share); this is a genuine, unresolved market signal, not a data error |
+| Automation                                 | Medium — significant portions of standard app-screen and CRUD-style mobile development are increasingly AI-assisted                                                                                                                                                                             |
+| Cross-platform commoditization             | The rise of Flutter/React Native has narrowed the pay gap between native and cross-platform, somewhat compressing pay for pure native specialists at the mid-level                                                                                                                              |
 
 ---
 
