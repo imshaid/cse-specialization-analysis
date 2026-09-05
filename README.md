@@ -46,6 +46,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: IoT Systems Engineering](#sub-domain-iot-systems-engineering)
     - [Sub-domain: Robotics Software Engineering (ROS-based)](#sub-domain-robotics-software-engineering-ros-based)
     - [Sub-domain: VLSI / Chip Design](#sub-domain-vlsi--chip-design)
+    - [Sub-domain: Mechatronics / Industrial Automation](#sub-domain-mechatronics--industrial-automation)
   - [Master Comparison Tables](#master-comparison-tables)
   - [Sources \& Data Reliability Notes](#sources--data-reliability-notes)
 
@@ -2232,6 +2233,78 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Salary transparency gap (Bangladesh)        | This is the only sub-domain in the entire guide where a genuine, named local industry exists but contributes literally zero salary data points to major aggregators (Glassdoor, PayScale, etc.) — candidates would need to network directly with the small number of named companies to learn real compensation                   |
 | Extreme specialization                      | Skills are highly specific to chip design flows and don't transfer as easily to other software/hardware roles compared to most other sub-domains in this guide                                                                                                                                                                    |
 | Small local talent pool, small local demand | With Bangladesh needing an estimated 500 trained designers per year against a $7 million industry, this remains a genuinely niche local career path — consistent with the master guide's earlier finding that VLSI has "the highest ROI of the four majors for graduate study," precisely because local opportunity is so limited |
+
+---
+
+### Sub-domain: Mechatronics / Industrial Automation
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                        | Growth Rate               | Source Variance                                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------- |
+| 2018             | Industrial automation market ~\$150bn                                                                                     | —                         | Broad definition                                                                                          |
+| 2023             | ~\$200bn–\$220bn                                                                                                          | ~8–10% CAGR               | Moderate                                                                                                  |
+| 2026 (current)   | Not separately isolated in this research; growth continues alongside Industry 4.0 adoption and EV manufacturing expansion | ~8–10% CAGR (directional) | Demand cited as driven specifically by "Automation, Robotics, Electric Vehicles, and Smart Manufacturing" |
+| 2030+ (forecast) | Continued strong growth expected as manufacturing automation deepens globally                                             | —                         | —                                                                                                         |
+
+**Salary by Region (Local currency as reported)**
+
+| Region           | Entry-Level                                                               | Mid-Level                                                                  | Senior-Level                                                                                                                                         | Source Variance                                                                                                                             |
+| ---------------- | ------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh (BDT) | BDT 22,000–30,000/month (very thin sample, 2 submissions)                 | Reliable data not available                                                | Reliable data not available                                                                                                                          | Very Low confidence — thinnest data point in this entire major                                                                              |
+| India (₹)        | ₹2–6 lakh (fresher, wide disagreement across sources)                     | ₹6–15 lakh (mid-level, Automation Engineer / Mechatronics Design Engineer) | ₹12–20+ lakh (senior); one source's high-end estimate of ₹18 lakh average conflicts sharply with another source's ₹6 lakh average for the same title | Very High — sources disagree by as much as 3x for "average" mechatronics engineer pay in India, more than most other sub-domains researched |
+| USA (\$)         | \$60,000–\$74,000 (some sources) up to \$83,000–\$106,000 (other sources) | \$90,000–\$135,000                                                         | \$105,000–\$175,000+                                                                                                                                 | High — similar to VLSI and Robotics, multiple aggregators show meaningfully different "average" figures for the same title                  |
+| Germany (€)      | €40,000–€60,000                                                           | €60,000–€90,000                                                            | Reliable data not available                                                                                                                          | Moderate                                                                                                                                    |
+| UAE/Gulf         | Reliable data not available                                               | Reliable data not available                                                | Reliable data not available                                                                                                                          | —                                                                                                                                           |
+| Singapore        | Reliable data not available                                               | Reliable data not available                                                | Reliable data not available                                                                                                                          | —                                                                                                                                           |
+| Canada           | Reliable data not available                                               | Reliable data not available                                                | Reliable data not available                                                                                                                          | —                                                                                                                                           |
+| Australia (A\$)  | 70,000–95,000                                                             | 95,000–140,000+                                                            | Reliable data not available                                                                                                                          | Moderate                                                                                                                                    |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                                 |
+| ------------------------- | -------------------------------------------------------------------------------------- |
+| Remote availability       | Low — this field is inherently tied to physical manufacturing/production environments  |
+| Onsite-heavy niches       | Nearly all — factory floors, EV manufacturing plants, warehouse robotics facilities    |
+| Freelance/contract market | Limited — predominantly full-time employment at manufacturing and industrial companies |
+
+**Top Employers by Region**
+
+| Region | Companies                                                                                                                                                                                                |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| India  | Mercedes, TCS, Reliance Motors (cited as high-paying employers specifically for this role); broader demand across factory floors in Pune, EV plants in Chennai, and warehouse robotics hubs in Delhi-NCR |
+| Global | Germany, Japan, USA, Canada, and Australia are named as the top international destinations for this specialization                                                                                       |
+
+**Tools & Technologies**
+
+| Category           | Tools                                                          |
+| ------------------ | -------------------------------------------------------------- |
+| Core skills        | PLC (Programmable Logic Controller) programming, CAD, Simulink |
+| Standards          | Industry 4.0 integration frameworks                            |
+| Cross-disciplinary | Mechanical design combined with electronic control systems     |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                                                            |
+| ------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Technical     | PLC programming, control systems theory, mechanical-electrical system integration                                                 |
+| Complementary | Cross-disciplinary thinking (mechanical, electrical, and software together), practical hands-on troubleshooting on factory floors |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                     |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Moderate — requires breadth across mechanical, electrical, and control systems rather than deep specialization in just one |
+| Time-to-competency | 1.5–2.5 years                                                                                                              |
+| Earning ceiling    | Moderate-to-good, with EV manufacturing and Industry 4.0 automation roles commanding the highest premiums                  |
+
+**Risks**
+
+| Risk                               | Detail                                                                                                                                                                                                                                          |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Extreme data disagreement          | This sub-domain shows some of the widest disagreement between salary sources in the entire ESR major — a 3x gap in India and meaningfully different US figures across aggregators — treat any single reported "average" with particular caution |
+| Local market thinness (Bangladesh) | Data is essentially absent for Bangladesh, consistent with the broader pattern that hardware-adjacent fields have very few dedicated local employers                                                                                            |
+| Automation (ironic)                | Low — like robotics software, this field builds automation systems but the underlying engineering judgment involved remains relatively resistant to being automated away itself                                                                 |
 
 ---
 
