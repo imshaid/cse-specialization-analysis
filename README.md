@@ -24,6 +24,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: AI Infrastructure / GPU-Cloud Engineering](#sub-domain-ai-infrastructure--gpu-cloud-engineering)
   - [Major 2: Software Development (SD)](#major-2-software-development-sd)
     - [Sub-domain: Frontend Engineering](#sub-domain-frontend-engineering)
+    - [Sub-domain: Backend Engineering](#sub-domain-backend-engineering)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
@@ -709,6 +710,78 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Automation        | Medium–High — AI coding tools are increasingly capable of generating boilerplate UI and component code                                       |
 | Market saturation | High — one of the most common entry points, leading to strong competition at junior level                                                    |
 | Wage compression  | The "cost arbitrage" dynamic (companies hiring frontend talent from lower-cost countries) puts downward pressure on non-specialist local pay |
+
+### Sub-domain: Backend Engineering
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                 | Growth Rate                                    | Source Variance                                                                                                      |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| 2018             | Not tracked separately; folded into broader software development market                                            | —                                              | —                                                                                                                    |
+| 2023             | Backend/server-side development demand grew steadily with cloud-native adoption                                    | —                                              | Directional only                                                                                                     |
+| 2026 (current)   | Not separately tracked as an isolated market; sits within the \$810bn–\$920bn global software market               | ~8–11% CAGR (tracking overall software market) | Backend demand is best measured through job-posting volume and compensation data rather than an isolated market size |
+| 2030+ (forecast) | Expected to remain strong — backend/distributed-systems work is considered more automation-resistant than frontend | —                                              | —                                                                                                                    |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                                                                             | Mid-Level                   | Senior-Level                | Source Variance                                                                                  |
+| ---------- | --------------------------------------------------------------------------------------- | --------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------ |
+| Bangladesh | \$2,300–\$6,200                                                                         | \$6,200–\$14,700            | \$14,700–\$26,000+          | High — Dhaka Glassdoor sample of 63 shows wide 10th-to-90th percentile spread                    |
+| India      | \$5,400–\$14,400 (broad market) / \$26,000–\$48,000 (mid-level, product companies/GCCs) | \$26,000–\$48,000           | \$60,000–\$132,000+         | Very High — IT services vs. product-company/unicorn pay differs by roughly 30–40%                |
+| USA        | \$95,000–\$150,000                                                                      | \$150,000–\$240,000         | \$220,000–\$450,000+        | Moderate — Stack Overflow, Glassdoor, and BuiltIn cluster reasonably around \$120K–\$175K median |
+| UK         | \$85,000–\$110,000 (est.)                                                               | \$110,000–\$150,000         | \$150,000–\$210,000         | Moderate                                                                                         |
+| Germany    | \$87,000 (median, Stack Overflow)                                                       | \$87,000–\$115,000          | \$115,000–\$170,000         | Moderate                                                                                         |
+| UAE/Gulf   | Reliable data not available                                                             | Reliable data not available | Reliable data not available | —                                                                                                |
+| Singapore  | Reliable data not available                                                             | Reliable data not available | Reliable data not available | —                                                                                                |
+| China      | Reliable data not available                                                             | Reliable data not available | Reliable data not available | —                                                                                                |
+| Canada     | Reliable data not available                                                             | Reliable data not available | Reliable data not available | —                                                                                                |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                              |
+| ------------------------- | ----------------------------------------------------------------------------------- |
+| Remote availability       | High                                                                                |
+| Onsite-heavy niches       | Financial services and regulated industries with strict data-residency requirements |
+| Freelance/contract market | Strong, particularly for API and integration work                                   |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                                             |
+| ---------- | ----------------------------------------------------------------------------------------------------- |
+| Bangladesh | Brain Station 23, BJIT, Enosis, DataSoft, Cefalo                                                      |
+| India      | Razorpay, Swiggy, Flipkart, PhonePe, CRED, Zerodha, and major GCCs                                    |
+| USA        | Broad demand across nearly all tech and product companies; Atlassian noted as a strong-paying example |
+
+**Tools & Technologies**
+
+| Category       | Tools                                    |
+| -------------- | ---------------------------------------- |
+| Languages      | Python, Java, Go, Node.js, Rust (rising) |
+| Frameworks     | FastAPI, Spring, Express                 |
+| Databases      | PostgreSQL, MongoDB, Redis               |
+| Certifications | Oracle Java, AWS                         |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                     |
+| ------------- | -------------------------------------------------------------------------- |
+| Technical     | API design, database architecture, distributed systems, caching strategies |
+| Complementary | System reliability thinking, security awareness                            |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                          |
+| ------------------ | --------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Moderate — requires understanding of data structures, databases, and system design                              |
+| Time-to-competency | 1–2 years                                                                                                       |
+| Earning ceiling    | High — backend/distributed-systems specialists command a consistent premium over frontend at the same seniority |
+
+**Risks**
+
+| Risk              | Detail                                                                                                                            |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| Automation        | Low–Moderate — core architecture and system design remain human-driven, though boilerplate CRUD code is increasingly AI-generated |
+| Market saturation | Moderate — less saturated than frontend at entry                                                                                  |
 
 ---
 
