@@ -15,6 +15,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
   - [How to Use This Guide](#how-to-use-this-guide)
   - [Major 1: Artificial Intelligence (AI)](#major-1-artificial-intelligence-ai)
     - [Sub-domain: Machine Learning Engineering](#sub-domain-machine-learning-engineering)
+    - [Sub-domain: NLP / LLM Engineering](#sub-domain-nlp--llm-engineering)
   - [Major 2: Software Development (SD)](#major-2-software-development-sd)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
@@ -120,6 +121,83 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Automation        | Medium — AutoML tools are reducing the need for manual model tuning                     |
 | Market saturation | Growing number of bootcamp and certificate graduates increasing entry-level competition |
 | Skill decay       | Fast-moving field; core frameworks and best practices shift every 2–3 years             |
+
+### Sub-domain: NLP / LLM Engineering
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period             | Global Market Size                                       | Growth Rate  | Source Variance                                                                            |
+| ------------------ | -------------------------------------------------------- | ------------ | ------------------------------------------------------------------------------------------ |
+| 2020               | ~\$5bn                                                   | —            | Early-stage NLP tooling market                                                             |
+| 2024               | ~\$15bn–\$26bn                                           | ~35% CAGR    | High — pre-ChatGPT-boom vs post-boom estimates diverge                                     |
+| 2026 (current)     | \$90bn–\$400bn (as part of broader Generative AI market) | ~30–45% CAGR | Very High — NLP/LLM often bundled into "Generative AI" figures, making isolation difficult |
+| 2032–35 (forecast) | \$800bn–\$1tn+                                           | ~30% CAGR    | High                                                                                       |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                 | Mid-Level                   | Senior-Level                | Source Variance                                                                                                  |
+| ---------- | --------------------------- | --------------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | \$3,700–\$7,800\*           | \$7,800–\$14,000\*          | \$14,000–\$26,000\*         | Very High — \*no dedicated NLP/LLM salary data found for Dhaka; using closest proxy (general "AI Engineer" role) |
+| India      | \$7,000–\$20,000            | \$20,000–\$42,000           | \$42,000–\$95,000+          | High                                                                                                             |
+| USA        | \$90,000–\$125,000          | \$125,000–\$230,000         | \$230,000–\$400,000+        | High                                                                                                             |
+| UK         | \$56,000–\$82,000           | \$82,000–\$135,000          | \$135,000–\$230,000         | Moderate                                                                                                         |
+| Germany    | \$58,000–\$80,000           | \$80,000–\$115,000          | \$115,000–\$180,000         | Moderate                                                                                                         |
+| UAE/Gulf   | Reliable data not available | Reliable data not available | Reliable data not available | —                                                                                                                |
+| Singapore  | \$60,000–\$85,000           | \$85,000–\$120,000          | \$120,000–\$170,000         | Moderate — estimated in line with regional AI roles, not NLP-specific                                            |
+| China      | Reliable data not available | Reliable data not available | Reliable data not available | —                                                                                                                |
+| Canada     | \$75,000–\$95,000           | \$95,000–\$130,000          | \$130,000–\$180,000         | Moderate                                                                                                         |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                |
+| ------------------------- | --------------------------------------------------------------------- |
+| Remote availability       | High                                                                  |
+| Onsite-heavy niches       | Government, defense-adjacent language processing                      |
+| Freelance/contract market | Growing fast, especially for RAG-pipeline and fine-tuning specialists |
+
+**Top Employers by Region**
+
+| Region     | Companies                                         |
+| ---------- | ------------------------------------------------- |
+| Bangladesh | Giga Tech, Therap BD, Brain Station 23 (AI teams) |
+| India      | Sarvam AI, Krutrim, Microsoft, Amazon, Flipkart   |
+| USA        | OpenAI, Anthropic, Google, Meta                   |
+| UK         | Google DeepMind, Wayve                            |
+| Germany    | Aleph Alpha, DeepL, SAP                           |
+| Singapore  | Sea Group, Grab                                   |
+| Canada     | Cohere                                            |
+
+**Tools & Technologies**
+
+| Category   | Tools                                                                       |
+| ---------- | --------------------------------------------------------------------------- |
+| Languages  | Python                                                                      |
+| Frameworks | Hugging Face, LangChain, LangGraph, spaCy                                   |
+| APIs       | OpenAI API, Anthropic API, Gemini API                                       |
+| Techniques | RAG (Retrieval-Augmented Generation), fine-tuning, prompt engineering, RLHF |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                  |
+| ------------- | --------------------------------------------------------------------------------------- |
+| Technical     | Transformer architecture understanding, vector databases, evaluation frameworks, Python |
+| Complementary | Product sense (for user-facing LLM features), cost/latency trade-off reasoning          |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                        |
+| ------------------ | ----------------------------------------------------------------------------- |
+| Entry barrier      | High — fast-moving field with no settled academic curriculum yet              |
+| Time-to-competency | 1.5–3 years                                                                   |
+| Earning ceiling    | Very high — commands a 30–40% premium over general software engineering roles |
+
+**Risks**
+
+| Risk               | Detail                                                                                                                      |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| Title inflation    | "LLM Engineer" covers vastly different actual work across companies; pay can vary 5x+ based on true scope of responsibility |
+| Automation         | Low — demand currently outpaces supply                                                                                      |
+| Rapid obsolescence | Techniques and best-practice tooling change every 6–12 months                                                               |
 
 ---
 
