@@ -38,6 +38,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: Cloud Security Engineering](#sub-domain-cloud-security-engineering)
     - [Sub-domain: Cybersecurity — Offensive / Penetration Testing](#sub-domain-cybersecurity--offensive--penetration-testing)
     - [Sub-domain: Cybersecurity — Defensive / SOC (Security Operations Center)](#sub-domain-cybersecurity--defensive--soc-security-operations-center)
+    - [Sub-domain: Telecom / 5G Engineering](#sub-domain-telecom--5g-engineering)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
   - [Sources \& Data Reliability Notes](#sources--data-reliability-notes)
@@ -1706,6 +1707,79 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Automation of Tier-1 work | Moderate — routine SOC Tier-1 alert triage is increasingly being automated by AI-assisted SIEM tools, pushing value toward threat hunting and detection engineering (a pattern also noted in the master comparison for this major) |
 | Shift-work burden         | SOC roles frequently involve 24/7 rotating shift coverage, which can affect work-life balance regardless of seniority                                                                                                              |
 | Employer pay gap          | The local Bangladesh gap between generalist IT-service employers and better-paying telecom/fintech employers is unusually wide for this specific sub-domain                                                                        |
+
+---
+
+### Sub-domain: Telecom / 5G Engineering
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                                                                                        | Growth Rate                         | Source Variance                                                                       |
+| ---------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------- |
+| 2018             | Telecom equipment/network market ~\$1.5tn (broad definition, includes all telecom infrastructure)                                                                                         | —                                   | Very broad definition                                                                 |
+| 2023             | 5G-specific infrastructure market ~\$50bn–\$70bn                                                                                                                                          | ~35–45% CAGR (5G specifically)      | High — 5G is growing much faster than legacy telecom infrastructure                   |
+| 2026 (current)   | Not separately isolated in this research; telecom operators report a persistent 5G skills gap (68% of operators report difficulty hiring qualified network professionals, per one source) | ~35% CAGR (5G segment, directional) | The skills-gap statistic is a stronger demand signal than the market-size figure here |
+| 2030+ (forecast) | Continued strong growth expected as 5G rollout continues and early 6G research begins                                                                                                     | —                                   | —                                                                                     |
+
+**Salary by Region (Local currency as reported)**
+
+| Region                | Entry-Level                                                                                                                                           | Mid-Level                                                                                   | Senior-Level                                                                     | Source Variance                                                                                                                                   |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh (BDT)      | Not separately available for 5G-specific roles; general "Core Network Engineer" at telecom operators (Banglalink) reported at BDT 73,000–79,000/month | BDT 48,000–52,000/month (Bangla Trac Communications) up to higher bands at larger operators | Reliable data not available specifically for 5G/senior telecom roles             | High — Huawei Technologies (Bangladesh) pays notably less (BDT 35,000–38,000/month) than Banglalink for comparable "Core Network Engineer" titles |
+| India (₹)             | ₹3.5–7 lakh (general telecom) / ₹10–30 lakh (5G/telecom core specialization at Jio, Airtel, Nokia, Ericsson)                                          | ₹8–25 lakh                                                                                  | ₹18–35 lakh+                                                                     | High — 5G/core specialization commands a very large premium (roughly 2–4x) over general telecom networking roles                                  |
+| USA (\$)              | \$75,000–\$95,000                                                                                                                                     | \$92,000–\$150,000 (5G/edge-specialized reaching \$150,000–\$195,000)                       | \$150,000–\$250,000+ (5G-specialized senior network architect at major carriers) | Moderate — multiple sources agree 5G specialization adds a 15–25% premium over general telecom engineering                                        |
+| UK/Western Europe (€) | €40,000–€55,000                                                                                                                                       | €60,000–€90,000                                                                             | €100,000–€150,000+                                                               | Moderate                                                                                                                                          |
+| UAE/Gulf              | Reliable data not available                                                                                                                           | Reliable data not available                                                                 | Reliable data not available                                                      | —                                                                                                                                                 |
+| Singapore             | Reliable data not available                                                                                                                           | Reliable data not available                                                                 | Reliable data not available                                                      | —                                                                                                                                                 |
+| China                 | Reliable data not available                                                                                                                           | Reliable data not available                                                                 | Reliable data not available                                                      | —                                                                                                                                                 |
+| Asia (general, \$)    | \$35,000–\$60,000 (entry level, broad Asia estimate)                                                                                                  | Reliable data not available                                                                 | Reliable data not available                                                      | Very broad regional estimate, not country-specific                                                                                                |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                                                                                 |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| Remote availability       | Low–Moderate — core network and RAN (Radio Access Network) engineering typically requires proximity to physical telecom infrastructure |
+| Onsite-heavy niches       | Nearly all — this is one of the least remote-friendly sub-domains in this entire guide                                                 |
+| Freelance/contract market | Limited — telecom infrastructure work is predominantly full-time employment at operators or equipment vendors                          |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                                                                               |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | Banglalink, Huawei Technologies (Bangladesh operations), Bangla Trac Communications                                                     |
+| India      | Jio (Reliance Industries), Airtel, Nokia, Ericsson                                                                                      |
+| USA        | Major carriers (specific names not detailed in sources, but described as offering the highest premiums for 5G-specialized senior roles) |
+
+**Tools & Technologies**
+
+| Category          | Tools                                                                                                          |
+| ----------------- | -------------------------------------------------------------------------------------------------------------- |
+| Core skills       | RAN (Radio Access Network) engineering, 3GPP standards, network function virtualization (NFV), network slicing |
+| Emerging roles    | 5G Core engineer, Open RAN engineer, network automation engineer, SIP/SBC specialist                           |
+| Equipment vendors | Huawei, Nokia, Ericsson equipment families                                                                     |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                           |
+| ------------- | ------------------------------------------------------------------------------------------------ |
+| Technical     | RF/radio engineering fundamentals, core network architecture, mmWave technology, network slicing |
+| Complementary | Cross-vendor equipment coordination, field deployment troubleshooting                            |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                                                                 |
+| ------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Moderate–High — telecommunications engineering is described as having "significant barriers to entry," typically requiring a relevant engineering degree as a baseline |
+| Time-to-competency | 1.5–3 years to gain meaningful 5G-specific expertise                                                                                                                   |
+| Earning ceiling    | High for 5G/core specialists; considerably lower for those remaining in legacy 2G/3G/4G maintenance roles, which are commoditizing                                     |
+
+**Risks**
+
+| Risk                      | Detail                                                                                                                                                                            |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Legacy skills devaluation | Traditional enterprise/legacy telecom networking skills are described as "commoditizing," with growth concentrated specifically in 5G, automation, and cloud-native network cores |
+| Low remote flexibility    | Unlike most other Network & Communication sub-domains, this field offers limited remote work opportunity due to its ties to physical infrastructure                               |
+| Employer pay disparity    | Significant pay differences exist between telecom operators and equipment vendors for similar roles, even within the same country (as seen in the Bangladesh data)                |
 
 ---
 
