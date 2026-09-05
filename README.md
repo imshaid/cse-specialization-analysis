@@ -27,6 +27,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: Backend Engineering](#sub-domain-backend-engineering)
     - [Sub-domain: Full-Stack Engineering](#sub-domain-full-stack-engineering)
     - [Sub-domain: Mobile App Development (iOS/Android/Cross-Platform)](#sub-domain-mobile-app-development-iosandroidcross-platform)
+    - [Sub-domain: DevOps / Site Reliability Engineering (SRE)](#sub-domain-devops--site-reliability-engineering-sre)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
@@ -948,6 +949,81 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Platform pay disparity conflicting signals | Different sources disagree on whether iOS or Android pays more — one source shows iOS with a consistent premium, another shows Android leading in most US cities except London (where iOS leads due to high iPhone market share); this is a genuine, unresolved market signal, not a data error |
 | Automation                                 | Medium — significant portions of standard app-screen and CRUD-style mobile development are increasingly AI-assisted                                                                                                                                                                             |
 | Cross-platform commoditization             | The rise of Flutter/React Native has narrowed the pay gap between native and cross-platform, somewhat compressing pay for pure native specialists at the mid-level                                                                                                                              |
+
+---
+
+### Sub-domain: DevOps / Site Reliability Engineering (SRE)
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                                | Growth Rate                | Source Variance                                            |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | ---------------------------------------------------------- |
+| 2018             | DevOps market ~\$3bn–\$4bn                                                                                                        | —                          | Early-stage category                                       |
+| 2023             | ~\$10bn–\$13bn                                                                                                                    | ~20% CAGR                  | Moderate                                                   |
+| 2026 (current)   | Not separately isolated in this research; tracked within broader cloud/DevOps tooling market, which continues double-digit growth | ~19–20% CAGR (directional) | This role is best measured via job-posting and salary data |
+| 2030+ (forecast) | Expected to remain one of the highest-demand, most consistently well-paid technical roles across all markets researched           | —                          | —                                                          |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                                                                                                                                                                               | Mid-Level                                                                                                     | Senior-Level                                                                                            | Source Variance                                                                                                                                                                                 |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | \$3,700–\$5,800                                                                                                                                                                           | \$5,800–\$9,700                                                                                               | \$9,700–\$27,000                                                                                        | Moderate — this is one of the more consistently sampled Dhaka roles across multiple queries (61–67 Glassdoor submissions), though the higher-band figures for senior/lead roles diverge notably |
+| India      | \$6,000–\$11,000 (fresher)                                                                                                                                                                | \$14,400–\$67,000 (mid to senior, wide range by role split — DevOps generalist vs. SRE vs. Platform Engineer) | \$66,000–\$150,000+ (Staff SRE/Platform Engineer; FAANG-India SRE roles reaching \$130,000+ equivalent) | Very High — DevOps, SRE, and Platform Engineer titles pay meaningfully differently even at the same experience level (SRE commands a 15–25% premium over generalist DevOps per one source)      |
+| USA        | \$100,000–\$151,000                                                                                                                                                                       | \$130,000–\$210,000 (SRE at FAANG-tier reaching \$260,000+)                                                   | \$210,000–\$400,000+ (Staff Platform Engineer up to \$600,000+ at top companies)                        | High — FAANG-tier vs. non-FAANG pay differs by 20–30%+                                                                                                                                          |
+| UK         | \$40,000–\$88,000 (broad estimate)                                                                                                                                                        | \$88,000–\$114,000                                                                                            | \$114,000–\$185,000+                                                                                    | Moderate                                                                                                                                                                                        |
+| Germany    | Reliable data not available                                                                                                                                                               | Reliable data not available                                                                                   | Reliable data not available                                                                             | —                                                                                                                                                                                               |
+| UAE/Gulf   | Reliable data not available                                                                                                                                                               | Reliable data not available                                                                                   | Reliable data not available                                                                             | —                                                                                                                                                                                               |
+| Singapore  | Reliable data not available (individual Dhaka-based Glassdoor submissions referencing Singapore roles suggest \$43,000–\$162,000 range, but this is not a proper region-specific dataset) | Reliable data not available                                                                                   | Reliable data not available                                                                             | Low confidence                                                                                                                                                                                  |
+| China      | Reliable data not available                                                                                                                                                               | Reliable data not available                                                                                   | Reliable data not available                                                                             | —                                                                                                                                                                                               |
+| Canada     | Reliable data not available                                                                                                                                                               | Reliable data not available                                                                                   | Reliable data not available                                                                             | —                                                                                                                                                                                               |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                                                           |
+| ------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Remote availability       | High                                                                                                             |
+| Onsite-heavy niches       | Regulated industries and companies with strict on-prem infrastructure requirements                               |
+| Freelance/contract market | Strong — DevOps is a common freelance/contract specialization, especially for CI/CD and cloud-migration projects |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                                                                                           |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | BJIT, BRAC IT Services, Secure Link Services, and a wide range of local and export-oriented firms                                                   |
+| India      | Google, Microsoft, Amazon, Meta, Apple, and Netflix all maintain significant India-based SRE/DevOps teams paying at or near FAANG-tier compensation |
+| USA        | Broad demand across nearly all technology companies; this is consistently one of the highest-paying non-AI technical roles                          |
+
+**Tools & Technologies**
+
+| Category       | Tools                                                                    |
+| -------------- | ------------------------------------------------------------------------ |
+| Languages      | Bash, Python, Go                                                         |
+| Core tools     | Docker, Kubernetes, Terraform, CI/CD pipelines (Jenkins, GitHub Actions) |
+| Cloud          | AWS, Azure, GCP                                                          |
+| Certifications | Certified Kubernetes Administrator (CKA), AWS DevOps Professional        |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                       |
+| ------------- | -------------------------------------------------------------------------------------------- |
+| Technical     | Infrastructure as Code, container orchestration, monitoring/observability, incident response |
+| Complementary | On-call composure, cross-team communication, systematic troubleshooting                      |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                                                                  |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Moderate — often transitioned into from backend/sysadmin roles rather than entered directly                                                                             |
+| Time-to-competency | 1.5–3 years                                                                                                                                                             |
+| Earning ceiling    | Very high — this is one of the most consistently well-paying roles across every region researched, with SRE/Platform Engineering tracks commanding the highest premiums |
+
+**Risks**
+
+| Risk               | Detail                                                                                                                                                                      |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| On-call burden     | SRE roles specifically involve incident response and on-call rotations, which can affect work-life balance                                                                  |
+| Automation         | Low — infrastructure reliability work is judgment-heavy and considered relatively automation-resistant, though routine deployment scripting is increasingly automated       |
+| Role fragmentation | The DevOps/SRE/Platform Engineer distinction is not standardized across companies, making direct salary comparison between postings unreliable without checking exact scope |
 
 ---
 
