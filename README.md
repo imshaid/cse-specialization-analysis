@@ -25,6 +25,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
   - [Major 2: Software Development (SD)](#major-2-software-development-sd)
     - [Sub-domain: Frontend Engineering](#sub-domain-frontend-engineering)
     - [Sub-domain: Backend Engineering](#sub-domain-backend-engineering)
+    - [Sub-domain: Full-Stack Engineering](#sub-domain-full-stack-engineering)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
@@ -782,6 +783,78 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------- |
 | Automation        | Low–Moderate — core architecture and system design remain human-driven, though boilerplate CRUD code is increasingly AI-generated |
 | Market saturation | Moderate — less saturated than frontend at entry                                                                                  |
+
+### Sub-domain: Full-Stack Engineering
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                   | Growth Rate | Source Variance                               |
+| ---------------- | ---------------------------------------------------------------------------------------------------- | ----------- | --------------------------------------------- |
+| 2018             | Not tracked separately from broader software development                                             | —           | —                                             |
+| 2023             | Full-stack demand grew alongside startup/product-company hiring booms                                | —           | Directional only                              |
+| 2026 (current)   | Not separately tracked as an isolated market; sits within the \$810bn–\$920bn global software market | —           | Best measured via job-posting and salary data |
+| 2030+ (forecast) | Expected to remain one of the most commonly requested skill combinations in hiring                   | —           | —                                             |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                                                                                    | Mid-Level                   | Senior-Level                | Source Variance                                                                                                                                            |
+| ---------- | ---------------------------------------------------------------------------------------------- | --------------------------- | --------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | \$3,700–\$8,400                                                                                | \$8,400–\$18,000            | \$18,000–\$32,000+          | Moderate for this platform — one of the better-sampled Dhaka roles (85–90 Glassdoor submissions, "Very High Confidence" rating), though still a wide range |
+| India      | \$3,600–\$6,000 (broad entry) / \$29,500–\$44,400 (Talent JDI cross-market estimate)           | \$14,400–\$29,000           | \$36,000–\$60,000+          | Very High — sources diverge sharply (₹3L freshers vs. ₹18-20L at some companies for similar experience bands)                                              |
+| USA        | \$92,000–\$130,000                                                                             | \$130,000–\$175,000         | \$175,000–\$285,000+        | Moderate — Glassdoor, PayScale, and Talent JDI cluster reasonably around \$92K–\$175K                                                                      |
+| UK         | Reliable data not available (estimated broadly comparable to backend/frontend blended average) | Reliable data not available | Reliable data not available | —                                                                                                                                                          |
+| Germany    | Reliable data not available                                                                    | Reliable data not available | Reliable data not available | —                                                                                                                                                          |
+| UAE/Gulf   | Reliable data not available                                                                    | Reliable data not available | Reliable data not available | —                                                                                                                                                          |
+| Singapore  | \$68,100–\$101,100                                                                             | Reliable data not available | Reliable data not available | Moderate — single cross-market source                                                                                                                      |
+| China      | \$57,500–\$88,750                                                                              | Reliable data not available | Reliable data not available | Moderate — single cross-market source                                                                                                                      |
+| Canada     | Reliable data not available                                                                    | Reliable data not available | Reliable data not available | —                                                                                                                                                          |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                              |
+| ------------------------- | ----------------------------------------------------------------------------------- |
+| Remote availability       | High                                                                                |
+| Onsite-heavy niches       | Early-stage startups often prefer in-person full-stack hires for speed of iteration |
+| Freelance/contract market | Very Strong — full-stack is one of the most commonly requested freelance skill sets |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                                                                                                       |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | Bevy Commerce, Spring Rain, Technext, Gain Solutions, and a very large pool of over 200 companies hiring this role in Dhaka alone                               |
+| India      | Broad demand across startups, product companies, and IT services firms                                                                                          |
+| USA        | Startups and mid-size product companies are the most common employers of dedicated full-stack roles (larger companies tend to specialize into frontend/backend) |
+
+**Tools & Technologies**
+
+| Category   | Tools                                                    |
+| ---------- | -------------------------------------------------------- |
+| Frontend   | React, Next.js, TypeScript                               |
+| Backend    | Node.js, Python (Django/FastAPI), PostgreSQL/MongoDB     |
+| Deployment | Docker, basic CI/CD, cloud hosting (Vercel, AWS, Render) |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                  |
+| ------------- | --------------------------------------------------------------------------------------- |
+| Technical     | End-to-end application development, database design, API integration, deployment basics |
+| Complementary | Product thinking, ability to work independently across the whole stack, prioritization  |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                                                                  |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Moderate — breadth over depth means faster initial employability but can plateau without specialization                                                                 |
+| Time-to-competency | 1–1.5 years                                                                                                                                                             |
+| Earning ceiling    | Moderate at generalist level; senior full-stack engineers who specialize (architecture, specific stack depth) earn comparably to dedicated backend/frontend specialists |
+
+**Risks**
+
+| Risk              | Detail                                                                                                                                  |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+| Automation        | Medium — AI coding tools are particularly effective at accelerating full-stack "glue work" (CRUD apps, standard integrations)           |
+| Career plateau    | Without deepening into a specialization (architecture, specific domain), full-stack generalists can hit a pay ceiling below specialists |
+| Market saturation | High — this is one of the most commonly self-taught and bootcamp-taught skill combinations, leading to strong entry-level competition   |
 
 ---
 
