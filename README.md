@@ -42,6 +42,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: DevSecOps](#sub-domain-devsecops)
     - [Sub-domain: IT/Network Support \& Systems Administration](#sub-domain-itnetwork-support--systems-administration)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
+    - [Sub-domain: Firmware Engineering](#sub-domain-firmware-engineering)
   - [Master Comparison Tables](#master-comparison-tables)
   - [Sources \& Data Reliability Notes](#sources--data-reliability-notes)
 
@@ -1934,7 +1935,77 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ## Major 4: Embedded Systems & Robotics (ESR)
 
-_(Content coming — sub-domains will be added here)_
+### Sub-domain: Firmware Engineering
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                              | Growth Rate  | Source Variance                                                                                     |
+| ---------------- | ------------------------------------------------------------------------------- | ------------ | --------------------------------------------------------------------------------------------------- |
+| 2018             | Embedded systems market ~\$70bn (broad definition)                              | —            | Broad definition                                                                                    |
+| 2023             | ~\$90bn–\$100bn                                                                 | ~6–7% CAGR   | Moderate                                                                                            |
+| 2026 (current)   | \$104bn–\$124bn (per the master AI/SD comparison sourced earlier in this guide) | ~6–7% CAGR   | Moderate — this is one of the more consistently reported market-size figures across the whole guide |
+| 2030+ (forecast) | \$190bn–\$220bn by 2034–35                                                      | ~6–7.6% CAGR | Moderate                                                                                            |
+
+**Salary by Region (Local currency as reported)**
+
+| Region           | Entry-Level                                                                                                                              | Mid-Level                                                                                                                                   | Senior-Level                                                                                                                                                                                              | Source Variance                                                                                                                                                                                    |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh (BDT) | BDT 20,000–35,000/month (very thin samples, some as low as 2 submissions)                                                                | BDT 45,000–52,000/month (one specific mid-level job posting cited BDT 45,000–50,000)                                                        | Reliable data not available at scale — one outlier "Firmware Engineer" listing showed BDT 1,000,000+/year, but this appears to be a single atypical data point rather than a representative senior figure | Extremely High — "Firmware Engineer," "Embedded Engineer," and "Embedded Software Engineer" titles all report different, thinly-sampled figures for Dhaka                                          |
+| India (₹)        | ₹3–5 lakh (IT-services firms like TCS, Capgemini)                                                                                        | ₹5–16 lakh (product companies)                                                                                                              | ₹18–35 lakh (automotive Tier-1s and semiconductor GCCs pay 20–40% above generic IT-services embedded bands, per one source)                                                                               | High — the gap between IT-services and product/automotive/semiconductor employers is described as a primary pay driver                                                                             |
+| USA (\$)         | \$91,000–\$122,000 (varies notably by exact title: "Firmware Engineer" vs. "Embedded Systems Engineer" vs. "Embedded Software Engineer") | \$122,000–\$172,000                                                                                                                         | \$150,000–\$260,000+ (title-dependent: embedded systems engineer priced highest at senior level, reflecting "owning the device end to end")                                                               | Very High — one industry source explicitly compared 5 salary aggregators for the same job title and found a \$70,000 spread between the lowest (\$91,234) and highest (\$161,740) reported average |
+| UK (£)           | Reliable data not available                                                                                                              | \$165,000–\$250,000 equivalent cited for staff/lead level (source used USD conversion; original UK figure: £75,000–£115,000 for staff/lead) | Reliable data not available                                                                                                                                                                               | Single-source                                                                                                                                                                                      |
+| Germany          | Reliable data not available                                                                                                              | Reliable data not available                                                                                                                 | Reliable data not available                                                                                                                                                                               | —                                                                                                                                                                                                  |
+| UAE/Gulf         | Reliable data not available                                                                                                              | Reliable data not available                                                                                                                 | Reliable data not available                                                                                                                                                                               | —                                                                                                                                                                                                  |
+| Singapore (S\$)  | Reliable data not available                                                                                                              | \$67,000–\$78,000 (mid-level, from Dhaka-based Glassdoor cross-reference data)                                                              | \$90,000–\$102,000 (senior)                                                                                                                                                                               | Low confidence — derived from a small number of cross-referenced salary submissions rather than a dedicated Singapore-market study                                                                 |
+| China            | Reliable data not available                                                                                                              | Reliable data not available                                                                                                                 | Reliable data not available                                                                                                                                                                               | —                                                                                                                                                                                                  |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                                                                                       |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Remote availability       | Low–Moderate — firmware work often requires access to physical hardware/lab equipment, though some pure-software firmware work can be remote |
+| Onsite-heavy niches       | Automotive, aerospace, and industrial hardware development                                                                                   |
+| Freelance/contract market | Limited compared to general software roles                                                                                                   |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                                                                                                             |
+| ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | Aqualink, Siliconova, E LAB Bangladesh, SOLshare                                                                                                                      |
+| India      | TCS, Capgemini (IT-services tier); Ciena and similar product companies (higher-paying tier); automotive Tier-1 suppliers and semiconductor GCCs (highest-paying tier) |
+| USA        | Microchip Technology, Lutron Electronics                                                                                                                              |
+
+**Tools & Technologies**
+
+| Category  | Tools                                                             |
+| --------- | ----------------------------------------------------------------- |
+| Languages | C, C++, Rust (increasingly used for embedded)                     |
+| RTOS      | FreeRTOS and similar real-time operating systems                  |
+| Tools     | JTAG debuggers, oscilloscopes, logic analyzers                    |
+| Standards | MISRA (safety-critical coding standard, especially in automotive) |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                                                                                       |
+| ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Technical     | Real-time systems programming, hardware-software interfacing, low-level debugging, memory-constrained optimization                                           |
+| Complementary | Patience with hardware debugging, cross-disciplinary collaboration with electrical engineers, safety/quality-process awareness (especially MISRA compliance) |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                                                                   |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Entry barrier      | High — requires understanding of both software and underlying hardware, considered more specialized than general software engineering                                    |
+| Time-to-competency | 2–3 years for genuine production-level competency                                                                                                                        |
+| Earning ceiling    | High globally, especially in automotive/semiconductor niches; notably lower and thinner locally in Bangladesh, consistent with the broader pattern for this entire major |
+
+**Risks**
+
+| Risk                  | Detail                                                                                                                                                                                                   |
+| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Title/pay confusion   | The gap between "Firmware Engineer," "Embedded Software Engineer," and "Embedded Systems Engineer" titles is large and inconsistent even within the same country, let alone across countries             |
+| Local market thinness | Bangladesh salary data for this sub-domain is exceptionally thin (often only 2 submissions per query), consistent with the broader finding that Bangladesh has few dedicated hardware/embedded employers |
+| Automation            | Low — hardware-software co-design work is considered one of the most automation-resistant technical specializations across this entire guide                                                             |
 
 ---
 
