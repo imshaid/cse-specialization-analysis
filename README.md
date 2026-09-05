@@ -19,6 +19,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: Computer Vision](#sub-domain-computer-vision)
     - [Sub-domain: MLOps](#sub-domain-mlops)
     - [Sub-domain: Data Science / Business Intelligence](#sub-domain-data-science--business-intelligence)
+    - [Sub-domain: Generative AI / Agentic AI / Prompt Engineering](#sub-domain-generative-ai--agentic-ai--prompt-engineering)
   - [Major 2: Software Development (SD)](#major-2-software-development-sd)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
@@ -413,6 +414,78 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Automation             | Medium–High — basic reporting and dashboarding increasingly automated by AI tools                                |
 | Market saturation      | High — this is one of the most common entry points into data careers, leading to more competition                |
 | Role overlap confusion | "Data Analyst," "Data Scientist," and "BI Analyst" titles overlap significantly, making pay comparison difficult |
+
+### Sub-domain: Generative AI / Agentic AI / Prompt Engineering
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period             | Global Market Size | Growth Rate  | Source Variance                                                                                                  |
+| ------------------ | ------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------- |
+| 2022               | ~\$8bn–\$10bn      | —            | Pre-ChatGPT-era, niche                                                                                           |
+| 2024               | ~\$15bn–\$26bn     | ~35–45% CAGR | High                                                                                                             |
+| 2026 (current)     | \$90bn–\$400bn     | ~30–45% CAGR | Very High — figures range enormously depending on whether the "Generative AI" or broader "AI" definition is used |
+| 2032–35 (forecast) | \$800bn–\$1tn+     | ~30–32% CAGR | High                                                                                                             |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                                                             | Mid-Level                   | Senior-Level                                     | Source Variance                                                                                                                                                                                                                         |
+| ---------- | ----------------------------------------------------------------------- | --------------------------- | ------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | \$4,300–\$21,600                                                        | \$10,800–\$28,800           | \$28,800–\$36,000+                               | Very High — local-firm Glassdoor figures vs. industry-reported export-oriented-firm figures differ 3–4x (local firms: ~BDT 30K–70K/month; export/remote-serving firms: reportedly up to BDT 200K–250K/month for senior GenAI/LLM roles) |
+| India      | \$7,000–\$14,400                                                        | \$21,600–\$42,000           | \$42,000+ up to \$180,000 (principal/lead roles) | High                                                                                                                                                                                                                                    |
+| USA        | \$105,000–\$145,000                                                     | \$145,000–\$225,000         | \$225,000–\$330,000+                             | High                                                                                                                                                                                                                                    |
+| UK         | Covered under general AI Engineer bands (see ML Engineering sub-domain) | —                           | —                                                | —                                                                                                                                                                                                                                       |
+| Germany    | Covered under general AI Engineer bands (see ML Engineering sub-domain) | —                           | —                                                | —                                                                                                                                                                                                                                       |
+| UAE/Gulf   | Reliable data not available                                             | Reliable data not available | Reliable data not available                      | —                                                                                                                                                                                                                                       |
+| Singapore  | ~\$48,000 (single-source estimate)                                      | Reliable data not available | Reliable data not available                      | Low confidence — single source only                                                                                                                                                                                                     |
+| China      | Reliable data not available                                             | Reliable data not available | Reliable data not available                      | —                                                                                                                                                                                                                                       |
+| Canada     | \$60,000–\$77,000                                                       | \$77,000–\$112,000          | Reliable data not available                      | Moderate                                                                                                                                                                                                                                |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                              |
+| ------------------------- | ------------------------------------------------------------------- |
+| Remote availability       | Very High                                                           |
+| Onsite-heavy niches       | Very few — this is among the most remote-friendly sub-domains in AI |
+| Freelance/contract market | Strong, especially for RAG pipeline and agent-workflow specialists  |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                                             |
+| ---------- | ----------------------------------------------------------------------------------------------------- |
+| Bangladesh | Giga Tech, Therap BD, Brain Station 23, and other export-oriented firms serving international clients |
+| India      | Sarvam AI, Krutrim, early-stage AI startups                                                           |
+| USA        | OpenAI, Anthropic, Google, Meta, and a large ecosystem of AI-native startups                          |
+
+**Tools & Technologies**
+
+| Category   | Tools                                                                          |
+| ---------- | ------------------------------------------------------------------------------ |
+| Techniques | RAG, fine-tuning (LoRA/QLoRA), agentic frameworks, multi-modal generation      |
+| Tools      | LangChain, LangGraph, vector databases, Stable Diffusion/SDXL (image modality) |
+| APIs       | OpenAI, Anthropic, Google Gemini                                               |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                      |
+| ------------- | --------------------------------------------------------------------------- |
+| Technical     | Prompt design, RAG architecture, agent orchestration, evaluation frameworks |
+| Complementary | Product thinking, rapid iteration mindset                                   |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                      |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Moderate — more accessible than classical ML, but genuine production skill still takes time                                 |
+| Time-to-competency | 6 months–2 years                                                                                                            |
+| Title volatility   | "Prompt Engineer" as a standalone senior role is fading and merging into broader Generative AI engineering roles as of 2026 |
+
+**Risks**
+
+| Risk                          | Detail                                                                                                                             |
+| ----------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
+| Title volatility              | Role definitions and titles are shifting quickly year to year                                                                      |
+| Automation (self-referential) | This field builds the tools that automate other roles, but the engineers building it remain in high demand themselves              |
+| Company-tier pay gap          | In Bangladesh specifically, the gap between local-market and export/remote-serving firm pay is unusually large for this sub-domain |
 
 ---
 
