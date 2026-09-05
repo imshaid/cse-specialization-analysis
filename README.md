@@ -40,6 +40,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: Cybersecurity — Defensive / SOC (Security Operations Center)](#sub-domain-cybersecurity--defensive--soc-security-operations-center)
     - [Sub-domain: Telecom / 5G Engineering](#sub-domain-telecom--5g-engineering)
     - [Sub-domain: DevSecOps](#sub-domain-devsecops)
+    - [Sub-domain: IT/Network Support \& Systems Administration](#sub-domain-itnetwork-support--systems-administration)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
   - [Sources \& Data Reliability Notes](#sources--data-reliability-notes)
@@ -1854,6 +1855,80 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Local market absence       | No dedicated DevSecOps salary or job-title data could be found for Bangladesh, suggesting this remains an emerging, not-yet-distinctly-titled specialization locally (likely still folded into general "DevOps Engineer" postings) |
 | Salary source disagreement | Even within the well-documented US market, aggregators disagree by as much as \$50,000 on "average" pay for this exact title, more than most other sub-domains researched                                                          |
 | Automation                 | Low — this role exists specifically to manage security automation, making it relatively insulated from being automated away itself                                                                                                 |
+
+---
+
+### Sub-domain: IT/Network Support & Systems Administration
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                                                                                      | Growth Rate              | Source Variance                                                                                          |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------ | -------------------------------------------------------------------------------------------------------- |
+| 2018             | IT support/managed services market ~\$150bn (broad definition)                                                                                                                          | —                        | Very broad, mature category                                                                              |
+| 2023             | ~\$220bn–\$250bn                                                                                                                                                                        | ~7–8% CAGR               | Moderate                                                                                                 |
+| 2026 (current)   | Not separately isolated in this research; this is a mature, stable segment of the IT labor market rather than a fast-growing niche                                                      | ~6–8% CAGR (directional) | This sub-domain grows steadily but slower than most other Network & Communication sub-domains researched |
+| 2030+ (forecast) | Expected to remain stable in demand, with basic tier-1 support increasingly automated and value shifting toward infrastructure administration, cloud, and hybrid environment management | —                        | —                                                                                                        |
+
+**Salary by Region (Local currency as reported)**
+
+| Region           | Entry-Level                                                                                                  | Mid-Level                                     | Senior-Level                                                                                                                | Source Variance                                                                                                                                                                                                   |
+| ---------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh (BDT) | BDT 13,600–20,000/month (basic "IT Support" tier) / BDT 20,000–30,000/month ("Systems Administrator," entry) | BDT 30,000–71,000/month                       | BDT 71,000–214,000+/month (Senior Systems Administrator; Therap BD reported paying BDT 192,000–209,000/month for this role) | Very High — basic IT Support pay is dramatically lower than Systems Administrator pay for what can be an adjacent skill set; employer choice (e.g., Therap BD vs. smaller local firms) creates a very wide spread |
+| India (₹)        | ₹1.8–5 lakh (basic IT support) / ₹5–13 lakh (Systems Administrator, entry-mid)                               | ₹13–18 lakh                                   | ₹18–21 lakh+ (senior IT Systems Administrator, per one source)                                                              | High — multiple job titles ("IT Support," "Systems Administrator," "IT Systems Administrator") overlap significantly with inconsistent pay reporting across sources                                               |
+| USA (\$)         | \$42,000–\$59,000 (basic IT Support Specialist)                                                              | \$71,000–\$106,000 (IT Systems Administrator) | \$106,000–\$159,000+                                                                                                        | Moderate — sources agree reasonably that "Systems Administrator" pays meaningfully more than generic "IT Support"                                                                                                 |
+| UK               | Reliable data not available                                                                                  | Reliable data not available                   | Reliable data not available                                                                                                 | —                                                                                                                                                                                                                 |
+| Germany          | Reliable data not available                                                                                  | Reliable data not available                   | Reliable data not available                                                                                                 | —                                                                                                                                                                                                                 |
+| UAE/Gulf         | Reliable data not available                                                                                  | Reliable data not available                   | Reliable data not available                                                                                                 | —                                                                                                                                                                                                                 |
+| Singapore        | Reliable data not available                                                                                  | Reliable data not available                   | Reliable data not available                                                                                                 | —                                                                                                                                                                                                                 |
+| Canada           | Reliable data not available                                                                                  | Reliable data not available                   | Reliable data not available                                                                                                 | —                                                                                                                                                                                                                 |
+| Australia        | Reliable data not available                                                                                  | Reliable data not available                   | Reliable data not available                                                                                                 | —                                                                                                                                                                                                                 |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                                           |
+| ------------------------- | ------------------------------------------------------------------------------------------------ |
+| Remote availability       | Low–Moderate for hands-on hardware/desktop support; higher for server/cloud administration roles |
+| Onsite-heavy niches       | Desktop support, on-premise server rooms, physical hardware troubleshooting                      |
+| Freelance/contract market | Moderate — IT support contracting for small businesses is a recognized freelance path            |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                                                    |
+| ---------- | ------------------------------------------------------------------------------------------------------------ |
+| Bangladesh | The City Bank, Link3 Technologies, IFIC Bank, Akij Group, Therap BD (notably higher-paying for senior roles) |
+| India      | Broad demand across nearly all companies with in-house IT infrastructure                                     |
+| USA        | Broad demand across nearly all industries; this is one of the most universally-needed IT roles               |
+
+**Tools & Technologies**
+
+| Category                | Tools                                                                   |
+| ----------------------- | ----------------------------------------------------------------------- |
+| Core skills             | Windows Server, Active Directory, Linux (RHEL), virtualization (VMware) |
+| Cloud-adjacent          | AWS, Microsoft Azure basics, PowerShell scripting                       |
+| Ticketing/support tools | ServiceNow, Jira                                                        |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                     |
+| ------------- | ------------------------------------------------------------------------------------------ |
+| Technical     | Server administration, user account management, hardware troubleshooting, basic networking |
+| Complementary | Patience with end-users, clear non-technical communication, methodical documentation       |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                          |
+| ------------------ | --------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Low — this is one of the most accessible entry points into an IT career, requiring minimal formal prerequisites |
+| Time-to-competency | 3–6 months for basic tier-1 support; 1–2 years to reach systems administrator competency                        |
+| Earning ceiling    | Low at basic support tier; moderate-to-good at systems administrator level, especially with cloud skills added  |
+
+**Risks**
+
+| Risk                   | Detail                                                                                                                                                                                                         |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Automation             | High for basic tier-1 support (password resets, basic troubleshooting increasingly self-service or AI-chatbot handled); Moderate for systems administration, where infrastructure judgment still matters       |
+| Career plateau         | Without adding cloud, security, or automation skills, this path has one of the lowest pay ceilings across the entire Network & Communication major                                                             |
+| Wide employer variance | As seen clearly in the Bangladesh data, the same job title pays dramatically differently across employers, making it important to research specific companies rather than relying on role-title averages alone |
 
 ---
 
