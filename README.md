@@ -23,6 +23,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: AI Research (Applied Science)](#sub-domain-ai-research-applied-science)
     - [Sub-domain: AI Infrastructure / GPU-Cloud Engineering](#sub-domain-ai-infrastructure--gpu-cloud-engineering)
   - [Major 2: Software Development (SD)](#major-2-software-development-sd)
+    - [Sub-domain: Frontend Engineering](#sub-domain-frontend-engineering)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
@@ -636,7 +637,78 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ## Major 2: Software Development (SD)
 
-_(Content coming — sub-domains will be added here)_
+### Sub-domain: Frontend Engineering
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                            | Growth Rate | Source Variance                                                                                                   |
+| ---------------- | ------------------------------------------------------------------------------------------------------------- | ----------- | ----------------------------------------------------------------------------------------------------------------- |
+| 2018             | Frontend not tracked as standalone; folded into broader web-development market (~\$40bn)                      | —           | —                                                                                                                 |
+| 2023             | Web development market ~\$60bn–\$70bn                                                                         | ~8–10% CAGR | Moderate                                                                                                          |
+| 2026 (current)   | Frontend-specific spend not separately tracked; sits within the broader \$810bn–\$920bn software market       | ~8–11% CAGR | This sub-domain is best measured via job postings and framework-adoption data rather than an isolated market size |
+| 2030+ (forecast) | Expected to grow steadily but at a slower rate than backend/full-stack due to AI-assisted UI generation tools | —           | —                                                                                                                 |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                                                                                | Mid-Level                   | Senior-Level                | Source Variance                                                                                                                                                                               |
+| ---------- | ------------------------------------------------------------------------------------------ | --------------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | \$2,300–\$8,400                                                                            | \$8,400–\$14,400            | \$14,400–\$25,000           | Extremely High — same-platform (Glassdoor) figures for "Front End Developer" range from BDT 20K/month to BDT 100K/month depending on exact title and sample size (some samples as small as 1) |
+| India      | \$4,200–\$14,400 (broad market) / \$19,000–\$108,000 (React-specialist, product companies) | \$14,400–\$38,400           | \$38,400–\$110,000+         | Very High — general "frontend developer" and "React developer" figures diverge sharply; company tier (IT services vs. product/GCC) is the biggest driver                                      |
+| USA        | \$75,000–\$110,000                                                                         | \$120,000–\$180,000         | \$175,000–\$450,000+        | High — React-specialist pay runs notably above generic "frontend developer" listings                                                                                                          |
+| UK         | \$70,000–\$95,000                                                                          | \$95,000–\$140,000          | \$140,000–\$220,000+        | Moderate                                                                                                                                                                                      |
+| Germany    | \$76,000–\$95,000 (junior est.)                                                            | \$95,000–\$115,000          | \$115,000–\$185,000         | Moderate                                                                                                                                                                                      |
+| UAE/Gulf   | Reliable data not available                                                                | Reliable data not available | Reliable data not available | —                                                                                                                                                                                             |
+| Singapore  | Reliable data not available                                                                | Reliable data not available | Reliable data not available | —                                                                                                                                                                                             |
+| China      | Reliable data not available                                                                | Reliable data not available | Reliable data not available | —                                                                                                                                                                                             |
+| Canada     | Reliable data not available (broadly comparable to US at ~15–25% lower)                    | Reliable data not available | Reliable data not available | —                                                                                                                                                                                             |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                |
+| ------------------------- | --------------------------------------------------------------------- |
+| Remote availability       | Very High — one of the most remote/freelance-friendly roles in tech   |
+| Onsite-heavy niches       | Very few; mostly agency/consulting work with client-site requirements |
+| Freelance/contract market | Very Strong — one of the most common freelance entry points globally  |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                            |
+| ---------- | ------------------------------------------------------------------------------------ |
+| Bangladesh | REVE Systems, Brain Station 23, BJIT, Softvence, and a large freelance/agency market |
+| India      | Product companies and GCCs in Bangalore, Hyderabad, Pune                             |
+| USA        | Broad demand across nearly all tech companies and product-based startups             |
+
+**Tools & Technologies**
+
+| Category       | Tools                                |
+| -------------- | ------------------------------------ |
+| Languages      | JavaScript, TypeScript, HTML/CSS     |
+| Frameworks     | React, Next.js, Vue                  |
+| Testing        | Cypress, Jest                        |
+| Certifications | Meta Front-End Developer Certificate |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                |
+| ------------- | ------------------------------------------------------------------------------------- |
+| Technical     | Component architecture, state management, responsive design, performance optimization |
+| Complementary | Design collaboration (with UI/UX), accessibility awareness                            |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                             |
+| ------------------ | -------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Low — one of the more accessible entry points into software engineering                            |
+| Time-to-competency | 6–12 months for employable basics                                                                  |
+| Earning ceiling    | Moderate at generalist level; high for specialists with deep React/Next.js/design-system expertise |
+
+**Risks**
+
+| Risk              | Detail                                                                                                                                       |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Automation        | Medium–High — AI coding tools are increasingly capable of generating boilerplate UI and component code                                       |
+| Market saturation | High — one of the most common entry points, leading to strong competition at junior level                                                    |
+| Wage compression  | The "cost arbitrage" dynamic (companies hiring frontend talent from lower-cost countries) puts downward pressure on non-specialist local pay |
 
 ---
 
