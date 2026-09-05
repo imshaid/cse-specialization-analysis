@@ -35,6 +35,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: Game Development](#sub-domain-game-development)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
     - [Sub-domain: Network Engineering](#sub-domain-network-engineering)
+    - [Sub-domain: Cloud Security Engineering](#sub-domain-cloud-security-engineering)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
   - [Sources \& Data Reliability Notes](#sources--data-reliability-notes)
@@ -1480,6 +1481,80 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Automation              | Moderate — routine network administration and configuration are increasingly automated via Infrastructure-as-Code and SD-WAN tools, pushing value toward cloud-integration and security specialization |
 | Career plateau          | Without adding cloud or security certifications, pure on-prem network engineering has one of the lower pay ceilings in this major                                                                      |
 | Certification treadmill | Networking certifications (CCNA/CCNP) require renewal and periodic re-certification as vendor technology evolves                                                                                       |
+
+---
+
+### Sub-domain: Cloud Security Engineering
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period | Global Market Size | Growth Rate | Source Variance |
+|---|---|---|---|
+| 2019 | Cloud security market ~\$5bn | — | Early-stage, distinct from general cloud security spend |
+| 2023 | ~\$25bn–\$35bn | ~25% CAGR | Moderate |
+| 2026 (current) | Not separately isolated in this research; sits within the broader cybersecurity market (~\$200bn–\$360bn) as one of its fastest-growing segments | ~25% CAGR (directional, cloud security specifically) | Cloud security is described as having "overtaken traditional perimeter security" as the highest-paying cyber specialization in some markets |
+| 2030+ (forecast) | Expected to continue outpacing general cybersecurity growth as cloud adoption approaches near-universal enterprise levels (94% enterprise cloud adoption cited) | — | — |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region | Entry-Level | Mid-Level | Senior-Level | Source Variance |
+|---|---|---|---|---|
+| Bangladesh | \$1,900–\$8,600* | \$8,600–\$25,000* | \$25,000–\$36,000+* | Very High — *no dedicated "Cloud Security Engineer" title data found for Dhaka; using closest proxy ("Network Security Engineer" at telecom/government employers like GrameenPhone and Bangladesh Computer Council), which itself shows extreme spread (BDT 16K–121K/month) |
+| India | \$6,000–\$10,800 (fresher) | \$14,400–\$30,000 (AWS/Azure-certified mid-level) | \$34,000–\$96,000 (senior/architect, CCSP-certified reaching top of range) | High — platform choice (AWS vs. Azure vs. GCP) and certification status each shift pay meaningfully; AWS has the highest hiring volume in Bangalore per one source |
+| USA | \$110,000–\$135,000 | \$135,000–\$215,000 | \$215,000–\$300,000+ | Moderate — multiple sources cluster reasonably around \$105,000–\$215,000 base |
+| UK | Reliable data not available | Reliable data not available | Reliable data not available | — |
+| Germany | Reliable data not available | Reliable data not available | Reliable data not available | — |
+| UAE/Gulf | Reliable data not available | Reliable data not available | Reliable data not available | — |
+| Singapore | Reliable data not available | Reliable data not available | Reliable data not available | — |
+| China | Reliable data not available | Reliable data not available | Reliable data not available | — |
+| Canada | Reliable data not available | Reliable data not available | Reliable data not available | — |
+
+**Job Opportunity & Work Mode**
+
+| Metric | Detail |
+|---|---|
+| Remote availability | High |
+| Onsite-heavy niches | Highly regulated industries (banking, government) with strict data-residency and compliance requirements |
+| Freelance/contract market | Present, though less common than general cloud engineering |
+
+**Top Employers by Region**
+
+| Region | Companies |
+|---|---|
+| Bangladesh | GrameenPhone, Bangladesh Computer Council, Bkash (general cyber security roles) |
+| India | Razorpay, Cred, Swiggy, Flipkart, FAANG India captive centers, and Big-4 cloud audit practices |
+| USA | Broad demand across Information Technology and Financial Services, which are cited as the top-paying industries for this role |
+
+**Tools & Technologies**
+
+| Category | Tools |
+|---|---|
+| Platforms | AWS, Azure, GCP security services |
+| Certifications | AWS Certified Security – Specialty (SCS-C02), Microsoft AZ-500, CCSP (Certified Cloud Security Professional — unlocks the architect-level pay tier per one source) |
+| Core skills | Identity and access management (IAM), encryption, security posture management, compliance automation |
+
+**Skills & Abilities**
+
+| Type | Skills |
+|---|---|
+| Technical | Cloud-native security architecture, threat modeling, compliance frameworks (SOC 2, ISO 27001) |
+| Complementary | Cross-functional work with both security and platform/DevOps teams |
+
+**Trade-offs & Limitations**
+
+| Factor | Detail |
+|---|---|
+| Entry barrier | Moderate–High — typically requires foundational cloud engineering knowledge plus security specialization on top |
+| Time-to-competency | 1.5–3 years, often via a general cloud or security role first |
+| Earning ceiling | Very high — consistently described as commanding a premium over general cloud engineering and general cybersecurity roles alike |
+
+**Risks**
+
+| Risk | Detail |
+|---|---|
+| Local title absence | No dedicated "Cloud Security Engineer" job title data could be found for Bangladesh specifically, suggesting this remains an emerging specialization locally rather than an established job category |
+| Certification dependency | Career progression in this field is unusually certification-gated (specific certs unlock specific pay tiers), more so than many other sub-domains |
+| Automation | Low — security architecture and compliance judgment are considered relatively automation-resistant |
 
 ---
 
