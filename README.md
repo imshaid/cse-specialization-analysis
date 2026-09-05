@@ -30,6 +30,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: DevOps / Site Reliability Engineering (SRE)](#sub-domain-devops--site-reliability-engineering-sre)
     - [Sub-domain: Cloud / Platform Engineering](#sub-domain-cloud--platform-engineering)
     - [Sub-domain: QA / Test Automation Engineering](#sub-domain-qa--test-automation-engineering)
+    - [Sub-domain: Software Architecture / Systems Design](#sub-domain-software-architecture--systems-design)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
@@ -1175,6 +1176,80 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Automation (of the role itself) | High — this is one of the most directly AI-exposed roles in software development; manual testing specifically is in active decline at product companies |
 | Career path narrowing           | Without moving into automation/SDET skills, manual QA has one of the lowest pay ceilings in the entire software development major                       |
 | Title inconsistency             | "QA Engineer," "SQA Engineer," "Test Engineer," and "SDET" are used inconsistently across companies and regions, complicating direct salary comparison  |
+
+---
+
+### Sub-domain: Software Architecture / Systems Design
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                                                                   | Growth Rate | Source Variance                                      |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------- | ---------------------------------------------------- |
+| 2018             | Not tracked as a standalone market; a senior-track specialization within software development                                                                        | —           | —                                                    |
+| 2023             | Demand grew alongside increasing system complexity and microservices adoption                                                                                        | —           | Directional only                                     |
+| 2026 (current)   | Not separately tracked as an isolated market; measured via salary premium over general software engineering roles                                                    | —           | This is a senior career track, not a market category |
+| 2030+ (forecast) | Expected to remain one of the most automation-resistant senior software roles, as it requires judgment and cross-system reasoning that AI tools do not fully replace | —           | —                                                    |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                                                                                                       | Mid-Level                   | Senior-Level                                                                                                                                                                                                          | Source Variance                                                                                                                                                                                  |
+| ---------- | ----------------------------------------------------------------------------------------------------------------- | --------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Bangladesh | \$1,000–\$8,800\*                                                                                                 | \$8,800–\$25,000            | \$25,000–\$100,000+ (a small number of "Software Architect" listings at specific companies report figures up to BDT 2,000,000+/month, an extreme outlier likely reflecting expatriate or highly specialized packages) | Extremely High — this is the widest salary spread of any sub-domain researched in Bangladesh; the title is used both for genuinely senior architecture roles and for inflated job-posting titles |
+| India      | \$21,000–\$47,000 (broad average across sources)                                                                  | \$28,000–\$47,000           | \$44,000–\$67,000+ (senior/principal, with some sources showing up to ₹66 lakh, roughly \$79,000, at the very top)                                                                                                    | High — Glassdoor, PayScale, and SalaryExpert cluster reasonably around ₹25–37 lakh average, but the spread by experience band is very wide                                                       |
+| USA        | \$95,000–\$130,000 (systems architect entry)                                                                      | \$130,000–\$175,000         | \$175,000–\$315,000+                                                                                                                                                                                                  | Moderate — PayScale and Glassdoor cluster around \$130,000–\$150,000 average                                                                                                                     |
+| UK         | Reliable data not available (broad IT Architect estimate: ~£55,000 average)                                       | Reliable data not available | Reliable data not available                                                                                                                                                                                           | Single-source, thin                                                                                                                                                                              |
+| Germany    | Reliable data not available                                                                                       | Reliable data not available | Reliable data not available                                                                                                                                                                                           | —                                                                                                                                                                                                |
+| UAE/Gulf   | Reliable data not available                                                                                       | Reliable data not available | Reliable data not available                                                                                                                                                                                           | —                                                                                                                                                                                                |
+| Singapore  | Reliable data not available (one estimate: ~SGD 20,300/month for IT Architect, roughly \$180,000/year equivalent) | Reliable data not available | Reliable data not available                                                                                                                                                                                           | Single-source, thin                                                                                                                                                                              |
+| Australia  | \$147,000–\$191,000 (broad IT Architect estimate)                                                                 | Reliable data not available | Reliable data not available                                                                                                                                                                                           | Single-source                                                                                                                                                                                    |
+| Canada     | ~\$127,000 (broad average)                                                                                        | Reliable data not available | Reliable data not available                                                                                                                                                                                           | Single-source                                                                                                                                                                                    |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                                                        |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------- |
+| Remote availability       | Moderate–High, though senior architecture roles often involve significant cross-team, in-person collaboration |
+| Onsite-heavy niches       | Large enterprise transformations, regulated industries                                                        |
+| Freelance/contract market | Present, especially for short-term architecture review/consulting engagements                                 |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                                                                                  |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| Bangladesh | BJIT, LEADS Corporation, Secure Link Services, Tiger IT Bangladesh                                                                         |
+| India      | Broad demand across product companies and enterprises; this is typically an internal promotion track rather than a direct-hire entry point |
+| USA        | Cerner, Cadence Design Systems, Intel, Accenture, General Electric, Amazon, Oracle, SAP are cited among common employers                   |
+
+**Tools & Technologies**
+
+| Category            | Tools                                                                                 |
+| ------------------- | ------------------------------------------------------------------------------------- |
+| Core knowledge      | Distributed systems, microservices, design patterns, system integration               |
+| Cross-cutting       | Cloud platforms (AWS/Azure), Kubernetes, database architecture, security architecture |
+| Soft infrastructure | Documentation, architecture decision records (ADRs), diagramming                      |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                                                              |
+| ------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| Technical     | Deep, broad technical knowledge across multiple domains (not just one language/framework), trade-off analysis, scalability planning |
+| Complementary | Stakeholder communication, mentoring, long-term technical strategy, cross-team influence without direct authority                   |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                               |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Very High — this is not an entry-level role; it typically requires 8+ years of hands-on engineering experience first |
+| Time-to-competency | 8–12+ years total (including prior engineering experience)                                                           |
+| Earning ceiling    | Very high — consistently one of the highest-paid non-management technical tracks across every region researched      |
+
+**Risks**
+
+| Risk              | Detail                                                                                                                                                                                                |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Title inflation   | The "Architect" title is used inconsistently — some postings apply it to relatively junior roles, which distorts salary data significantly (reflected in the extreme Bangladesh salary spread)        |
+| Automation        | Low — this is considered one of the most automation-resistant senior technical roles, since it requires judgment, trade-off reasoning, and organizational context that AI tools cannot substitute for |
+| Narrow entry path | Because this role requires deep prior experience, it is not a viable direct target for new graduates — it must be reached via years of engineering work first                                         |
 
 ---
 
