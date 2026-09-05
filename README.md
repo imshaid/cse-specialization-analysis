@@ -39,6 +39,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: Cybersecurity — Offensive / Penetration Testing](#sub-domain-cybersecurity--offensive--penetration-testing)
     - [Sub-domain: Cybersecurity — Defensive / SOC (Security Operations Center)](#sub-domain-cybersecurity--defensive--soc-security-operations-center)
     - [Sub-domain: Telecom / 5G Engineering](#sub-domain-telecom--5g-engineering)
+    - [Sub-domain: DevSecOps](#sub-domain-devsecops)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
   - [Sources \& Data Reliability Notes](#sources--data-reliability-notes)
@@ -1780,6 +1781,79 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Legacy skills devaluation | Traditional enterprise/legacy telecom networking skills are described as "commoditizing," with growth concentrated specifically in 5G, automation, and cloud-native network cores |
 | Low remote flexibility    | Unlike most other Network & Communication sub-domains, this field offers limited remote work opportunity due to its ties to physical infrastructure                               |
 | Employer pay disparity    | Significant pay differences exist between telecom operators and equipment vendors for similar roles, even within the same country (as seen in the Bangladesh data)                |
+
+---
+
+### Sub-domain: DevSecOps
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                                                       | Growth Rate                | Source Variance                                                                         |
+| ---------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- | --------------------------------------------------------------------------------------- |
+| 2019             | DevSecOps market ~\$2bn                                                                                                                                  | —                          | Emerging category                                                                       |
+| 2023             | ~\$6bn–\$9bn                                                                                                                                             | ~22–25% CAGR               | Moderate                                                                                |
+| 2026 (current)   | Not separately isolated in this research; growing faster than traditional DevOps, described as commanding a 15–25% premium over general operations roles | ~22–25% CAGR (directional) | Growing as a distinct specialization from both general DevOps and general cybersecurity |
+| 2030+ (forecast) | Expected to keep growing as security-shift-left practices become standard in software development pipelines                                              | —                          | —                                                                                       |
+
+**Salary by Region (Local currency as reported)**
+
+| Region           | Entry-Level                                                                                                                                                                                                                                    | Mid-Level                                                                                                                             | Senior-Level                                                                            | Source Variance                                                                                       |
+| ---------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Bangladesh (BDT) | Reliable data not available (no dedicated DevSecOps title found; general "DevOps Engineer" figures from the DevOps sub-domain — BDT 37,000–90,000/month — are the closest available proxy, likely an underestimate for DevSecOps specifically) | Reliable data not available                                                                                                           | Reliable data not available                                                             | —                                                                                                     |
+| India (₹)        | ₹4.6–7.6 lakh                                                                                                                                                                                                                                  | ₹12–17 lakh (up to ₹27+ lakh for 4-6 years experience per Glassdoor data)                                                             | ₹15–32 lakh+ (specialization premium of 15-25% over general DevOps cited)               | Moderate — sources agree reasonably on the shape                                                      |
+| USA (\$)         | \$80,000–\$116,000                                                                                                                                                                                                                             | \$116,000–\$186,000 (mid-market aggregators diverge: ZipRecruiter ~\$102K vs. 6figr ~\$152K vs. Practical DevSecOps ~\$137K midpoint) | \$186,000–\$302,000+ (senior; Aerospace & Defense cited as the highest-paying industry) | High — three different salary aggregators show a roughly \$50,000 spread for the same "average" claim |
+| UK               | Reliable data not available                                                                                                                                                                                                                    | Reliable data not available                                                                                                           | Reliable data not available                                                             | —                                                                                                     |
+| Germany          | Reliable data not available                                                                                                                                                                                                                    | Reliable data not available                                                                                                           | Reliable data not available                                                             | —                                                                                                     |
+| UAE/Gulf         | Reliable data not available                                                                                                                                                                                                                    | Reliable data not available                                                                                                           | Reliable data not available                                                             | —                                                                                                     |
+| Singapore        | Reliable data not available                                                                                                                                                                                                                    | Reliable data not available                                                                                                           | Reliable data not available                                                             | —                                                                                                     |
+| Canada           | Reliable data not available                                                                                                                                                                                                                    | Reliable data not available                                                                                                           | Reliable data not available                                                             | —                                                                                                     |
+| Australia        | Reliable data not available                                                                                                                                                                                                                    | Reliable data not available                                                                                                           | Reliable data not available                                                             | —                                                                                                     |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                             |
+| ------------------------- | ------------------------------------------------------------------ |
+| Remote availability       | High                                                               |
+| Onsite-heavy niches       | Aerospace & Defense and other high-security-clearance environments |
+| Freelance/contract market | Present, similar to general DevOps                                 |
+
+**Top Employers by Region**
+
+| Region | Companies                                                                                                                                                                |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| India  | Google, Amazon, Microsoft (top MNCs, highest pay tier); Flipkart, Zomato, CRED (Indian product companies, mid-high tier); TCS, Infosys, Wipro (IT services, lowest tier) |
+| USA    | Truist and other financial-services/aerospace-defense employers cited among top payers                                                                                   |
+
+**Tools & Technologies**
+
+| Category       | Tools                                                                         |
+| -------------- | ----------------------------------------------------------------------------- |
+| Core skills    | CI/CD pipeline security integration, Infrastructure as Code security scanning |
+| Tools          | Terraform, Kubernetes, security-scanning tools integrated into CI/CD          |
+| Certifications | Cloud security certifications combined with DevOps credentials                |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                                                 |
+| ------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| Technical     | Security automation, vulnerability scanning integration, compliance-as-code                                            |
+| Complementary | Bridging security and engineering team priorities, communicating risk to both technical and non-technical stakeholders |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                        |
+| ------------------ | ------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Moderate–High — requires competency in both DevOps/infrastructure and security domains simultaneously         |
+| Time-to-competency | 2–3 years, typically transitioning from either a DevOps or a security background                              |
+| Earning ceiling    | High — consistently commands a premium over general DevOps roles across every source that made the comparison |
+
+**Risks**
+
+| Risk                       | Detail                                                                                                                                                                                                                             |
+| -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Local market absence       | No dedicated DevSecOps salary or job-title data could be found for Bangladesh, suggesting this remains an emerging, not-yet-distinctly-titled specialization locally (likely still folded into general "DevOps Engineer" postings) |
+| Salary source disagreement | Even within the well-documented US market, aggregators disagree by as much as \$50,000 on "average" pay for this exact title, more than most other sub-domains researched                                                          |
+| Automation                 | Low — this role exists specifically to manage security automation, making it relatively insulated from being automated away itself                                                                                                 |
 
 ---
 
