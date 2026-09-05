@@ -36,6 +36,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
     - [Sub-domain: Network Engineering](#sub-domain-network-engineering)
     - [Sub-domain: Cloud Security Engineering](#sub-domain-cloud-security-engineering)
+    - [Sub-domain: Cybersecurity — Offensive / Penetration Testing](#sub-domain-cybersecurity--offensive--penetration-testing)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
   - [Sources \& Data Reliability Notes](#sources--data-reliability-notes)
@@ -1488,73 +1489,148 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 **Market Trend (Historical → Current → Forecast)**
 
-| Period | Global Market Size | Growth Rate | Source Variance |
-|---|---|---|---|
-| 2019 | Cloud security market ~\$5bn | — | Early-stage, distinct from general cloud security spend |
-| 2023 | ~\$25bn–\$35bn | ~25% CAGR | Moderate |
-| 2026 (current) | Not separately isolated in this research; sits within the broader cybersecurity market (~\$200bn–\$360bn) as one of its fastest-growing segments | ~25% CAGR (directional, cloud security specifically) | Cloud security is described as having "overtaken traditional perimeter security" as the highest-paying cyber specialization in some markets |
-| 2030+ (forecast) | Expected to continue outpacing general cybersecurity growth as cloud adoption approaches near-universal enterprise levels (94% enterprise cloud adoption cited) | — | — |
+| Period           | Global Market Size                                                                                                                                              | Growth Rate                                          | Source Variance                                                                                                                             |
+| ---------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2019             | Cloud security market ~\$5bn                                                                                                                                    | —                                                    | Early-stage, distinct from general cloud security spend                                                                                     |
+| 2023             | ~\$25bn–\$35bn                                                                                                                                                  | ~25% CAGR                                            | Moderate                                                                                                                                    |
+| 2026 (current)   | Not separately isolated in this research; sits within the broader cybersecurity market (~\$200bn–\$360bn) as one of its fastest-growing segments                | ~25% CAGR (directional, cloud security specifically) | Cloud security is described as having "overtaken traditional perimeter security" as the highest-paying cyber specialization in some markets |
+| 2030+ (forecast) | Expected to continue outpacing general cybersecurity growth as cloud adoption approaches near-universal enterprise levels (94% enterprise cloud adoption cited) | —                                                    | —                                                                                                                                           |
 
 **Salary by Region (Annual, USD-equivalent)**
 
-| Region | Entry-Level | Mid-Level | Senior-Level | Source Variance |
-|---|---|---|---|---|
-| Bangladesh | \$1,900–\$8,600* | \$8,600–\$25,000* | \$25,000–\$36,000+* | Very High — *no dedicated "Cloud Security Engineer" title data found for Dhaka; using closest proxy ("Network Security Engineer" at telecom/government employers like GrameenPhone and Bangladesh Computer Council), which itself shows extreme spread (BDT 16K–121K/month) |
-| India | \$6,000–\$10,800 (fresher) | \$14,400–\$30,000 (AWS/Azure-certified mid-level) | \$34,000–\$96,000 (senior/architect, CCSP-certified reaching top of range) | High — platform choice (AWS vs. Azure vs. GCP) and certification status each shift pay meaningfully; AWS has the highest hiring volume in Bangalore per one source |
-| USA | \$110,000–\$135,000 | \$135,000–\$215,000 | \$215,000–\$300,000+ | Moderate — multiple sources cluster reasonably around \$105,000–\$215,000 base |
-| UK | Reliable data not available | Reliable data not available | Reliable data not available | — |
-| Germany | Reliable data not available | Reliable data not available | Reliable data not available | — |
-| UAE/Gulf | Reliable data not available | Reliable data not available | Reliable data not available | — |
-| Singapore | Reliable data not available | Reliable data not available | Reliable data not available | — |
-| China | Reliable data not available | Reliable data not available | Reliable data not available | — |
-| Canada | Reliable data not available | Reliable data not available | Reliable data not available | — |
+| Region     | Entry-Level                 | Mid-Level                                         | Senior-Level                                                               | Source Variance                                                                                                                                                                                                                                                              |
+| ---------- | --------------------------- | ------------------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | \$1,900–\$8,600\*           | \$8,600–\$25,000\*                                | \$25,000–\$36,000+\*                                                       | Very High — \*no dedicated "Cloud Security Engineer" title data found for Dhaka; using closest proxy ("Network Security Engineer" at telecom/government employers like GrameenPhone and Bangladesh Computer Council), which itself shows extreme spread (BDT 16K–121K/month) |
+| India      | \$6,000–\$10,800 (fresher)  | \$14,400–\$30,000 (AWS/Azure-certified mid-level) | \$34,000–\$96,000 (senior/architect, CCSP-certified reaching top of range) | High — platform choice (AWS vs. Azure vs. GCP) and certification status each shift pay meaningfully; AWS has the highest hiring volume in Bangalore per one source                                                                                                           |
+| USA        | \$110,000–\$135,000         | \$135,000–\$215,000                               | \$215,000–\$300,000+                                                       | Moderate — multiple sources cluster reasonably around \$105,000–\$215,000 base                                                                                                                                                                                               |
+| UK         | Reliable data not available | Reliable data not available                       | Reliable data not available                                                | —                                                                                                                                                                                                                                                                            |
+| Germany    | Reliable data not available | Reliable data not available                       | Reliable data not available                                                | —                                                                                                                                                                                                                                                                            |
+| UAE/Gulf   | Reliable data not available | Reliable data not available                       | Reliable data not available                                                | —                                                                                                                                                                                                                                                                            |
+| Singapore  | Reliable data not available | Reliable data not available                       | Reliable data not available                                                | —                                                                                                                                                                                                                                                                            |
+| China      | Reliable data not available | Reliable data not available                       | Reliable data not available                                                | —                                                                                                                                                                                                                                                                            |
+| Canada     | Reliable data not available | Reliable data not available                       | Reliable data not available                                                | —                                                                                                                                                                                                                                                                            |
 
 **Job Opportunity & Work Mode**
 
-| Metric | Detail |
-|---|---|
-| Remote availability | High |
-| Onsite-heavy niches | Highly regulated industries (banking, government) with strict data-residency and compliance requirements |
-| Freelance/contract market | Present, though less common than general cloud engineering |
+| Metric                    | Detail                                                                                                   |
+| ------------------------- | -------------------------------------------------------------------------------------------------------- |
+| Remote availability       | High                                                                                                     |
+| Onsite-heavy niches       | Highly regulated industries (banking, government) with strict data-residency and compliance requirements |
+| Freelance/contract market | Present, though less common than general cloud engineering                                               |
 
 **Top Employers by Region**
 
-| Region | Companies |
-|---|---|
-| Bangladesh | GrameenPhone, Bangladesh Computer Council, Bkash (general cyber security roles) |
-| India | Razorpay, Cred, Swiggy, Flipkart, FAANG India captive centers, and Big-4 cloud audit practices |
-| USA | Broad demand across Information Technology and Financial Services, which are cited as the top-paying industries for this role |
+| Region     | Companies                                                                                                                     |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | GrameenPhone, Bangladesh Computer Council, Bkash (general cyber security roles)                                               |
+| India      | Razorpay, Cred, Swiggy, Flipkart, FAANG India captive centers, and Big-4 cloud audit practices                                |
+| USA        | Broad demand across Information Technology and Financial Services, which are cited as the top-paying industries for this role |
 
 **Tools & Technologies**
 
-| Category | Tools |
-|---|---|
-| Platforms | AWS, Azure, GCP security services |
+| Category       | Tools                                                                                                                                                              |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Platforms      | AWS, Azure, GCP security services                                                                                                                                  |
 | Certifications | AWS Certified Security – Specialty (SCS-C02), Microsoft AZ-500, CCSP (Certified Cloud Security Professional — unlocks the architect-level pay tier per one source) |
-| Core skills | Identity and access management (IAM), encryption, security posture management, compliance automation |
+| Core skills    | Identity and access management (IAM), encryption, security posture management, compliance automation                                                               |
 
 **Skills & Abilities**
 
-| Type | Skills |
-|---|---|
-| Technical | Cloud-native security architecture, threat modeling, compliance frameworks (SOC 2, ISO 27001) |
-| Complementary | Cross-functional work with both security and platform/DevOps teams |
+| Type          | Skills                                                                                        |
+| ------------- | --------------------------------------------------------------------------------------------- |
+| Technical     | Cloud-native security architecture, threat modeling, compliance frameworks (SOC 2, ISO 27001) |
+| Complementary | Cross-functional work with both security and platform/DevOps teams                            |
 
 **Trade-offs & Limitations**
 
-| Factor | Detail |
-|---|---|
-| Entry barrier | Moderate–High — typically requires foundational cloud engineering knowledge plus security specialization on top |
-| Time-to-competency | 1.5–3 years, often via a general cloud or security role first |
-| Earning ceiling | Very high — consistently described as commanding a premium over general cloud engineering and general cybersecurity roles alike |
+| Factor             | Detail                                                                                                                          |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Moderate–High — typically requires foundational cloud engineering knowledge plus security specialization on top                 |
+| Time-to-competency | 1.5–3 years, often via a general cloud or security role first                                                                   |
+| Earning ceiling    | Very high — consistently described as commanding a premium over general cloud engineering and general cybersecurity roles alike |
 
 **Risks**
 
-| Risk | Detail |
-|---|---|
-| Local title absence | No dedicated "Cloud Security Engineer" job title data could be found for Bangladesh specifically, suggesting this remains an emerging specialization locally rather than an established job category |
-| Certification dependency | Career progression in this field is unusually certification-gated (specific certs unlock specific pay tiers), more so than many other sub-domains |
-| Automation | Low — security architecture and compliance judgment are considered relatively automation-resistant |
+| Risk                     | Detail                                                                                                                                                                                               |
+| ------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Local title absence      | No dedicated "Cloud Security Engineer" job title data could be found for Bangladesh specifically, suggesting this remains an emerging specialization locally rather than an established job category |
+| Certification dependency | Career progression in this field is unusually certification-gated (specific certs unlock specific pay tiers), more so than many other sub-domains                                                    |
+| Automation               | Low — security architecture and compliance judgment are considered relatively automation-resistant                                                                                                   |
+
+---
+
+### Sub-domain: Cybersecurity — Offensive / Penetration Testing
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                                                     | Growth Rate                | Source Variance                                                                  |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------- | -------------------------------------------------------------------------------- |
+| 2018             | Penetration testing market ~\$1.5bn                                                                                                                    | —                          | Narrow definition                                                                |
+| 2023             | ~\$2.5bn–\$3bn                                                                                                                                         | ~13–15% CAGR               | Moderate                                                                         |
+| 2026 (current)   | Not separately isolated in this research; sits within the broader \$200bn–\$360bn cybersecurity market as a specialized service line                   | ~13–15% CAGR (directional) | This sub-domain is best measured via certification-linked salary and demand data |
+| 2030+ (forecast) | BLS projects 33% growth in information security roles broadly through 2033, with penetration testing as one of the specializations driving that demand | —                          | —                                                                                |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                                                                                                                        | Mid-Level                         | Senior-Level                                                                | Source Variance                                                                                                                                                                                               |
+| ---------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | \$1,500–\$4,000 (local employer-based roles, thin sample) / \$10–\$40/hour (freelance/Upwork rates, common for this field locally) | \$6,000–\$12,000                  | \$12,000–\$36,000+ (broad "Ethical Hacker" title, very wide reported range) | Very High — local employer-based salary data is extremely thin (2 Glassdoor submissions for one query); freelance/contract work appears to be a more common income path in Bangladesh for this specific field |
+| India      | \$4,200–\$9,600 (CEH-only, fresher)                                                                                                | \$9,600–\$24,000 (OSCP-certified) | \$24,000–\$60,000 (senior/red-team lead, GCC/BFSI)                          | High — certification status (CEH vs. OSCP) creates a consistent, well-documented pay gap across nearly every source                                                                                           |
+| USA        | \$70,000–\$96,000                                                                                                                  | \$96,000–\$143,000                | \$143,000–\$200,000+                                                        | Moderate — sources agree reasonably on shape, citing PCI DSS 4.0 and SOC 2 compliance demand as a driver                                                                                                      |
+| UK         | £30,000–£47,500                                                                                                                    | £47,500–£75,000                   | £75,000–£110,000+                                                           | Moderate                                                                                                                                                                                                      |
+| Germany    | €58,000+ (broad estimate)                                                                                                          | Reliable data not available       | Reliable data not available                                                 | Single-source                                                                                                                                                                                                 |
+| UAE/Gulf   | AED 168,000+ (broad estimate)                                                                                                      | Reliable data not available       | Reliable data not available                                                 | Single-source                                                                                                                                                                                                 |
+| Singapore  | ~S\$58,000+ (broad estimate)                                                                                                       | Reliable data not available       | Reliable data not available                                                 | Single-source                                                                                                                                                                                                 |
+| Canada     | ~C\$78,000+ (broad estimate)                                                                                                       | Reliable data not available       | Reliable data not available                                                 | Single-source                                                                                                                                                                                                 |
+| Australia  | ~AU\$87,000+ (broad estimate)                                                                                                      | Reliable data not available       | Reliable data not available                                                 | Single-source                                                                                                                                                                                                 |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                                                                                                                                             |
+| ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Remote availability       | High for many engagements; some require on-site access for physical/network penetration testing                                                                                                    |
+| Onsite-heavy niches       | Physical security testing, air-gapped/critical infrastructure environments                                                                                                                         |
+| Freelance/contract market | Very Strong — bug bounty programs (HackerOne and similar platforms) provide a recognized supplementary or primary income path, cited as adding significant income on top of a base salary in India |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                                                                                         |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | A significant portion of this field's income locally appears to flow through freelance platforms (Upwork) rather than traditional local employers |
+| India      | TCS, Infosys, IBM, and specialized security consultancies                                                                                         |
+| USA        | Broad demand across all industries handling sensitive data, with compliance-driven hiring (PCI DSS, SOC 2) as a strong driver                     |
+
+**Tools & Technologies**
+
+| Category       | Tools                                                                                                                           |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Core tools     | Kali Linux, Metasploit, Burp Suite, Nmap                                                                                        |
+| Certifications | CEH (Certified Ethical Hacker, entry-level), OSCP (Offensive Security Certified Professional, the stronger salary driver), GPEN |
+| Skills         | OWASP Top 10, web application security, network penetration testing, digital forensics                                          |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                             |
+| ------------- | -------------------------------------------------------------------------------------------------- |
+| Technical     | Vulnerability assessment, exploit development, report writing, scripting (Python/Bash)             |
+| Complementary | Ethical judgment and legal awareness, clear technical communication for non-technical stakeholders |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                        |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Moderate — CEH provides an accessible entry certification, though real hiring value comes from hands-on skill and OSCP        |
+| Time-to-competency | 1–2 years to reach OSCP-level competency                                                                                      |
+| Earning ceiling    | High for OSCP-certified and specialized (red team, bug bounty) professionals; CEH-only professionals see a much lower ceiling |
+
+**Risks**
+
+| Risk                               | Detail                                                                                                                                                                                                          |
+| ---------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Certification value gap            | CEH alone provides limited salary uplift; OSCP is consistently identified across sources as the certification that actually moves pay significantly — CEH-only professionals risk a lower ceiling than expected |
+| Automation                         | Low — this field is adversarial and judgment-heavy by nature, considered relatively automation-resistant                                                                                                        |
+| Income volatility (freelance path) | For those relying on bug bounty or freelance income, earnings are inherently inconsistent compared to salaried roles                                                                                            |
+| Local market thinness              | Bangladesh-specific salaried employer data is extremely thin, suggesting freelance/international-client work may currently be the more viable income path locally                                               |
 
 ---
 
