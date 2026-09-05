@@ -20,6 +20,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: MLOps](#sub-domain-mlops)
     - [Sub-domain: Data Science / Business Intelligence](#sub-domain-data-science--business-intelligence)
     - [Sub-domain: Generative AI / Agentic AI / Prompt Engineering](#sub-domain-generative-ai--agentic-ai--prompt-engineering)
+    - [Sub-domain: AI Research (Applied Science)](#sub-domain-ai-research-applied-science)
   - [Major 2: Software Development (SD)](#major-2-software-development-sd)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
@@ -486,6 +487,77 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | Title volatility              | Role definitions and titles are shifting quickly year to year                                                                      |
 | Automation (self-referential) | This field builds the tools that automate other roles, but the engineers building it remain in high demand themselves              |
 | Company-tier pay gap          | In Bangladesh specifically, the gap between local-market and export/remote-serving firm pay is unusually large for this sub-domain |
+
+### Sub-domain: AI Research (Applied Science)
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                    | Growth Rate | Source Variance                                                                             |
+| ---------------- | ------------------------------------------------------------------------------------- | ----------- | ------------------------------------------------------------------------------------------- |
+| 2018             | Not tracked as a separate market — folded into corporate R&D spending                 | —           | —                                                                                           |
+| 2023             | AI corporate investment ~\$93.5bn (total, not research-specific)                      | —           | Broad proxy only                                                                            |
+| 2026 (current)   | Not separately tracked; sits within broader AI market figures (see Master Comparison) | —           | This sub-domain is measured by headcount/salary trends rather than a standalone market size |
+| 2030+ (forecast) | Expected to scale with overall AI R&D investment, no isolated forecast available      | —           | —                                                                                           |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level (MS/PhD)                                                                         | Mid-Level                   | Senior-Level                            | Source Variance                                                                                 |
+| ---------- | -------------------------------------------------------------------------------------------- | --------------------------- | --------------------------------------- | ----------------------------------------------------------------------------------------------- |
+| Bangladesh | Reliable data not available — this role barely exists locally; typically requires relocation | Reliable data not available | Reliable data not available             | —                                                                                               |
+| India      | Reliable data not available — thin, mostly limited to a few MNC R&D centers                  | Reliable data not available | Reliable data not available             | —                                                                                               |
+| USA        | \$85,000–\$130,000 (Master's-level entry) / \$130,000–\$175,000 (PhD-level entry)            | \$175,000–\$250,000         | \$250,000–\$500,000+ (frontier AI labs) | Very High — Meta reported median of \$395,000 vs. broader market average of \$130,000–\$206,000 |
+| UK         | Reliable data not available                                                                  | Reliable data not available | Reliable data not available             | —                                                                                               |
+| Germany    | Reliable data not available                                                                  | Reliable data not available | Reliable data not available             | —                                                                                               |
+| UAE/Gulf   | Reliable data not available                                                                  | Reliable data not available | Reliable data not available             | —                                                                                               |
+| Singapore  | Reliable data not available                                                                  | Reliable data not available | Reliable data not available             | —                                                                                               |
+| China      | Reliable data not available                                                                  | Reliable data not available | Reliable data not available             | —                                                                                               |
+| Canada     | Reliable data not available                                                                  | Reliable data not available | Reliable data not available             | —                                                                                               |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                                          |
+| ------------------------- | ----------------------------------------------------------------------------------------------- |
+| Remote availability       | Low — most frontier research roles require in-person lab/office presence                        |
+| Onsite-heavy niches       | Nearly all — this is one of the least remote-friendly sub-domains in AI                         |
+| Freelance/contract market | Minimal — this role is almost exclusively full-time employment at research labs or universities |
+
+**Top Employers by Region**
+
+| Region | Companies                                                                                                                      |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------ |
+| USA    | Meta, Google DeepMind, OpenAI, Anthropic, Intel, Two Sigma, JPMorgan Chase, Genentech                                          |
+| Global | Top employers are concentrated in a small number of frontier AI labs and university-affiliated research institutions worldwide |
+
+**Tools & Technologies**
+
+| Category        | Tools                                                                         |
+| --------------- | ----------------------------------------------------------------------------- |
+| Languages       | Python, sometimes C++/CUDA for performance-critical research code             |
+| Frameworks      | PyTorch (dominant in research), JAX                                           |
+| Research skills | Experimental design, statistical significance testing, academic paper writing |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                                         |
+| ------------- | ---------------------------------------------------------------------------------------------- |
+| Technical     | Deep theoretical understanding of ML/deep learning, novel algorithm design, mathematical rigor |
+| Complementary | Academic writing, peer review, long-horizon project patience                                   |
+
+**Trade-offs & Limitations**
+
+| Factor                | Detail                                                                                                                                                                   |
+| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Entry barrier         | Very High — PhD strongly preferred, especially at top labs                                                                                                               |
+| Time-to-competency    | 4–7 years (typical PhD track plus postdoc/early career)                                                                                                                  |
+| Geographic constraint | Concentrated in a handful of global AI hubs (San Francisco Bay Area, London, a few others); very limited opportunity in Bangladesh or similar markets without relocation |
+
+**Risks**
+
+| Risk                      | Detail                                                                                                                   |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
+| Extreme pay variance      | Compensation at frontier labs vs. broader industry/academia can differ by 3–5x for similar seniority                     |
+| Narrow opportunity funnel | Very few positions exist globally relative to demand from PhD graduates                                                  |
+| Career risk               | Research career paths are less standardized than engineering roles; publication record and lab reputation matter heavily |
 
 ---
 
