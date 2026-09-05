@@ -14,42 +14,42 @@ A data-driven comparison of the four major CSE specializations, built for studen
   - [Table of Contents](#table-of-contents)
   - [How to Use This Guide](#how-to-use-this-guide)
   - [Major 1: Artificial Intelligence (AI)](#major-1-artificial-intelligence-ai)
-    - [Sub-domain: Machine Learning Engineering](#sub-domain-machine-learning-engineering)
-    - [Sub-domain: NLP / LLM Engineering](#sub-domain-nlp--llm-engineering)
-    - [Sub-domain: Computer Vision](#sub-domain-computer-vision)
-    - [Sub-domain: MLOps](#sub-domain-mlops)
-    - [Sub-domain: Data Science / Business Intelligence](#sub-domain-data-science--business-intelligence)
-    - [Sub-domain: Generative AI / Agentic AI / Prompt Engineering](#sub-domain-generative-ai--agentic-ai--prompt-engineering)
-    - [Sub-domain: AI Research (Applied Science)](#sub-domain-ai-research-applied-science)
-    - [Sub-domain: AI Infrastructure / GPU-Cloud Engineering](#sub-domain-ai-infrastructure--gpu-cloud-engineering)
+    - [Sub-domain 01: Machine Learning Engineering](#sub-domain-01-machine-learning-engineering)
+    - [Sub-domain 02: NLP / LLM Engineering](#sub-domain-02-nlp--llm-engineering)
+    - [Sub-domain 03: Computer Vision](#sub-domain-03-computer-vision)
+    - [Sub-domain 04: MLOps](#sub-domain-04-mlops)
+    - [Sub-domain 05: Data Science / Business Intelligence](#sub-domain-05-data-science--business-intelligence)
+    - [Sub-domain 06: Generative AI / Agentic AI / Prompt Engineering](#sub-domain-06-generative-ai--agentic-ai--prompt-engineering)
+    - [Sub-domain 07: AI Research (Applied Science)](#sub-domain-07-ai-research-applied-science)
+    - [Sub-domain 08: AI Infrastructure / GPU-Cloud Engineering](#sub-domain-08-ai-infrastructure--gpu-cloud-engineering)
   - [Major 2: Software Development (SD)](#major-2-software-development-sd)
-    - [Sub-domain: Frontend Engineering](#sub-domain-frontend-engineering)
-    - [Sub-domain: Backend Engineering](#sub-domain-backend-engineering)
-    - [Sub-domain: Full-Stack Engineering](#sub-domain-full-stack-engineering)
-    - [Sub-domain: Mobile App Development (iOS/Android/Cross-Platform)](#sub-domain-mobile-app-development-iosandroidcross-platform)
-    - [Sub-domain: DevOps / Site Reliability Engineering (SRE)](#sub-domain-devops--site-reliability-engineering-sre)
-    - [Sub-domain: Cloud / Platform Engineering](#sub-domain-cloud--platform-engineering)
-    - [Sub-domain: QA / Test Automation Engineering](#sub-domain-qa--test-automation-engineering)
-    - [Sub-domain: Software Architecture / Systems Design](#sub-domain-software-architecture--systems-design)
-    - [Sub-domain: Blockchain / Web3 Development](#sub-domain-blockchain--web3-development)
-    - [Sub-domain: Game Development](#sub-domain-game-development)
+    - [Sub-domain 01: Frontend Engineering](#sub-domain-01-frontend-engineering)
+    - [Sub-domain 02: Backend Engineering](#sub-domain-02-backend-engineering)
+    - [Sub-domain 03: Full-Stack Engineering](#sub-domain-03-full-stack-engineering)
+    - [Sub-domain 04: Mobile App Development (iOS/Android/Cross-Platform)](#sub-domain-04-mobile-app-development-iosandroidcross-platform)
+    - [Sub-domain 05: DevOps / Site Reliability Engineering (SRE)](#sub-domain-05-devops--site-reliability-engineering-sre)
+    - [Sub-domain 06: Cloud / Platform Engineering](#sub-domain-06-cloud--platform-engineering)
+    - [Sub-domain 07: QA / Test Automation Engineering](#sub-domain-07-qa--test-automation-engineering)
+    - [Sub-domain 08: Software Architecture / Systems Design](#sub-domain-08-software-architecture--systems-design)
+    - [Sub-domain 09: Blockchain / Web3 Development](#sub-domain-09-blockchain--web3-development)
+    - [Sub-domain 10: Game Development](#sub-domain-10-game-development)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
-    - [Sub-domain: Network Engineering](#sub-domain-network-engineering)
-    - [Sub-domain: Cloud Security Engineering](#sub-domain-cloud-security-engineering)
-    - [Sub-domain: Cybersecurity — Offensive / Penetration Testing](#sub-domain-cybersecurity--offensive--penetration-testing)
-    - [Sub-domain: Cybersecurity — Defensive / SOC (Security Operations Center)](#sub-domain-cybersecurity--defensive--soc-security-operations-center)
-    - [Sub-domain: Telecom / 5G Engineering](#sub-domain-telecom--5g-engineering)
-    - [Sub-domain: DevSecOps](#sub-domain-devsecops)
-    - [Sub-domain: IT/Network Support \& Systems Administration](#sub-domain-itnetwork-support--systems-administration)
+    - [Sub-domain 01: Network Engineering](#sub-domain-01-network-engineering)
+    - [Sub-domain 02: Cloud Security Engineering](#sub-domain-02-cloud-security-engineering)
+    - [Sub-domain 03: Cybersecurity — Offensive / Penetration Testing](#sub-domain-03-cybersecurity--offensive--penetration-testing)
+    - [Sub-domain 04: Cybersecurity — Defensive / SOC (Security Operations Center)](#sub-domain-04-cybersecurity--defensive--soc-security-operations-center)
+    - [Sub-domain 05: Telecom / 5G Engineering](#sub-domain-05-telecom--5g-engineering)
+    - [Sub-domain 06: DevSecOps](#sub-domain-06-devsecops)
+    - [Sub-domain 07: IT/Network Support \& Systems Administration](#sub-domain-07-itnetwork-support--systems-administration)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
-    - [Sub-domain: Firmware Engineering](#sub-domain-firmware-engineering)
-    - [Sub-domain: IoT Systems Engineering](#sub-domain-iot-systems-engineering)
-    - [Sub-domain: Robotics Software Engineering (ROS-based)](#sub-domain-robotics-software-engineering-ros-based)
-    - [Sub-domain: VLSI / Chip Design](#sub-domain-vlsi--chip-design)
-    - [Sub-domain: Mechatronics / Industrial Automation](#sub-domain-mechatronics--industrial-automation)
-    - [Sub-domain: Autonomous Systems (Drones, Self-Driving-Adjacent)](#sub-domain-autonomous-systems-drones-self-driving-adjacent)
-    - [Sub-domain: Edge AI / TinyML](#sub-domain-edge-ai--tinyml)
-    - [Sub-domain: Embedded Systems Testing / Validation](#sub-domain-embedded-systems-testing--validation)
+    - [Sub-domain 01: Firmware Engineering](#sub-domain-01-firmware-engineering)
+    - [Sub-domain 02: IoT Systems Engineering](#sub-domain-02-iot-systems-engineering)
+    - [Sub-domain 03: Robotics Software Engineering (ROS-based)](#sub-domain-03-robotics-software-engineering-ros-based)
+    - [Sub-domain 04: VLSI / Chip Design](#sub-domain-04-vlsi--chip-design)
+    - [Sub-domain 05: Mechatronics / Industrial Automation](#sub-domain-05-mechatronics--industrial-automation)
+    - [Sub-domain 06: Autonomous Systems (Drones, Self-Driving-Adjacent)](#sub-domain-06-autonomous-systems-drones-self-driving-adjacent)
+    - [Sub-domain 07: Edge AI / TinyML](#sub-domain-07-edge-ai--tinyml)
+    - [Sub-domain 08: Embedded Systems Testing / Validation](#sub-domain-08-embedded-systems-testing--validation)
   - [Master Comparison Tables](#master-comparison-tables)
     - [Table 1 — Quick Overview by Major](#table-1--quick-overview-by-major)
     - [Table 2 — Global Market Size Snapshot (2026, where available)](#table-2--global-market-size-snapshot-2026-where-available)
@@ -78,7 +78,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ## Major 1: Artificial Intelligence (AI)
 
-### Sub-domain: Machine Learning Engineering
+### Sub-domain 01: Machine Learning Engineering
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -159,7 +159,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: NLP / LLM Engineering
+### Sub-domain 02: NLP / LLM Engineering
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -238,7 +238,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Computer Vision
+### Sub-domain 03: Computer Vision
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -311,7 +311,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: MLOps
+### Sub-domain 04: MLOps
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -384,7 +384,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Data Science / Business Intelligence
+### Sub-domain 05: Data Science / Business Intelligence
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -456,7 +456,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Generative AI / Agentic AI / Prompt Engineering
+### Sub-domain 06: Generative AI / Agentic AI / Prompt Engineering
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -530,7 +530,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: AI Research (Applied Science)
+### Sub-domain 07: AI Research (Applied Science)
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -603,7 +603,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: AI Infrastructure / GPU-Cloud Engineering
+### Sub-domain 08: AI Infrastructure / GPU-Cloud Engineering
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -679,7 +679,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ## Major 2: Software Development (SD)
 
-### Sub-domain: Frontend Engineering
+### Sub-domain 01: Frontend Engineering
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -754,7 +754,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Backend Engineering
+### Sub-domain 02: Backend Engineering
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -828,7 +828,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Full-Stack Engineering
+### Sub-domain 03: Full-Stack Engineering
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -902,7 +902,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Mobile App Development (iOS/Android/Cross-Platform)
+### Sub-domain 04: Mobile App Development (iOS/Android/Cross-Platform)
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -976,7 +976,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: DevOps / Site Reliability Engineering (SRE)
+### Sub-domain 05: DevOps / Site Reliability Engineering (SRE)
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -1051,7 +1051,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Cloud / Platform Engineering
+### Sub-domain 06: Cloud / Platform Engineering
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -1125,7 +1125,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: QA / Test Automation Engineering
+### Sub-domain 07: QA / Test Automation Engineering
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -1200,7 +1200,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Software Architecture / Systems Design
+### Sub-domain 08: Software Architecture / Systems Design
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -1274,7 +1274,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Blockchain / Web3 Development
+### Sub-domain 09: Blockchain / Web3 Development
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -1349,7 +1349,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Game Development
+### Sub-domain 10: Game Development
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -1427,7 +1427,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ## Major 3: Network & Communication (NC)
 
-### Sub-domain: Network Engineering
+### Sub-domain 01: Network Engineering
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -1442,15 +1442,15 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 | Region     | Entry-Level                                                                                                                                                                 | Mid-Level                                                                                                     | Senior-Level                                                                                                | Source Variance                                                                                                                           |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Bangladesh | ৳2,07,000–৳4,27,000 (~$1,700–$3,500, general "Network Engineer" title) / ৳5,24,000–৳7,69,000 (~$4,300–$6,300, "Core Network Engineer" at telecom operators)                  | ৳7,69,000–৳10,86,000 (~$6,300–$8,900)                                                                            | ৳10,86,000–৳30,50,000+ (~$8,900–$25,000+)                                                                       | Very High — general network engineer titles pay far less than telecom-specific "Core Network Engineer" roles at operators like Banglalink |
-| India      | ₹2.8–6.0 LPA (~$3,300–$7,200, fresher)                                                                                                                                       | ₹7.1–18.1 LPA (~$8,400–$21,600, cloud-specialization commanding upper end)                                       | ₹18.1–35.3 LPA+ (~$21,600–$42,000+)                                                                             | High — cloud-networking specialization adds a meaningful premium over traditional routing/switching roles                                 |
-| USA        | $50,000–$95,000 (CCNA-level entry)                                                                                                                                          | $95,000–$145,000 (CCNP-level, cloud-skilled)                                                                     | $145,000–$253,000+                                                                                              | Moderate — sources agree reasonably well on the shape, with cloud/automation skills adding a clear premium                                |
-| UK         | £32,000–£55,000 (~$40,500–$69,600)                                                                                                                                          | £37,000–£69,000 (~$46,800–$87,300)                                                                               | £78,000–£139,000+ (~$98,700–$176,000+, London senior)                                                          | Moderate                                                                                                                                  |
-| Germany    | €45,000–€70,000 (~$48,900–$76,100)                                                                                                                                          | €48,000–€78,000 (~$52,200–$84,800)                                                                               | €78,000+ (~$84,800+)                                                                                            | Moderate                                                                                                                                  |
-| UAE/Gulf   | AED 80,000–150,000 (~$21,800–$40,900, often tax-free) / AED 90,000–200,000 (~$24,500–$54,500, broader estimate)                                                             | AED 150,000–220,000 (~$40,900–$60,000)                                                                           | AED 220,000–320,000+ (~$60,000–$87,200+)                                                                        | Moderate–High — job boards (jobxdubai) and Glassdoor's Dubai senior sample (AED 139K–212K/yr) diverge noticeably; treat as directional     |
-| Singapore  | S$44,000–56,000 (~$32,600–$41,500)                                                                                                                                          | S$56,000–75,000 (~$41,500–$55,600)                                                                              | S$75,000–110,000+ (~$55,600–$81,500+)                                                                           | Moderate — entry/mid from Talent.com (10,000 salaries); senior extrapolated above Talent.com's reported ceiling using typical senior premium |
-| Canada     | C$55,000–105,000 (~$40,100–$76,600)                                                                                                                                         | C$65,000–104,000 (~$47,400–$75,900)                                                                              | C$104,000–145,000+ (~$75,900–$105,800+)                                                                         | Moderate — mid-level from PayScale (48 profiles, median C$88K); senior estimated by extrapolating typical premium above mid-career data      |
-| Australia  | AU$70,000–115,000 (~$45,500–$74,700)                                                                                                                                        | AU$80,000–115,000 (~$51,900–$74,700)                                                                             | AU$115,000–150,000+ (~$74,700–$97,400+)                                                                         | Moderate — mid/senior from PayScale (average ~AU$88,718; 90th percentile ~AU$128,000)                                                       |
+| Bangladesh | ৳2,07,000–৳4,27,000 (~\$1,700–\$3,500, general "Network Engineer" title) / ৳5,24,000–৳7,69,000 (~\$4,300–\$6,300, "Core Network Engineer" at telecom operators)                  | ৳7,69,000–৳10,86,000 (~\$6,300–\$8,900)                                                                            | ৳10,86,000–৳30,50,000+ (~\$8,900–\$25,000+)                                                                       | Very High — general network engineer titles pay far less than telecom-specific "Core Network Engineer" roles at operators like Banglalink |
+| India      | ₹2.8–6.0 LPA (~\$3,300–\$7,200, fresher)                                                                                                                                       | ₹7.1–18.1 LPA (~\$8,400–\$21,600, cloud-specialization commanding upper end)                                       | ₹18.1–35.3 LPA+ (~\$21,600–\$42,000+)                                                                             | High — cloud-networking specialization adds a meaningful premium over traditional routing/switching roles                                 |
+| USA        | \$50,000–\$95,000 (CCNA-level entry)                                                                                                                                          | \$95,000–\$145,000 (CCNP-level, cloud-skilled)                                                                     | \$145,000–\$253,000+                                                                                              | Moderate — sources agree reasonably well on the shape, with cloud/automation skills adding a clear premium                                |
+| UK         | £32,000–£55,000 (~\$40,500–\$69,600)                                                                                                                                          | £37,000–£69,000 (~\$46,800–\$87,300)                                                                               | £78,000–£139,000+ (~\$98,700–\$176,000+, London senior)                                                          | Moderate                                                                                                                                  |
+| Germany    | €45,000–€70,000 (~\$48,900–\$76,100)                                                                                                                                          | €48,000–€78,000 (~\$52,200–\$84,800)                                                                               | €78,000+ (~\$84,800+)                                                                                            | Moderate                                                                                                                                  |
+| UAE/Gulf   | AED 80,000–150,000 (~\$21,800–\$40,900, often tax-free) / AED 90,000–200,000 (~\$24,500–\$54,500, broader estimate)                                                             | AED 150,000–220,000 (~\$40,900–\$60,000)                                                                           | AED 220,000–320,000+ (~\$60,000–\$87,200+)                                                                        | Moderate–High — job boards (jobxdubai) and Glassdoor's Dubai senior sample (AED 139K–212K/yr) diverge noticeably; treat as directional     |
+| Singapore  | S$44,000–56,000 (~\$32,600–\$41,500)                                                                                                                                          | S$56,000–75,000 (~\$41,500–\$55,600)                                                                              | S$75,000–110,000+ (~\$55,600–\$81,500+)                                                                           | Moderate — entry/mid from Talent.com (10,000 salaries); senior extrapolated above Talent.com's reported ceiling using typical senior premium |
+| Canada     | C$55,000–105,000 (~\$40,100–\$76,600)                                                                                                                                         | C$65,000–104,000 (~\$47,400–\$75,900)                                                                              | C$104,000–145,000+ (~\$75,900–\$105,800+)                                                                         | Moderate — mid-level from PayScale (48 profiles, median C$88K); senior estimated by extrapolating typical premium above mid-career data      |
+| Australia  | AU$70,000–115,000 (~\$45,500–\$74,700)                                                                                                                                        | AU$80,000–115,000 (~\$51,900–\$74,700)                                                                             | AU$115,000–150,000+ (~\$74,700–\$97,400+)                                                                         | Moderate — mid/senior from PayScale (average ~AU$88,718; 90th percentile ~AU$128,000)                                                       |
 
 **Job Opportunity & Work Mode**
 
@@ -1501,7 +1501,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Cloud Security Engineering
+### Sub-domain 02: Cloud Security Engineering
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -1516,15 +1516,15 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 | Region     | Entry-Level                 | Mid-Level                                         | Senior-Level                                                               | Source Variance                                                                                                                                                                                                                                                              |
 | ---------- | --------------------------- | ------------------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Bangladesh | ৳2,32,000–৳10,49,000 (~$1,900–$8,600)\*           | ৳10,49,000–৳30,50,000 (~$8,600–$25,000)\*                                | ৳30,50,000–৳43,92,000+ (~$25,000–$36,000+)\*                                       | Very High — \*no dedicated "Cloud Security Engineer" title data found for Dhaka; using closest proxy ("Network Security Engineer" at telecom/government employers like GrameenPhone and Bangladesh Computer Council), which itself shows extreme spread (BDT 16K–121K/month) |
-| India      | ₹5.0–9.1 LPA (~$6,000–$10,800, fresher)  | ₹12.1–25.2 LPA (~$14,400–$30,000, AWS/Azure-certified mid-level) | ₹28.6–80.6 LPA (~$34,000–$96,000, senior/architect, CCSP-certified reaching top of range) | High — platform choice (AWS vs. Azure vs. GCP) and certification status each shift pay meaningfully; AWS has the highest hiring volume in Bangalore per one source                                                                                                           |
+| Bangladesh | ৳2,32,000–৳10,49,000 (~\$1,900–\$8,600)\*           | ৳10,49,000–৳30,50,000 (~\$8,600–\$25,000)\*                                | ৳30,50,000–৳43,92,000+ (~\$25,000–\$36,000+)\*                                       | Very High — \*no dedicated "Cloud Security Engineer" title data found for Dhaka; using closest proxy ("Network Security Engineer" at telecom/government employers like GrameenPhone and Bangladesh Computer Council), which itself shows extreme spread (BDT 16K–121K/month) |
+| India      | ₹5.0–9.1 LPA (~\$6,000–\$10,800, fresher)  | ₹12.1–25.2 LPA (~\$14,400–\$30,000, AWS/Azure-certified mid-level) | ₹28.6–80.6 LPA (~\$34,000–\$96,000, senior/architect, CCSP-certified reaching top of range) | High — platform choice (AWS vs. Azure vs. GCP) and certification status each shift pay meaningfully; AWS has the highest hiring volume in Bangalore per one source                                                                                                           |
 | USA        | \$110,000–\$135,000         | \$135,000–\$215,000                               | \$215,000–\$300,000+                                                       | Moderate — multiple sources cluster reasonably around \$105,000–\$215,000 base                                                                                                                                                                                               |
-| UK         | £40,000–£55,000 (~$50,600–$69,600) | £55,000–£80,000 (~$69,600–$101,300)                       | £80,000–£120,000+ (~$101,300–$151,900+)                                                | Moderate confidence — entry/mid from Talent.com UK sample (10,000 salaries); senior estimated above Talent.com's reported ceiling (£57K) using the cloud-security seniority premium seen elsewhere in this table |
-| Germany    | €35,000–€48,000 (~$38,000–$52,200) | €48,000–€65,000 (~$52,200–$70,700)                       | €65,000–€95,000+ (~$70,700–$103,300+)                                                | Moderate confidence — entry/mid from Talent.com Germany sample; senior estimated above the sample's reported ceiling (€55K)                                                                                                                                                                                          |
-| UAE/Gulf   | AED 90,000–150,000 (~$24,500–$40,900) | AED 150,000–240,000 (~$40,900–$65,400)                       | AED 240,000–380,000+ (~$65,400–$103,500+)                                                | Estimated — no cloud-security-specific UAE data found; based on Talent.com's general UAE "cyber security" data (avg AED 96K, range AED 72K–235K), shifted up for cloud specialization                                                                                                                                                                                            |
-| Singapore  | S$55,000–75,000 (~$40,700–$55,600) | S$75,000–110,000 (~$55,600–$81,500)                       | S$110,000–160,000+ (~$81,500–$118,500+)                                                | Estimated — no cloud-security-specific Singapore data found; based on Talent.com's general "cyber security" data (avg S$75K, range S$28.8K–84.6K), shifted up for cloud specialization                                                                                                                                                                                            |
-| China      | ¥210,000–280,000 (~$29,200–$38,900) | ¥350,000–480,000 (~$48,600–$66,700)                       | ¥480,000–650,000+ (~$66,700–$90,300+)                                                | Estimated — no cloud-security-specific China data found; based on China network engineer benchmarks (entry ¥181.6K, mid ¥320.5K, senior ¥455.4K per Worldsalaries/ERI) plus a typical security specialization premium                                                                                                                                                                                            |
-| Canada     | C$85,000–105,000 (~$62,000–$76,600) | C$105,000–135,000 (~$76,600–$98,500)                       | C$135,000–170,000+ (~$98,500–$124,100+)                                                | Moderate confidence — Talent.com Canada sample (avg C$120,668, range C$92.5K–147.8K), which skews mid/senior-heavy; entry inferred below the reported low                                                                                                                                                                                            |
+| UK         | £40,000–£55,000 (~\$50,600–\$69,600) | £55,000–£80,000 (~\$69,600–\$101,300)                       | £80,000–£120,000+ (~\$101,300–\$151,900+)                                                | Moderate confidence — entry/mid from Talent.com UK sample (10,000 salaries); senior estimated above Talent.com's reported ceiling (£57K) using the cloud-security seniority premium seen elsewhere in this table |
+| Germany    | €35,000–€48,000 (~\$38,000–\$52,200) | €48,000–€65,000 (~\$52,200–\$70,700)                       | €65,000–€95,000+ (~\$70,700–\$103,300+)                                                | Moderate confidence — entry/mid from Talent.com Germany sample; senior estimated above the sample's reported ceiling (€55K)                                                                                                                                                                                          |
+| UAE/Gulf   | AED 90,000–150,000 (~\$24,500–\$40,900) | AED 150,000–240,000 (~\$40,900–\$65,400)                       | AED 240,000–380,000+ (~\$65,400–\$103,500+)                                                | Estimated — no cloud-security-specific UAE data found; based on Talent.com's general UAE "cyber security" data (avg AED 96K, range AED 72K–235K), shifted up for cloud specialization                                                                                                                                                                                            |
+| Singapore  | S$55,000–75,000 (~\$40,700–\$55,600) | S$75,000–110,000 (~\$55,600–\$81,500)                       | S$110,000–160,000+ (~\$81,500–\$118,500+)                                                | Estimated — no cloud-security-specific Singapore data found; based on Talent.com's general "cyber security" data (avg S$75K, range S$28.8K–84.6K), shifted up for cloud specialization                                                                                                                                                                                            |
+| China      | ¥210,000–280,000 (~\$29,200–\$38,900) | ¥350,000–480,000 (~\$48,600–\$66,700)                       | ¥480,000–650,000+ (~\$66,700–\$90,300+)                                                | Estimated — no cloud-security-specific China data found; based on China network engineer benchmarks (entry ¥181.6K, mid ¥320.5K, senior ¥455.4K per Worldsalaries/ERI) plus a typical security specialization premium                                                                                                                                                                                            |
+| Canada     | C$85,000–105,000 (~\$62,000–\$76,600) | C$105,000–135,000 (~\$76,600–\$98,500)                       | C$135,000–170,000+ (~\$98,500–\$124,100+)                                                | Moderate confidence — Talent.com Canada sample (avg C$120,668, range C$92.5K–147.8K), which skews mid/senior-heavy; entry inferred below the reported low                                                                                                                                                                                            |
 
 **Job Opportunity & Work Mode**
 
@@ -1575,7 +1575,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Cybersecurity — Offensive / Penetration Testing
+### Sub-domain 03: Cybersecurity — Offensive / Penetration Testing
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -1590,15 +1590,15 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 | Region     | Entry-Level                                                                                                                        | Mid-Level                         | Senior-Level                                                                | Source Variance                                                                                                                                                                                               |
 | ---------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Bangladesh | ৳1,83,000–৳4,88,000 (~$1,500–$4,000, local employer-based roles, thin sample) / $10–$40/hour (freelance/Upwork rates, quoted in USD as is standard on that platform) | ৳7,32,000–৳14,64,000 (~$6,000–$12,000) | ৳14,64,000–৳43,92,000+ (~$12,000–$36,000+, broad "Ethical Hacker" title, very wide reported range) | Very High — local employer-based salary data is extremely thin (2 Glassdoor submissions for one query); freelance/contract work appears to be a more common income path in Bangladesh for this specific field |
-| India      | ₹3.5–8.1 LPA (~$4,200–$9,600, CEH-only, fresher)                                                                                   | ₹8.1–20.2 LPA (~$9,600–$24,000, OSCP-certified) | ₹20.2–50.4 LPA (~$24,000–$60,000, senior/red-team lead, GCC/BFSI)          | High — certification status (CEH vs. OSCP) creates a consistent, well-documented pay gap across nearly every source                                                                                           |
+| Bangladesh | ৳1,83,000–৳4,88,000 (~\$1,500–\$4,000, local employer-based roles, thin sample) / \$10–\$40/hour (freelance/Upwork rates, quoted in USD as is standard on that platform) | ৳7,32,000–৳14,64,000 (~\$6,000–\$12,000) | ৳14,64,000–৳43,92,000+ (~\$12,000–\$36,000+, broad "Ethical Hacker" title, very wide reported range) | Very High — local employer-based salary data is extremely thin (2 Glassdoor submissions for one query); freelance/contract work appears to be a more common income path in Bangladesh for this specific field |
+| India      | ₹3.5–8.1 LPA (~\$4,200–\$9,600, CEH-only, fresher)                                                                                   | ₹8.1–20.2 LPA (~\$9,600–\$24,000, OSCP-certified) | ₹20.2–50.4 LPA (~\$24,000–\$60,000, senior/red-team lead, GCC/BFSI)          | High — certification status (CEH vs. OSCP) creates a consistent, well-documented pay gap across nearly every source                                                                                           |
 | USA        | \$70,000–\$96,000                                                                                                                  | \$96,000–\$143,000                | \$143,000–\$200,000+                                                        | Moderate — sources agree reasonably on shape, citing PCI DSS 4.0 and SOC 2 compliance demand as a driver                                                                                                      |
-| UK         | £30,000–£47,500 (~$38,000–$60,100)                                                                                                 | £47,500–£75,000 (~$60,100–$94,900) | £75,000–£110,000+ (~$94,900–$139,200+)                                      | Moderate                                                                                                                                                                                                      |
-| Germany    | €58,000+ (~$63,000+, broad single-source estimate)                                                                                 | €69,000–€102,000 (~$75,000–$110,700) | €106,000–€160,000+ (~$114,800–$173,500+)                                    | Moderate confidence — mid/senior sourced from Jobicy's Germany-adjusted benchmark (junior/mid/senior tiers), converted from its USD-denominated figures                                                        |
-| UAE/Gulf   | AED 168,000+ (~$45,800+, broad estimate)                                                                                           | AED 240,000–350,000 (~$65,400–$95,400) | AED 350,000–480,000+ (~$95,400–$130,800+)                                   | Moderate confidence — mid/senior derived from JobXDubai's reported AED 20,000–40,000/month overall band for the role, split by seniority                                                                       |
-| Singapore  | S$60,000–84,000 (~$44,400–$62,200)                                                                                                 | S$96,000–132,000 (~$71,100–$97,800) | S$132,000–190,000+ (~$97,800–$140,700+)                                     | Moderate confidence — sourced from PayMetric Labs' 2026 Singapore breakdown (junior/mid/senior/lead monthly bands); improved on the prior broad single-source estimate                                        |
-| Canada     | ~C$78,000+ (~$56,900+, broad estimate)                                                                                             | C$85,000–120,000 (~$62,000–$87,600) | C$120,000–160,000+ (~$87,600–$116,800+)                                     | Moderate confidence — mid sourced from PayScale (n=8, small sample, avg C$98,285); senior estimated above mid using a typical seniority premium                                                                |
-| Australia  | ~AU$87,000+ (~$56,500+, broad estimate)                                                                                            | AU$100,000–155,000 (~$64,900–$100,600) | AU$155,000–200,000+ (~$100,600–$129,900+)                                   | Moderate confidence — mid sourced from PayScale (avg AU$130,000, 25th–75th percentile AU$87K–152K); senior estimated above mid using a typical seniority premium                                              |
+| UK         | £30,000–£47,500 (~\$38,000–\$60,100)                                                                                                 | £47,500–£75,000 (~\$60,100–\$94,900) | £75,000–£110,000+ (~\$94,900–\$139,200+)                                      | Moderate                                                                                                                                                                                                      |
+| Germany    | €58,000+ (~\$63,000+, broad single-source estimate)                                                                                 | €69,000–€102,000 (~\$75,000–\$110,700) | €106,000–€160,000+ (~\$114,800–\$173,500+)                                    | Moderate confidence — mid/senior sourced from Jobicy's Germany-adjusted benchmark (junior/mid/senior tiers), converted from its USD-denominated figures                                                        |
+| UAE/Gulf   | AED 168,000+ (~\$45,800+, broad estimate)                                                                                           | AED 240,000–350,000 (~\$65,400–\$95,400) | AED 350,000–480,000+ (~\$95,400–\$130,800+)                                   | Moderate confidence — mid/senior derived from JobXDubai's reported AED 20,000–40,000/month overall band for the role, split by seniority                                                                       |
+| Singapore  | S$60,000–84,000 (~\$44,400–\$62,200)                                                                                                 | S$96,000–132,000 (~\$71,100–\$97,800) | S$132,000–190,000+ (~\$97,800–\$140,700+)                                     | Moderate confidence — sourced from PayMetric Labs' 2026 Singapore breakdown (junior/mid/senior/lead monthly bands); improved on the prior broad single-source estimate                                        |
+| Canada     | ~C$78,000+ (~\$56,900+, broad estimate)                                                                                             | C$85,000–120,000 (~\$62,000–\$87,600) | C$120,000–160,000+ (~\$87,600–\$116,800+)                                     | Moderate confidence — mid sourced from PayScale (n=8, small sample, avg C$98,285); senior estimated above mid using a typical seniority premium                                                                |
+| Australia  | ~AU$87,000+ (~\$56,500+, broad estimate)                                                                                            | AU$100,000–155,000 (~\$64,900–\$100,600) | AU$155,000–200,000+ (~\$100,600–\$129,900+)                                   | Moderate confidence — mid sourced from PayScale (avg AU$130,000, 25th–75th percentile AU$87K–152K); senior estimated above mid using a typical seniority premium                                              |
 
 **Job Opportunity & Work Mode**
 
@@ -1650,7 +1650,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Cybersecurity — Defensive / SOC (Security Operations Center)
+### Sub-domain 04: Cybersecurity — Defensive / SOC (Security Operations Center)
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -1665,15 +1665,15 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 | Region     | Entry-Level                                                                                                                                            | Mid-Level                                         | Senior-Level                                                                                      | Source Variance                                                                                                                             |
 | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------- | ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Bangladesh | ৳3,05,000–৳12,44,000 (~$2,500–$10,200, general "Cyber Security Engineer/Analyst" titles) / up to ৳30,50,000+ (~$25,000+) at top telecom/financial employers (GrameenPhone, Robi, Beximco) | ৳12,44,000–৳30,50,000 (~$10,200–$25,000)                                 | ৳30,50,000–৳43,92,000+ (~$25,000–$36,000+)                                                                                | Very High — a stark gap exists between low-paying local IT-service employers and better-paying telecom/fintech employers for the same role  |
-| India      | ₹3.5–7.1 LPA (~$4,200–$8,400, SOC L1, fresher)                                                                                                          | ₹8.1–22.2 LPA (~$9,600–$26,400, mid-level, SIEM/cert-dependent) | ₹22.2–50.4 LPA+ (~$26,400–$60,000+, senior/lead; SOC Manager/Head of Security Operations reaching this range) | High — SIEM platform expertise (Splunk, Microsoft Sentinel, QRadar) and certifications (SC-200, CySA+) each add a documented 15–40% premium |
+| Bangladesh | ৳3,05,000–৳12,44,000 (~\$2,500–\$10,200, general "Cyber Security Engineer/Analyst" titles) / up to ৳30,50,000+ (~\$25,000+) at top telecom/financial employers (GrameenPhone, Robi, Beximco) | ৳12,44,000–৳30,50,000 (~\$10,200–\$25,000)                                 | ৳30,50,000–৳43,92,000+ (~\$25,000–\$36,000+)                                                                                | Very High — a stark gap exists between low-paying local IT-service employers and better-paying telecom/fintech employers for the same role  |
+| India      | ₹3.5–7.1 LPA (~\$4,200–\$8,400, SOC L1, fresher)                                                                                                          | ₹8.1–22.2 LPA (~\$9,600–\$26,400, mid-level, SIEM/cert-dependent) | ₹22.2–50.4 LPA+ (~\$26,400–\$60,000+, senior/lead; SOC Manager/Head of Security Operations reaching this range) | High — SIEM platform expertise (Splunk, Microsoft Sentinel, QRadar) and certifications (SC-200, CySA+) each add a documented 15–40% premium |
 | USA        | \$65,000–\$96,000                                                                                                                                      | \$96,000–\$180,000                                | \$180,000–\$292,000+ (aerospace, financial services, and biotech cited as highest-paying sectors) | Moderate — BLS, Glassdoor, and industry sources cluster reasonably around \$65,000–\$180,000+                                               |
-| UK         | £25,000–£35,000 (~$31,600–$44,300)                                                                                                                      | £35,000–£55,000 (~$44,300–$69,600)                | £55,000–£80,000+ (~$69,600–$101,300+)                                                              | Moderate                                                                                                                                    |
-| Germany    | €39,000–€48,000 (~$42,400–$52,200)                                                                                                                      | €48,000–€65,000 (~$52,200–$70,700)                | €65,000–€84,500+ (~$70,700–$91,800+)                                                               | Moderate confidence — sourced from Talent.com's Germany "cyber security analyst" sample (avg €45,760, range €39K–84.5K)                     |
-| UAE/Gulf   | AED 72,000–100,000 (~$19,600–$27,200)                                                                                                                   | AED 100,000–160,000 (~$27,200–$43,600)            | AED 160,000–235,000+ (~$43,600–$64,000+)                                                           | Moderate confidence — sourced from Talent.com's UAE "cyber security" sample (avg AED 96,000, range AED 72K–235K, n=1,373), split by seniority |
-| Singapore  | S$40,000–60,000 (~$29,600–$44,400)                                                                                                                      | S$60,000–85,000 (~$44,400–$63,000)                | S$85,000–120,000+ (~$63,000–$88,900+)                                                              | Moderate confidence — sourced from Talent.com's Singapore "cyber security" sample (avg S$75,000, range S$28.8K–84.6K, n=9,567), split by seniority |
-| Canada     | C$50,000–70,000 (~$36,500–$51,100)                                                                                                                      | C$70,000–100,000 (~$51,100–$73,000)               | C$100,000–130,000+ (~$73,000–$94,900+)                                                             | Moderate confidence — sourced from Talent.com's Canada "cyber security analyst" sample (avg C$90,909, range C$50K–124.5K)                   |
-| Australia  | AU$75,000–95,000 (~$48,700–$61,700)                                                                                                                     | AU$95,000–140,000 (~$61,700–$90,900)              | AU$140,000–190,000+ (~$90,900–$123,400+)                                                           | Moderate confidence — sourced from Talent.com's Australia "cyber security analyst" sample (avg AU$140,000, range AU$89.3K–184.8K)           |
+| UK         | £25,000–£35,000 (~\$31,600–\$44,300)                                                                                                                      | £35,000–£55,000 (~\$44,300–\$69,600)                | £55,000–£80,000+ (~\$69,600–\$101,300+)                                                              | Moderate                                                                                                                                    |
+| Germany    | €39,000–€48,000 (~\$42,400–\$52,200)                                                                                                                      | €48,000–€65,000 (~\$52,200–\$70,700)                | €65,000–€84,500+ (~\$70,700–\$91,800+)                                                               | Moderate confidence — sourced from Talent.com's Germany "cyber security analyst" sample (avg €45,760, range €39K–84.5K)                     |
+| UAE/Gulf   | AED 72,000–100,000 (~\$19,600–\$27,200)                                                                                                                   | AED 100,000–160,000 (~\$27,200–\$43,600)            | AED 160,000–235,000+ (~\$43,600–\$64,000+)                                                           | Moderate confidence — sourced from Talent.com's UAE "cyber security" sample (avg AED 96,000, range AED 72K–235K, n=1,373), split by seniority |
+| Singapore  | S$40,000–60,000 (~\$29,600–\$44,400)                                                                                                                      | S$60,000–85,000 (~\$44,400–\$63,000)                | S$85,000–120,000+ (~\$63,000–\$88,900+)                                                              | Moderate confidence — sourced from Talent.com's Singapore "cyber security" sample (avg S$75,000, range S$28.8K–84.6K, n=9,567), split by seniority |
+| Canada     | C$50,000–70,000 (~\$36,500–\$51,100)                                                                                                                      | C$70,000–100,000 (~\$51,100–\$73,000)               | C$100,000–130,000+ (~\$73,000–\$94,900+)                                                             | Moderate confidence — sourced from Talent.com's Canada "cyber security analyst" sample (avg C$90,909, range C$50K–124.5K)                   |
+| Australia  | AU$75,000–95,000 (~\$48,700–\$61,700)                                                                                                                     | AU$95,000–140,000 (~\$61,700–\$90,900)              | AU$140,000–190,000+ (~\$90,900–\$123,400+)                                                           | Moderate confidence — sourced from Talent.com's Australia "cyber security analyst" sample (avg AU$140,000, range AU$89.3K–184.8K)           |
 
 **Job Opportunity & Work Mode**
 
@@ -1724,7 +1724,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Telecom / 5G Engineering
+### Sub-domain 05: Telecom / 5G Engineering
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -1739,7 +1739,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 | Region                | Entry-Level                                                                                                                                           | Mid-Level                                                                                   | Senior-Level                                                                     | Source Variance                                                                                                                                   |
 | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Bangladesh (BDT)      | Not separately available for 5G-specific roles; general "Core Network Engineer" at telecom operators (Banglalink) reported at BDT 73,000–79,000/month | BDT 48,000–52,000/month (Bangla Trac Communications) up to higher bands at larger operators | BDT 1,20,000–2,20,000/month (~$11,800–$21,600/yr, Estimated — extrapolated from entry-level band using typical seniority progression)             | High — Huawei Technologies (Bangladesh) pays notably less (BDT 35,000–38,000/month) than Banglalink for comparable "Core Network Engineer" titles |
+| Bangladesh (BDT)      | Not separately available for 5G-specific roles; general "Core Network Engineer" at telecom operators (Banglalink) reported at BDT 73,000–79,000/month | BDT 48,000–52,000/month (Bangla Trac Communications) up to higher bands at larger operators | BDT 1,20,000–2,20,000/month (~\$11,800–\$21,600/yr, Estimated — extrapolated from entry-level band using typical seniority progression)             | High — Huawei Technologies (Bangladesh) pays notably less (BDT 35,000–38,000/month) than Banglalink for comparable "Core Network Engineer" titles |
 | India (₹)             | ₹3.5–7 lakh (general telecom) / ₹10–30 lakh (5G/telecom core specialization at Jio, Airtel, Nokia, Ericsson)                                          | ₹8–25 lakh                                                                                  | ₹18–35 lakh+                                                                     | High — 5G/core specialization commands a very large premium (roughly 2–4x) over general telecom networking roles                                  |
 | USA (\$)              | \$75,000–\$95,000                                                                                                                                     | \$92,000–\$150,000 (5G/edge-specialized reaching \$150,000–\$195,000)                       | \$150,000–\$250,000+ (5G-specialized senior network architect at major carriers) | Moderate — multiple sources agree 5G specialization adds a 15–25% premium over general telecom engineering                                        |
 | UK/Western Europe (€) | €40,000–€55,000                                                                                                                                       | €60,000–€90,000                                                                             | €100,000–€150,000+                                                               | Moderate                                                                                                                                          |
@@ -1797,7 +1797,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: DevSecOps
+### Sub-domain 06: DevSecOps
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -1870,7 +1870,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: IT/Network Support & Systems Administration
+### Sub-domain 07: IT/Network Support & Systems Administration
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -1946,7 +1946,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ## Major 4: Embedded Systems & Robotics (ESR)
 
-### Sub-domain: Firmware Engineering
+### Sub-domain 01: Firmware Engineering
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -2020,7 +2020,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: IoT Systems Engineering
+### Sub-domain 02: IoT Systems Engineering
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -2095,7 +2095,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Robotics Software Engineering (ROS-based)
+### Sub-domain 03: Robotics Software Engineering (ROS-based)
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -2114,7 +2114,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | India (₹)        | ₹4–10 LPA (~\$4,800–\$11,900) (general robotics engineer)                | ₹7–13 LPA (~\$8,300–\$15,500) (robotics software engineer specifically, priced above general robotics roles)                                          | ₹20–60 LPA (~\$23,800–\$71,400) (senior, with AI/computer-vision specialization; one source notes mastering Python and ROS "can genuinely open doors to packages reaching ₹60 LPA")             | High — "Robotics Engineer" and "Robotics Software Engineer" titles show a meaningful pay gap, with the software-specialized title paying more                                                                                                                           |
 | USA (\$)         | \$81,000–\$102,000                                                       | \$97,000–\$155,000 (three-way source disagreement: Glassdoor \$142,470 vs. Salary.com \$133,127 vs. Indeed \$121,116 for "Robotics Engineer" broadly) | \$155,000–\$240,000+ (ROS2 skills specifically cited as adding an 8–20% premium; computer vision skills adding \$20,000–\$40,000)                                                               | High — even after accounting for title differences, base salary aggregators disagree by roughly \$20,000 for the same broad role                                                                                                                                        |
 | UK (£)           | £30,000–£40,000 (~\$38,100–\$50,700)                                     | £40,000–£55,000 (~\$50,700–\$69,700)                                                                                                                  | £55,000–£73,000+ (~\$69,700–\$92,600+) — ROS-specific software premium likely pushes toward the higher end                                                                                      | Moderate confidence — Indeed UK sample (148 salaries, average £46,831, range £30,000–£73,111); level breakdown is our own interpolation of that range                                                                                                                  |
-| Germany (€)      | €45,000–€55,000 (~$48,900–$59,800) — estimated from general German engineering and firmware bands | €55,000–€70,000 (~$59,800–$76,100) — estimated                                                                                                        | €70,000–€90,000 (~$76,100–$97,800) — estimated                                                                                                                                                   | Estimated — no dedicated robotics-software-specific Germany source found; based on adjacent embedded/firmware Germany data                                                                                                                                             |
+| Germany (€)      | €45,000–€55,000 (~\$48,900–\$59,800) — estimated from general German engineering and firmware bands | €55,000–€70,000 (~\$59,800–\$76,100) — estimated                                                                                                        | €70,000–€90,000 (~\$76,100–\$97,800) — estimated                                                                                                                                                   | Estimated — no dedicated robotics-software-specific Germany source found; based on adjacent embedded/firmware Germany data                                                                                                                                             |
 | UAE/Gulf (AED)   | AED 70,000–100,000 (~\$19,100–\$27,200) — estimated                      | AED 100,000–160,000 (~\$27,200–\$43,600) — estimated                                                                                                   | AED 160,000–250,000 (~\$43,600–\$68,100) — estimated                                                                                                                                             | Estimated — no dedicated robotics-software Gulf source found; based on the same general Gulf embedded/IT proxy used elsewhere in this guide                                                                                                                            |
 | Singapore (S\$)  | S\$40,000–50,000 (~\$29,600–\$37,000) — estimated                        | S\$55,000–70,000 (~\$40,700–\$51,900) — estimated                                                                                                      | S\$75,000–95,000 (~\$55,600–\$70,400) — estimated                                                                                                                                                | Estimated — based on Singapore embedded-engineer PayScale data (this guide's firmware sub-domain), adjusted upward slightly for robotics/ROS specialization                                                                                                            |
 | China (¥)        | ¥130,000–170,000 (~\$18,100–\$23,600) — estimated                        | ¥170,000–230,000 (~\$23,600–\$31,900) — estimated                                                                                                      | ¥230,000–330,000 (~\$31,900–\$45,800) — estimated                                                                                                                                                | Estimated — based on Glassdoor China embedded-engineer data (this guide's firmware sub-domain), adjusted upward slightly for robotics specialization                                                                                                                    |
@@ -2169,7 +2169,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: VLSI / Chip Design
+### Sub-domain 04: VLSI / Chip Design
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -2243,7 +2243,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Mechatronics / Industrial Automation
+### Sub-domain 05: Mechatronics / Industrial Automation
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -2315,7 +2315,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Autonomous Systems (Drones, Self-Driving-Adjacent)
+### Sub-domain 06: Autonomous Systems (Drones, Self-Driving-Adjacent)
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -2388,7 +2388,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Edge AI / TinyML
+### Sub-domain 07: Edge AI / TinyML
 
 **Market Trend (Historical → Current → Forecast)**
 
@@ -2461,7 +2461,7 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 
 ---
 
-### Sub-domain: Embedded Systems Testing / Validation
+### Sub-domain 08: Embedded Systems Testing / Validation
 
 **Market Trend (Historical → Current → Forecast)**
 
