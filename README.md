@@ -28,6 +28,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: Full-Stack Engineering](#sub-domain-full-stack-engineering)
     - [Sub-domain: Mobile App Development (iOS/Android/Cross-Platform)](#sub-domain-mobile-app-development-iosandroidcross-platform)
     - [Sub-domain: DevOps / Site Reliability Engineering (SRE)](#sub-domain-devops--site-reliability-engineering-sre)
+    - [Sub-domain: Cloud / Platform Engineering](#sub-domain-cloud--platform-engineering)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
@@ -1024,6 +1025,80 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | On-call burden     | SRE roles specifically involve incident response and on-call rotations, which can affect work-life balance                                                                  |
 | Automation         | Low — infrastructure reliability work is judgment-heavy and considered relatively automation-resistant, though routine deployment scripting is increasingly automated       |
 | Role fragmentation | The DevOps/SRE/Platform Engineer distinction is not standardized across companies, making direct salary comparison between postings unreliable without checking exact scope |
+
+---
+
+### Sub-domain: Cloud / Platform Engineering
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period          | Global Market Size                     | Growth Rate  | Source Variance                                          |
+| --------------- | -------------------------------------- | ------------ | -------------------------------------------------------- |
+| 2019            | Cloud computing market ~\$270bn        | —            | Broad definition                                         |
+| 2023            | ~\$550bn–\$650bn                       | ~16–18% CAGR | Moderate                                                 |
+| 2026 (current)  | \$860bn–\$1.5tn (definition-dependent) | ~16–18% CAGR | High — varies by whether SaaS/PaaS/IaaS are all included |
+| 2030 (forecast) | Over \$1.6tn                           | ~17% CAGR    | Moderate                                                 |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                                                                                                                   | Mid-Level                                                      | Senior-Level                                                                                                                   | Source Variance                                                                                                                                    |
+| ---------- | ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | \$2,100–\$10,200                                                                                                              | \$10,200–\$14,600                                              | \$14,600–\$40,700+                                                                                                             | Extremely High — Dhaka sample size is very thin (5 submissions), with a 10th-to-90th percentile spread of over 7x                                  |
+| India      | \$3,600–\$9,600 (fresher, cert-dependent)                                                                                     | \$12,000–\$57,600 (early-mid career, specialization-dependent) | \$42,000–\$132,000+ (senior/principal cloud architect)                                                                         | Very High — AWS/Azure/GCP specialization and certification status each shift pay by 20–40%                                                         |
+| USA        | \$75,000–\$115,000                                                                                                            | \$115,000–\$185,000                                            | \$155,000–\$260,000+ (multi-cloud and specialized lanes like Azure AI/OpenAI or sovereign-cloud reaching \$195,000–\$250,000+) | High — role fragments into several distinct "lanes" (platform/IaaS, containers, AI-platform, government/sovereign) with meaningfully different pay |
+| UK         | Reliable data not available                                                                                                   | Reliable data not available                                    | Reliable data not available                                                                                                    | —                                                                                                                                                  |
+| Germany    | Reliable data not available                                                                                                   | Reliable data not available                                    | Reliable data not available                                                                                                    | —                                                                                                                                                  |
+| UAE/Gulf   | Very High demand and purchasing power reported, tax-free salary structures; specific numeric range not found in this research | Reliable data not available                                    | Reliable data not available                                                                                                    | Directional only                                                                                                                                   |
+| Singapore  | Reliable data not available                                                                                                   | Reliable data not available                                    | Reliable data not available                                                                                                    | —                                                                                                                                                  |
+| China      | Reliable data not available                                                                                                   | Reliable data not available                                    | Reliable data not available                                                                                                    | —                                                                                                                                                  |
+| Australia  | ~\$96,000 (broad average, AUD-to-USD converted)                                                                               | Reliable data not available                                    | Reliable data not available                                                                                                    | Single-source estimate                                                                                                                             |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                                                                          |
+| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| Remote availability       | High                                                                                                                            |
+| Onsite-heavy niches       | Government/sovereign-cloud work (FedRAMP, GCC High, defense-adjacent) typically requires on-site or citizenship-restricted work |
+| Freelance/contract market | Strong, particularly for cloud-migration projects                                                                               |
+
+**Top Employers by Region**
+
+| Region | Companies                                                                                                                                           |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| India  | Amazon, Walmart, Goldman Sachs, JPMorgan (via Global Capability Centers), and numerous product companies                                            |
+| USA    | Broad demand across nearly all companies with cloud infrastructure; specialized "lanes" (AI-platform, sovereign cloud) command the highest premiums |
+
+**Tools & Technologies**
+
+| Category               | Tools                                                                                                     |
+| ---------------------- | --------------------------------------------------------------------------------------------------------- |
+| Platforms              | AWS, Azure, Google Cloud Platform (GCP)                                                                   |
+| Infrastructure as Code | Terraform, Bicep/ARM (Azure-specific)                                                                     |
+| Containers             | Kubernetes, AKS/EKS/GKE, Helm                                                                             |
+| Certifications         | AWS Solutions Architect, Azure Administrator/Solutions Architect Expert, GCP Professional Cloud Architect |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                              |
+| ------------- | ----------------------------------------------------------------------------------- |
+| Technical     | Cloud architecture design, networking, security/IAM, cost optimization              |
+| Complementary | Vendor-specific ecosystem fluency, stakeholder communication for migration projects |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                                       |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| Entry barrier      | Moderate — certifications provide a relatively fast, well-defined path to demonstrable competency                                            |
+| Time-to-competency | 1–2 years, often accelerated by certification study                                                                                          |
+| Earning ceiling    | High — certification and multi-cloud/dual-platform skills each add a measurable pay premium (reported at 20–40% for top-tier certifications) |
+
+**Risks**
+
+| Risk                         | Detail                                                                                                                                                                              |
+| ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Certification treadmill      | Cloud certifications require renewal and platforms evolve quickly, creating ongoing study demands                                                                                   |
+| Automation                   | Low–Moderate — infrastructure provisioning is increasingly automated via Infrastructure-as-Code, shifting value toward architecture and governance rather than manual configuration |
+| Vendor lock-in risk (career) | Deep specialization in a single cloud vendor's ecosystem can narrow job mobility if that platform loses market share                                                                |
 
 ---
 
