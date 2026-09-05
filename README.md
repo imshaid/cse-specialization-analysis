@@ -32,6 +32,7 @@ A data-driven comparison of the four major CSE specializations, built for studen
     - [Sub-domain: QA / Test Automation Engineering](#sub-domain-qa--test-automation-engineering)
     - [Sub-domain: Software Architecture / Systems Design](#sub-domain-software-architecture--systems-design)
     - [Sub-domain: Blockchain / Web3 Development](#sub-domain-blockchain--web3-development)
+    - [Sub-domain: Game Development](#sub-domain-game-development)
   - [Major 3: Network \& Communication (NC)](#major-3-network--communication-nc)
   - [Major 4: Embedded Systems \& Robotics (ESR)](#major-4-embedded-systems--robotics-esr)
   - [Master Comparison Tables](#master-comparison-tables)
@@ -1326,6 +1327,82 @@ Jump to any major using the Table of Contents above. If you only want a quick de
 | No established Bangladesh market | Unlike every other Software Development sub-domain researched, no local Bangladesh salary or employer data could be found, suggesting this path currently requires targeting international/remote roles from day one |
 | Regulatory uncertainty           | Blockchain/crypto regulation varies significantly by country and continues to evolve, creating career-planning uncertainty not present in more established sub-domains                                               |
 | Security-critical stakes         | Smart contract bugs can result in large financial losses, making this a high-responsibility, high-scrutiny specialization                                                                                            |
+
+---
+
+### Sub-domain: Game Development
+
+**Market Trend (Historical → Current → Forecast)**
+
+| Period           | Global Market Size                                                                                                                               | Growth Rate               | Source Variance                                                  |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------- | ---------------------------------------------------------------- |
+| 2018             | Global games market ~\$135bn                                                                                                                     | —                         | Broad definition                                                 |
+| 2023             | ~\$180bn–\$190bn                                                                                                                                 | ~8–10% CAGR               | Moderate                                                         |
+| 2026 (current)   | Not separately isolated in this research; games industry overall continues steady growth, with mobile and live-service games as leading segments | ~8–10% CAGR (directional) | This sub-domain is best measured via job-posting and salary data |
+| 2030+ (forecast) | Continued growth expected, with AR/VR and AI-driven game content (procedural generation, NPC behavior) as emerging premium specializations       | —                         | —                                                                |
+
+**Salary by Region (Annual, USD-equivalent)**
+
+| Region     | Entry-Level                                                                         | Mid-Level                                              | Senior-Level                                                              | Source Variance                                                                                                                                                     |
+| ---------- | ----------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bangladesh | \$1,700–\$4,700 (general "Game Developer" title, well-sampled at 20–34 submissions) | \$4,700–\$8,400                                        | \$8,400–\$16,800                                                          | Moderate — this is a reasonably consistently sampled Dhaka role, though "Game Programmer" (a related title) reports notably different figures from "Game Developer" |
+| India      | \$4,300–\$8,400 (Unity/Unreal specialist, entry)                                    | \$7,200–\$18,000 (mid-level, specialization-dependent) | \$24,000–\$48,000 (AR/VR and AI-in-games specialists reaching this range) | Very High — specialization (3D art, design, programming, AR/VR, AI-in-games) each carries meaningfully different pay bands                                          |
+| USA        | \$79,200–\$108,000                                                                  | \$108,000–\$156,000                                    | \$140,000–\$180,000                                                       | Moderate — multiple sources cluster reasonably around \$80,000–\$156,000 across levels                                                                              |
+| UK         | \$57,600–\$74,400                                                                   | \$74,400–\$108,000                                     | \$108,000+                                                                | Moderate                                                                                                                                                            |
+| Germany    | \$60,000–\$72,000                                                                   | \$72,000–\$81,600                                      | \$108,000+                                                                | Moderate                                                                                                                                                            |
+| UAE/Gulf   | Reliable data not available                                                         | Reliable data not available                            | Reliable data not available                                               | —                                                                                                                                                                   |
+| Singapore  | \$74,400–\$90,000                                                                   | \$90,000–\$102,000                                     | \$150,000+                                                                | Moderate                                                                                                                                                            |
+| China      | Reliable data not available                                                         | Reliable data not available                            | Reliable data not available                                               | —                                                                                                                                                                   |
+| Canada     | Reliable data not available (Unity mid-level estimate: ~\$98,400)                   | Reliable data not available                            | Reliable data not available                                               | Single-source                                                                                                                                                       |
+| Australia  | \$72,000–\$93,600                                                                   | \$93,600–\$117,600                                     | Reliable data not available                                               | Moderate                                                                                                                                                            |
+
+**Job Opportunity & Work Mode**
+
+| Metric                    | Detail                                                                                                                                                                                                          |
+| ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Remote availability       | High — Bangladeshi and Indian developers working remotely for Western/European studios can earn multiples of local pay for the same skillset (a pattern noted as "global arbitrage" in this field specifically) |
+| Onsite-heavy niches       | Large AAA studio productions still often prefer in-person collaboration                                                                                                                                         |
+| Freelance/contract market | Strong, especially for mobile game development and indie projects                                                                                                                                               |
+
+**Top Employers by Region**
+
+| Region     | Companies                                                                                                                            |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------ |
+| Bangladesh | Pechas Game Studios, Riseup Labs, Ulka Games, Hamba Games, Battery Low Interactive, and a growing indie/mobile-game studio ecosystem |
+| India      | Studios in Bengaluru and other tech hubs; remote work for European/American studios is a significant income path                     |
+| USA        | Broad demand across major and indie studios                                                                                          |
+
+**Tools & Technologies**
+
+| Category       | Tools                                                |
+| -------------- | ---------------------------------------------------- |
+| Engines        | Unity, Unreal Engine                                 |
+| Languages      | C# (Unity), C++ (Unreal)                             |
+| Certifications | Unity Certified Developer                            |
+| Emerging       | AR/VR development, procedural/AI-driven game content |
+
+**Skills & Abilities**
+
+| Type          | Skills                                                                               |
+| ------------- | ------------------------------------------------------------------------------------ |
+| Technical     | Game engine proficiency, real-time rendering concepts, physics/gameplay programming  |
+| Complementary | Creative collaboration with designers/artists, cross-platform optimization awareness |
+
+**Trade-offs & Limitations**
+
+| Factor             | Detail                                                                                                                                                                                                                         |
+| ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Entry barrier      | Moderate — engine-specific skills (Unity/Unreal) are learnable outside formal CS curricula but require dedicated practice                                                                                                      |
+| Time-to-competency | 1–2 years                                                                                                                                                                                                                      |
+| Earning ceiling    | Locally low in Bangladesh and India relative to other software sub-domains, but remote work for international studios can multiply income significantly — described as a "global arbitrage" opportunity specific to this field |
+
+**Risks**
+
+| Risk                 | Detail                                                                                                                                                                                          |
+| -------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Local pay ceiling    | Local Bangladesh and India game-industry pay is notably lower than most other Software Development sub-domains researched, making remote/international clients important for competitive income |
+| Industry volatility  | The games industry is known for project-based hiring cycles and periodic large-scale layoffs at major studios, more so than most other software sub-domains                                     |
+| Portfolio dependency | Hiring in this field weighs demonstrated shipped projects and portfolios heavily, more so than credentials                                                                                      |
 
 ---
 
